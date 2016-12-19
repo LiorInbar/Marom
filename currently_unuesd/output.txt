@@ -1,0 +1,309 @@
+ /people/nailon/ a foaf:Person
+ /people/hagit/ a foaf:Person
+ /people/reuven/ a foaf:Person
+ /people/barequet/ a foaf:Person
+ /people/mirela/ a foaf:Person
+ /people/eli/ a foaf:Person
+ /people/biham/ a foaf:Person
+ /people/bron/ a foaf:Person
+ /people/freddy/ a foaf:Person
+ /people/bshouty/ a foaf:Person
+ /people/ckeren/ a foaf:Person
+ /people/rcohen/ a foaf:Person
+ /people/rani/ a foaf:Person
+ /people/elad/ a foaf:Person
+ /people/gershon/ a foaf:Person
+ /people/yetsion/ a foaf:Person
+ /people/etzion/ a foaf:Person
+ /people/yuvalfi/ a foaf:Person
+ /people/eldar/ a foaf:Person
+ /people/roy/ a foaf:Person
+ /people/dang/ a foaf:Person
+ /people/yogi/ a foaf:Person
+ /people/gotsman/ a foaf:Person
+ /people/orna/ a foaf:Person
+ /people/yuvali/ a foaf:Person
+ /people/bennyk/ a foaf:Person
+ /people/ron/ a foaf:Person
+ /people/eyalk/ a foaf:Person
+ /people/mic/ a foaf:Person
+ /people/janos/ a foaf:Person
+ /people/shaulm/ a foaf:Person
+ /people/talmo/ a foaf:Person
+ /people/naor/ a foaf:Person
+ /people/erez/ a foaf:Person
+ /people/pinter/ a foaf:Person
+ /people/danny/ a foaf:Person
+ /people/ehudr/ a foaf:Person
+ /people/ronny/ a foaf:Person
+ /people/assaf/ a foaf:Person
+ /people/schwartz/ a foaf:Person
+ /people/hadas/ a foaf:Person
+ /people/tomersh/ a foaf:Person
+ /people/oshmu/ a foaf:Person
+ /people/dan/ a foaf:Person
+ /people/unga/ a foaf:Person
+ /people/yaakobi/ a foaf:Person
+ /people/yahave/ a foaf:Person
+ /people/dean/ a foaf:Person
+ /people/zaks/ a foaf:Person
+ /people/shiria/ a foaf:Person
+ /people/z--1722/ a foaf:Person
+ /people/rkishony/ a foaf:Person
+ /people/yaelmg/ a foaf:Person
+ /people/mendlson/ a foaf:Person
+ /people/z--pearlj/ a foaf:Person
+ /people/z--karp/ a foaf:Person
+ /people/baram/ a foaf:Person
+ /people/francez/ a foaf:Person
+ /people/heymann/ a foaf:Person
+ /people/itai/ a foaf:Person
+ /people/kantor/ a foaf:Person
+ /people/katz/ a foaf:Person
+ /people/litman/ a foaf:Person
+ /people/moran/ a foaf:Person
+ /people/asidi/ a foaf:Person
+ /people/z--even/ a foaf:Person
+ /people/z--israeli/ a foaf:Person
+ /people/z--rachel/ a foaf:Person
+ /people/z--gadir/ a foaf:Person
+ /people/z--myoeli/ a foaf:Person
+ /people/dhlorenz/ a foaf:Person
+ /people/ornan/ a foaf:Person
+ /people/rabani/ a foaf:Person
+ /people/kirar/ a foaf:Person
+ /people/cselena/ a foaf:Person
+ /people/adleram/ a foaf:Person
+ /people/matteo.orru a foaf:Person
+ /people/ovantzos/ a foaf:Person
+ /people/huizhang/ a foaf:Person
+ /people/aviadzuc/ a foaf:Person
+ /people/tammya/ a foaf:Person
+ /people/gnakibly/ a foaf:Person
+ /people/gala/ a foaf:Person
+ /people/mzib/ a foaf:Person
+ /people/ladypine/ a foaf:Person
+ /people/ailia/ a foaf:Person
+ /people/barkan/ a foaf:Person
+ /people/ramic/ a foaf:Person
+ /people/ctal/ a foaf:Person
+ /people/idabran/ a foaf:Person
+ /people/orrd/ a foaf:Person
+ /people/roee/ a foaf:Person
+ /people/yoavh/ a foaf:Person
+ /people/yechiel/ a foaf:Person
+ /people/anya/ a foaf:Person
+ /people/imaman/ a foaf:Person
+ /people/yaelmg/ a foaf:Person
+ /people/gnakibly/ a foaf:Person
+ /people/porat/ a foaf:Person
+ /people/ronrubin/ a foaf:Person
+ /people/tamer/ a foaf:Person
+ /people/cmshalom/ a foaf:Person
+ /people/zohary/ a foaf:Person
+ /people/nailon/ foaf:name Ailon, Nir
+ /people/hagit/ foaf:name Attiya, Hagit
+ /people/reuven/ foaf:name Bar-Yehuda, Reuven
+ /people/barequet/ foaf:name Barequet, Gill
+ /people/mirela/ foaf:name Ben-Chen, Mirela
+ /people/eli/ foaf:name Ben-Sasson, Eli
+ /people/biham/ foaf:name Biham, Eli
+ /people/bron/ foaf:name Bronstein, Alexander
+ /people/freddy/ foaf:name Bruckstein, Alfred M.
+ /people/bshouty/ foaf:name Bshouty, Nader
+ /people/ckeren/ foaf:name Censor-Hillel, Keren
+ /people/rcohen/ foaf:name Cohen, Reuven
+ /people/rani/ foaf:name El-Yaniv, Ran
+ /people/elad/ foaf:name Elad, Michael
+ /people/gershon/ foaf:name Elber, Gershon
+ /people/yetsion/ foaf:name Etsion, Yoav
+ /people/etzion/ foaf:name Etzion, Tuvi
+ /people/yuvalfi/ foaf:name Filmus, Yuval
+ /people/eldar/ foaf:name Fischer, Eldar
+ /people/roy/ foaf:name Friedman, Roy
+ /people/dang/ foaf:name Geiger, Dan
+ /people/yogi/ foaf:name Gil, Yossi
+ /people/gotsman/ foaf:name Gotsman, Craig (Chaim)
+ /people/orna/ foaf:name Grumberg, Orna
+ /people/yuvali/ foaf:name Ishai, Yuval
+ /people/bennyk/ foaf:name Kimelfeld, Benny
+ /people/ron/ foaf:name Kimmel, Ron
+ /people/eyalk/ foaf:name Kushilevitz, Eyal
+ /people/mic/ foaf:name Lindenbaum, Michael
+ /people/janos/ foaf:name Makowsky, Johann
+ /people/shaulm/ foaf:name Markovitch, Shaul
+ /people/talmo/ foaf:name Mor, Tal
+ /people/naor/ foaf:name Naor, Seffi
+ /people/erez/ foaf:name Petrank, Erez
+ /people/pinter/ foaf:name Pinter, Ron Y.
+ /people/danny/ foaf:name Raz, Danny
+ /people/ehudr/ foaf:name Rivlin, Ehud
+ /people/ronny/ foaf:name Roth, Ronny
+ /people/assaf/ foaf:name Schuster, Assaf
+ /people/schwartz/ foaf:name Schwartz, Roy
+ /people/hadas/ foaf:name Shachnai, Hadas
+ /people/tomersh/ foaf:name Shlomi, Tomer
+ /people/oshmu/ foaf:name Shmueli, Oded
+ /people/dan/ foaf:name Tsafrir, Dan
+ /people/unga/ foaf:name Ungarish, Marius
+ /people/yaakobi/ foaf:name Yaakobi, Eitan
+ /people/yahave/ foaf:name Yahav, Eran
+ /people/dean/ foaf:name Yavneh, Irad
+ /people/zaks/ foaf:name Zaks, Shmuel
+ /people/shiria/ foaf:name Azenkot, Shiri
+ /people/z--1722/ foaf:name Juels, Ari
+ /people/rkishony/ foaf:name Kishony, Roy
+ /people/yaelmg/ foaf:name Mandel-Gutfreund, Yael
+ /people/mendlson/ foaf:name Mendelson, Avi
+ /people/z--pearlj/ foaf:name Pearl, Judea
+ /people/z--karp/ foaf:name Richard, Karp
+ /people/baram/ foaf:name Baram, Yoram
+ /people/francez/ foaf:name Francez, Nissim
+ /people/heymann/ foaf:name Heymann, Michael
+ /people/itai/ foaf:name Itai, Alon
+ /people/kantor/ foaf:name Kantorowitz, Eliezer
+ /people/katz/ foaf:name Katz, Shmuel
+ /people/litman/ foaf:name Litman, Ami
+ /people/moran/ foaf:name Moran, Shlomo
+ /people/asidi/ foaf:name Sidi, Avraham
+ /people/z--even/ foaf:name Even, Shimon
+ /people/z--israeli/ foaf:name Israeli, Moshe
+ /people/z--rachel/ foaf:name Pelled, Rachel
+ /people/z--gadir/ foaf:name Rahamim, Gadi
+ /people/z--myoeli/ foaf:name Yoeli, Michael
+ /people/dhlorenz/ foaf:name Lorenz, David H.
+ /people/ornan/ foaf:name Ornan, Uzzi
+ /people/rabani/ foaf:name Rabani, Yuval
+ /people/kirar/ foaf:name Radinsky, Kira
+ /people/cselena/ foaf:name Ravve, Elena
+ /people/adleram/ foaf:name Adler, Amir
+ /people/matteo.orru foaf:name Orru, Matteo
+ /people/ovantzos/ foaf:name Vantzos, Orestis
+ /people/huizhang/ foaf:name Zhang, Hui
+ /people/aviadzuc/ foaf:name Zuck, Aviad
+ /people/tammya/ foaf:name Avraham, Tamar
+ /people/gnakibly/ foaf:name Nakibly, Gabi
+ /people/gala/ foaf:name Yadgar, Gala
+ /people/mzib/ foaf:name Zibulevsky, Michael
+ /people/ladypine/ foaf:name Agmon Ben-Yehuda, Orna
+ /people/ailia/ foaf:name Averbouch, Ilia
+ /people/barkan/ foaf:name Barkan, Elad Pinhas
+ /people/ramic/ foaf:name Cohen, Rami
+ /people/ctal/ foaf:name Cohen, Tal
+ /people/idabran/ foaf:name Dabran, Itai
+ /people/orrd/ foaf:name Dunkelman, Orr
+ /people/roee/ foaf:name Engelberg, Roee
+ /people/yoavh/ foaf:name Haimovitch, Yoav
+ /people/yechiel/ foaf:name Kimchi, Yechiel
+ /people/anya/ foaf:name Levin, Anya
+ /people/imaman/ foaf:name Maman, Itay
+ /people/yaelmg/ foaf:name Mandel-Gutfreund, Yael
+ /people/gnakibly/ foaf:name Nakibly, Gabi
+ /people/porat/ foaf:name Porat, Sara
+ /people/ronrubin/ foaf:name Rubinstein, Ron
+ /people/tamer/ foaf:name Salman, Tamer
+ /people/cmshalom/ foaf:name Shalom, Mordohay
+ /people/zohary/ foaf:name Yakhini, Zohar
+ /people/nailon/ foaf:homepage http://nailon.googlepages.com/
+ /people/hagit/ foaf:homepage http://hagit.net.technion.ac.il/
+ /people/reuven/ foaf:homepage http://www.cs.technion.ac.il/~reuven/
+ /people/barequet/ foaf:homepage http://www.cs.technion.ac.il/~barequet/
+ /people/mirela/ foaf:homepage http://www.cs.technion.ac.il/~mirela/
+ /people/eli/ foaf:homepage http://www.eecs.harvard.edu/~eli/
+ /people/biham/ foaf:homepage http://www.cs.technion.ac.il/~biham/
+ /people/bron/ foaf:homepage http://www.cs.technion.ac.il/~bron/
+ /people/freddy/ foaf:homepage http://www.cs.technion.ac.il/~freddy/
+ /people/bshouty/ foaf:homepage http://www.cs.technion.ac.il/~bshouty/
+ /people/ckeren/ foaf:homepage http://ckeren.net.technion.ac.il/
+ /people/rcohen/ foaf:homepage http://www.cs.technion.ac.il/~rcohen/
+ /people/rani/ foaf:homepage http://www.cs.technion.ac.il/~rani/
+ /people/elad/ foaf:homepage http://www.cs.technion.ac.il/~elad/
+ /people/gershon/ foaf:homepage http://www.cs.technion.ac.il/~gershon/
+ /people/yetsion/ foaf:homepage http://www.cs.technion.ac.il/~yetsion/
+ /people/etzion/ foaf:homepage http://etzion.net.technion.ac.il/
+ /people/yuvalfi/ foaf:homepage http://www.cs.toronto.edu/~yuvalf/
+ /people/eldar/ foaf:homepage http://eldar.cswp.cs.technion.ac.il/
+ /people/roy/ foaf:homepage http://www.cs.technion.ac.il/~roy/
+ /people/dang/ foaf:homepage http://www.cs.technion.ac.il/~dang/
+ /people/yogi/ foaf:homepage http://www.cs.technion.ac.il/~yogi/
+ /people/gotsman/ foaf:homepage http://www.cs.technion.ac.il/~gotsman/
+ /people/orna/ foaf:homepage http://www.cs.technion.ac.il/~orna/
+ /people/yuvali/ foaf:homepage http://www.cs.technion.ac.il/~yuvali/
+ /people/bennyk/ foaf:homepage http://benny.net.technion.ac.il
+ /people/ron/ foaf:homepage http://www.cs.technion.ac.il/~ron/
+ /people/eyalk/ foaf:homepage http://www.cs.technion.ac.il/~eyalk/
+ /people/mic/ foaf:homepage http://www.cs.technion.ac.il/~mic/
+ /people/janos/ foaf:homepage http://www.cs.technion.ac.il/~janos/
+ /people/shaulm/ foaf:homepage http://www.cs.technion.ac.il/~shaulm/
+ /people/talmo/ foaf:homepage http://www.cs.technion.ac.il/~talmo/
+ /people/naor/ foaf:homepage http://www.cs.technion.ac.il/~naor/
+ /people/erez/ foaf:homepage http://www.cs.technion.ac.il/~erez/
+ /people/pinter/ foaf:homepage http://www.cs.technion.ac.il/~pinter/
+ /people/danny/ foaf:homepage http://www.cs.technion.ac.il/~danny/
+ /people/ehudr/ foaf:homepage http://www.cs.technion.ac.il/~ehudr/
+ /people/ronny/ foaf:homepage http://ronny.cswp.cs.technion.ac.il/
+ /people/assaf/ foaf:homepage http://www.cs.technion.ac.il/~assaf/
+ /people/schwartz/ foaf:homepage http://www.cs.princeton.edu/~roysch/
+ /people/hadas/ foaf:homepage http://www.cs.technion.ac.il/~hadas/
+ /people/tomersh/ foaf:homepage http://www.cs.technion.ac.il/~tomersh/
+ /people/oshmu/ foaf:homepage http://www.cs.technion.ac.il/~oshmu/
+ /people/dan/ foaf:homepage http://www.cs.technion.ac.il/~dan/
+ /people/unga/ foaf:homepage http://www.cs.technion.ac.il/~unga/
+ /people/yaakobi/ foaf:homepage http://yaakobi.net.technion.ac.il/
+ /people/yahave/ foaf:homepage http://www.cs.technion.ac.il/~yahave/
+ /people/dean/ foaf:homepage http://irad.net.technion.ac.il/
+ /people/zaks/ foaf:homepage http://www.cs.technion.ac.il/~zaks/
+ /people/shiria/ foaf:homepage http://www.shiriazenkot.com
+ /people/z--1722/ foaf:homepage http://www.arijuels.com/
+ /people/rkishony/ foaf:homepage http://biology.technion.ac.il/?cmd=staff.47&act=read&id=267
+ /people/yaelmg/ foaf:homepage http://yaelab.technion.ac.il/
+ /people/mendlson/ foaf:homepage http://www.cs.technion.ac.il/~mendlson/
+ /people/z--pearlj/ foaf:homepage http://bayes.cs.ucla.edu/jp_home.html
+ /people/z--karp/ foaf:homepage http://www.eecs.berkeley.edu/Faculty/Homepages/karp.html
+ /people/baram/ foaf:homepage http://baram.net.technion.ac.il/
+ /people/francez/ foaf:homepage http://www.cs.technion.ac.il/~francez/
+ /people/heymann/ foaf:homepage http://www.cs.technion.ac.il/~heymann/
+ /people/itai/ foaf:homepage http://www.cs.technion.ac.il/~itai/
+ /people/kantor/ foaf:homepage http://www.cs.technion.ac.il/~kantor/
+ /people/katz/ foaf:homepage http://www.cs.technion.ac.il/~katz/
+ /people/litman/ foaf:homepage http://www.cs.technion.ac.il/~litman/
+ /people/moran/ foaf:homepage http://www.cs.technion.ac.il/~moran/
+ /people/asidi/ foaf:homepage http://www.cs.technion.ac.il/~asidi/
+ /people/z--even/ foaf:homepage /people/memoriam/z--even/
+ /people/z--israeli/ foaf:homepage /people/memoriam/z--israeli/
+ /people/z--rachel/ foaf:homepage /people/memoriam/z--rachel/
+ /people/z--gadir/ foaf:homepage /people/memoriam/z--gadir/
+ /people/z--myoeli/ foaf:homepage /people/memoriam/z--myoeli/
+ /people/dhlorenz/ foaf:homepage http://www.openu.ac.il/home/lorenz/
+ /people/ornan/ foaf:homepage http://www.cs.technion.ac.il/~ornan/
+ /people/rabani/ foaf:homepage http://www.cs.technion.ac.il/~rabani/
+ /people/kirar/ foaf:homepage http://tx.technion.ac.il/~kirar/
+ /people/cselena/ foaf:homepage http://www.cs.technion.ac.il/~cselena/
+ /people/adleram/ foaf:homepage http://www.cs.technion.ac.il/~adleram/
+ /people/matteo.orru foaf:homepage https://www.researchgate.net/profile/Matteo_Orru/
+ /people/ovantzos/ foaf:homepage http://numod.ins.uni-bonn.de/people/vantzos/
+ /people/huizhang/ foaf:homepage http://huizhang.cswp.cs.technion.ac.il/
+ /people/aviadzuc/ foaf:homepage http://www.cs.technion.ac.il/~aviadzuc/
+ /people/tammya/ foaf:homepage http://www.cs.technion.ac.il/~tammya/
+ /people/gnakibly/ foaf:homepage http://www.cs.technion.ac.il/~gnakibly/
+ /people/gala/ foaf:homepage http://gala.cswp.cs.technion.ac.il/
+ /people/mzib/ foaf:homepage http://ie.technion.ac.il/~mcib/
+ /people/ladypine/ foaf:homepage http://www.cs.technion.ac.il/~ladypine/
+ /people/ailia/ foaf:homepage http://www.cs.technion.ac.il/~ailia/
+ /people/barkan/ foaf:homepage http://www.cs.technion.ac.il/~barkan/
+ /people/ramic/ foaf:homepage http://www.cs.technion.ac.il/~ramic/
+ /people/ctal/ foaf:homepage http://www.cs.technion.ac.il/~ctal/
+ /people/idabran/ foaf:homepage http://www.cs.technion.ac.il/~idabran/
+ /people/orrd/ foaf:homepage http://www.cs.technion.ac.il/~orrd/
+ /people/roee/ foaf:homepage http://www.cs.technion.ac.il/~roee/
+ /people/yoavh/ foaf:homepage http://www.cs.technion.ac.il/~yoavh/
+ /people/yechiel/ foaf:homepage http://www.cs.technion.ac.il/users/yechiel/
+ /people/anya/ foaf:homepage http://www.cs.technion.ac.il/~anya/
+ /people/imaman/ foaf:homepage http://www.cs.technion.ac.il/~imaman/
+ /people/yaelmg/ foaf:homepage http://yaelab.technion.ac.il/
+ /people/gnakibly/ foaf:homepage http://www.cs.technion.ac.il/~gnakibly/
+ /people/porat/ foaf:homepage https://researcher.ibm.com/researcher/view.php?person=il-PORAT
+ /people/ronrubin/ foaf:homepage http://www.cs.technion.ac.il/~ronrubin/
+ /people/tamer/ foaf:homepage http://www.cs.technion.ac.il/~tamer/
+ /people/cmshalom/ foaf:homepage http://www.cs.technion.ac.il/~cmshalom/
+ /people/zohary/ foaf:homepage http://bioinfo.cs.technion.ac.il/people/zohar/

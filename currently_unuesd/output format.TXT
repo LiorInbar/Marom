@@ -1,0 +1,3 @@
+main querry (get list of persons url) $ info querry (get information on the person) $ second info querry(optional) $ output format
+variables for output format:
+ @ - first querry output, @@ - second querry output 

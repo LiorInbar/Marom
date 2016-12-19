@@ -1,0 +1,45 @@
+http://www.cs.technion.ac.il/research-labs/CGGC a foaf:Group
+http://www.cs.technion.ac.il/research-labs/MILA a foaf:Group
+http://www.cs.technion.ac.il/research-labs/ISL a foaf:Group
+http://www.cs.technion.ac.il/research-labs/CBL a foaf:Group
+http://www.cs.technion.ac.il/research-labs/ a foaf:Group
+http://www.cs.technion.ac.il/research-labs/CSL a foaf:Group
+http://www.cs.technion.ac.il/research-labs/ a foaf:Group
+http://www.cs.technion.ac.il/research-labs/GIP a foaf:Group
+http://www.cs.technion.ac.il/research-labs/QIP a foaf:Group
+http://www.cs.technion.ac.il/research-labs/ a foaf:Group
+http://www.cs.technion.ac.il/research-labs/SSDL a foaf:Group
+http://www.cs.technion.ac.il/research-labs/TDK a foaf:Group
+http://www.cs.technion.ac.il/research-labs/LCCN a foaf:Group
+http://www.cs.technion.ac.il/research-labs/TOC a foaf:Group
+http://www.cs.technion.ac.il/research-labs/EE a foaf:Group
+http://www.cs.technion.ac.il/research-labs/CGGC foaf:name Center for   Graphics and Geometric Computing (CGGC)
+http://www.cs.technion.ac.il/research-labs/MILA foaf:name Center for   Hebrew Computational Linguistics (MILA)
+http://www.cs.technion.ac.il/research-labs/ISL foaf:name Center and Laboratory   for Intelligent Systems (CIS and ISL)
+http://www.cs.technion.ac.il/research-labs/CBL foaf:name Computational   Biology Laboratory (CBL)
+http://www.cs.technion.ac.il/research-labs/ foaf:name  
+http://www.cs.technion.ac.il/research-labs/CSL foaf:name Computer   Systems Laboratory (CSL)
+http://www.cs.technion.ac.il/research-labs/ foaf:name  
+http://www.cs.technion.ac.il/research-labs/GIP foaf:name Geometric Image   Processing Laboratory (GIP)
+http://www.cs.technion.ac.il/research-labs/QIP foaf:name Quantum   Information Processing Laboratory stations (QIP)
+http://www.cs.technion.ac.il/research-labs/ foaf:name  
+http://www.cs.technion.ac.il/research-labs/SSDL foaf:name Systems and Software   Development Laboratory (SSDL)
+http://www.cs.technion.ac.il/research-labs/TDK foaf:name Technion Data and   Knowledge Laboratory (TDK)
+http://www.cs.technion.ac.il/research-labs/LCCN foaf:name The Laboratory for Computer Communication and   Networking (LCCN)
+http://www.cs.technion.ac.il/research-labs/TOC foaf:name Theory of   Computation Laboratory (TOC)
+http://www.cs.technion.ac.il/research-labs/EE foaf:name Laboratory   for VLSI (with EE)
+http://www.cs.technion.ac.il/research-labs/CGGC  foaf:homepage  http://www.cs.technion.ac.il/~cggc/
+http://www.cs.technion.ac.il/research-labs/MILA  foaf:homepage  http://www.mila.cs.technion.ac.il/
+http://www.cs.technion.ac.il/research-labs/ISL  foaf:homepage  http://cis.cs.technion.ac.il/
+http://www.cs.technion.ac.il/research-labs/CBL  foaf:homepage  http://bioinfo.cs.technion.ac.il/
+http://www.cs.technion.ac.il/research-labs/  foaf:homepage   
+http://www.cs.technion.ac.il/research-labs/CSL  foaf:homepage  http://www.csltechnion.com/
+http://www.cs.technion.ac.il/research-labs/  foaf:homepage   
+http://www.cs.technion.ac.il/research-labs/GIP  foaf:homepage  http://gip.cs.technion.ac.il/
+http://www.cs.technion.ac.il/research-labs/QIP  foaf:homepage  http://www.cs.technion.ac.il/~qip-lab
+http://www.cs.technion.ac.il/research-labs/  foaf:homepage   
+http://www.cs.technion.ac.il/research-labs/SSDL  foaf:homepage  http://ssdl.cs.technion.ac.il
+http://www.cs.technion.ac.il/research-labs/TDK  foaf:homepage  http://tdk.net.technion.ac.il/
+http://www.cs.technion.ac.il/research-labs/LCCN  foaf:homepage  http://lccn.cs.technion.ac.il/Current_Projects/Projects_Current_Index.shtml
+http://www.cs.technion.ac.il/research-labs/TOC  foaf:homepage  http://www.cs.technion.ac.il/Labs/TOC/
+http://www.cs.technion.ac.il/research-labs/EE  foaf:homepage  http://www.ee.technion.ac.il/laboratories/vlsi
