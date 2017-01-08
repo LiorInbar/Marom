@@ -1,0 +1,562 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.cs.technion.ac.il/people/adleram/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~adleram/" ;
+    foaf:name "Adler, Amir" .
+
+<http://www.cs.technion.ac.il/people/ailia/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ailia/" ;
+    foaf:name "Averbouch, Ilia" .
+
+<http://www.cs.technion.ac.il/people/anya/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~anya/" ;
+    foaf:name "Levin, Anya" .
+
+<http://www.cs.technion.ac.il/people/asidi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~asidi/" ;
+    foaf:name "Sidi, Avraham" .
+
+<http://www.cs.technion.ac.il/people/assaf/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~assaf/" ;
+    foaf:name "Schuster, Assaf" .
+
+<http://www.cs.technion.ac.il/people/aviadzuc/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~aviadzuc/" ;
+    foaf:name "Zuck, Aviad" .
+
+<http://www.cs.technion.ac.il/people/baram/> a foaf:Person ;
+    foaf:homepage "http://baram.net.technion.ac.il/" ;
+    foaf:name "Baram, Yoram" .
+
+<http://www.cs.technion.ac.il/people/barequet/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~barequet/" ;
+    foaf:name "Barequet, Gill" .
+
+<http://www.cs.technion.ac.il/people/barkan/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~barkan/" ;
+    foaf:name "Barkan, Elad Pinhas" .
+
+<http://www.cs.technion.ac.il/people/batyak/> a foaf:Person ;
+    foaf:homepage "/people/batyak/" ;
+    foaf:name "Kenig, Batya" .
+
+<http://www.cs.technion.ac.il/people/bennyk/> a foaf:Person ;
+    foaf:homepage "http://benny.net.technion.ac.il" ;
+    foaf:name "Kimelfeld, Benny" .
+
+<http://www.cs.technion.ac.il/people/biham/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~biham/" ;
+    foaf:name "Biham, Eli" .
+
+<http://www.cs.technion.ac.il/people/bron/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~bron/" ;
+    foaf:name "Bronstein, Alexander" .
+
+<http://www.cs.technion.ac.il/people/bshouty/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~bshouty/" ;
+    foaf:name "Bshouty, Nader" .
+
+<http://www.cs.technion.ac.il/people/bussel/> a foaf:Person ;
+    foaf:homepage "/people/bussel/" ;
+    foaf:name "Bussel, Isaac" .
+
+<http://www.cs.technion.ac.il/people/ckeren/> a foaf:Person ;
+    foaf:homepage "http://ckeren.net.technion.ac.il/" ;
+    foaf:name "Censor-Hillel, Keren" .
+
+<http://www.cs.technion.ac.il/people/cmshalom/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~cmshalom/" ;
+    foaf:name "Shalom, Mordohay" .
+
+<http://www.cs.technion.ac.il/people/cselena/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~cselena/" ;
+    foaf:name "Ravve, Elena" .
+
+<http://www.cs.technion.ac.il/people/ctal/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ctal/" ;
+    foaf:name "Cohen, Tal" .
+
+<http://www.cs.technion.ac.il/people/dan/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~dan/" ;
+    foaf:name "Tsafrir, Dan" .
+
+<http://www.cs.technion.ac.il/people/dang/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~dang/" ;
+    foaf:name "Geiger, Dan" .
+
+<http://www.cs.technion.ac.il/people/danny/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~danny/" ;
+    foaf:name "Raz, Danny" .
+
+<http://www.cs.technion.ac.il/people/dean/> a foaf:Person ;
+    foaf:homepage "http://irad.net.technion.ac.il/" ;
+    foaf:name "Yavneh, Irad" .
+
+<http://www.cs.technion.ac.il/people/dgalin/> a foaf:Person ;
+    foaf:homepage "/people/dgalin/" ;
+    foaf:name "Galin, Daniel" .
+
+<http://www.cs.technion.ac.il/people/dhlorenz/> a foaf:Person ;
+    foaf:homepage "http://www.openu.ac.il/home/lorenz/" ;
+    foaf:name "Lorenz, David H." .
+
+<http://www.cs.technion.ac.il/people/ehudr/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ehudr/" ;
+    foaf:name "Rivlin, Ehud" .
+
+<http://www.cs.technion.ac.il/people/elad/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~elad/" ;
+    foaf:name "Elad, Michael" .
+
+<http://www.cs.technion.ac.il/people/eldar/> a foaf:Person ;
+    foaf:homepage "http://eldar.cswp.cs.technion.ac.il/" ;
+    foaf:name "Fischer, Eldar" .
+
+<http://www.cs.technion.ac.il/people/eli/> a foaf:Person ;
+    foaf:homepage "http://www.eecs.harvard.edu/~eli/" ;
+    foaf:name "Ben-Sasson, Eli" .
+
+<http://www.cs.technion.ac.il/people/erez/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~erez/" ;
+    foaf:name "Petrank, Erez" .
+
+<http://www.cs.technion.ac.il/people/etzion/> a foaf:Person ;
+    foaf:homepage "http://etzion.net.technion.ac.il/" ;
+    foaf:name "Etzion, Tuvi" .
+
+<http://www.cs.technion.ac.il/people/eyalk/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~eyalk/" ;
+    foaf:name "Kushilevitz, Eyal" .
+
+<http://www.cs.technion.ac.il/people/francez/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~francez/" ;
+    foaf:name "Francez, Nissim" .
+
+<http://www.cs.technion.ac.il/people/freddy/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~freddy/" ;
+    foaf:name "Bruckstein, Alfred M." .
+
+<http://www.cs.technion.ac.il/people/gadial/> a foaf:Person ;
+    foaf:homepage "/people/gadial/" ;
+    foaf:name "Aleksandrowicz, Gadi" .
+
+<http://www.cs.technion.ac.il/people/gala/> a foaf:Person ;
+    foaf:homepage "http://gala.cswp.cs.technion.ac.il/" ;
+    foaf:name "Yadgar, Gala" .
+
+<http://www.cs.technion.ac.il/people/gershon/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~gershon/" ;
+    foaf:name "Elber, Gershon" .
+
+<http://www.cs.technion.ac.il/people/gisrael/> a foaf:Person ;
+    foaf:homepage "/people/gisrael/" ;
+    foaf:name "Gutter, Israel" .
+
+<http://www.cs.technion.ac.il/people/gnakibly/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~gnakibly/" ;
+    foaf:name "Nakibly, Gabi" .
+
+<http://www.cs.technion.ac.il/people/gotsman/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~gotsman/" ;
+    foaf:name "Gotsman, Craig (Chaim)" .
+
+<http://www.cs.technion.ac.il/people/hadas/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~hadas/" ;
+    foaf:name "Shachnai, Hadas" .
+
+<http://www.cs.technion.ac.il/people/hagit/> a foaf:Person ;
+    foaf:homepage "http://hagit.net.technion.ac.il/" ;
+    foaf:name "Attiya, Hagit" .
+
+<http://www.cs.technion.ac.il/people/heymann/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~heymann/" ;
+    foaf:name "Heymann, Michael" .
+
+<http://www.cs.technion.ac.il/people/huizhang/> a foaf:Person ;
+    foaf:homepage "http://huizhang.cswp.cs.technion.ac.il/" ;
+    foaf:name "Zhang, Hui" .
+
+<http://www.cs.technion.ac.il/people/idabran/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~idabran/" ;
+    foaf:name "Dabran, Itai" .
+
+<http://www.cs.technion.ac.il/people/imaman/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~imaman/" ;
+    foaf:name "Maman, Itay" .
+
+<http://www.cs.technion.ac.il/people/itai/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~itai/" ;
+    foaf:name "Itai, Alon" .
+
+<http://www.cs.technion.ac.il/people/janos/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~janos/" ;
+    foaf:name "Makowsky, Johann" .
+
+<http://www.cs.technion.ac.il/people/jineshmac/> a foaf:Person ;
+    foaf:homepage "/people/jineshmac/" ;
+    foaf:name "Machchhar, Jinesh" .
+
+<http://www.cs.technion.ac.il/people/kaminski/> a foaf:Person ;
+    foaf:homepage "/people/kaminski/" ;
+    foaf:name "Kaminski, Michael" .
+
+<http://www.cs.technion.ac.il/people/kantor/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~kantor/" ;
+    foaf:name "Kantorowitz, Eliezer" .
+
+<http://www.cs.technion.ac.il/people/katz/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~katz/" ;
+    foaf:name "Katz, Shmuel" .
+
+<http://www.cs.technion.ac.il/people/kayla/> a foaf:Person ;
+    foaf:homepage "/people/kayla/" ;
+    foaf:name "Jacobs, Kayla" .
+
+<http://www.cs.technion.ac.il/people/kirar/> a foaf:Person ;
+    foaf:homepage "http://tx.technion.ac.il/~kirar/" ;
+    foaf:name "Radinsky, Kira" .
+
+<http://www.cs.technion.ac.il/people/kohavi/> a foaf:Person ;
+    foaf:homepage "/people/kohavi/" ;
+    foaf:name "Kohavi, Zvi" .
+
+<http://www.cs.technion.ac.il/people/kuper/> a foaf:Person ;
+    foaf:homepage "/people/kuper/" ;
+    foaf:name "Kupershtock, Roni" .
+
+<http://www.cs.technion.ac.il/people/ladypine/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ladypine/" ;
+    foaf:name "Agmon Ben-Yehuda, Orna" .
+
+<http://www.cs.technion.ac.il/people/lempel/> a foaf:Person ;
+    foaf:homepage "/people/lempel/" ;
+    foaf:name "Lempel, Abraham" .
+
+<http://www.cs.technion.ac.il/people/levyt/> a foaf:Person ;
+    foaf:homepage "/people/levyt/" ;
+    foaf:name "Levi, Tamir" .
+
+<http://www.cs.technion.ac.il/people/lihu/> a foaf:Person ;
+    foaf:homepage "/people/lihu/" ;
+    foaf:name "Rappoport, Lihu" .
+
+<http://www.cs.technion.ac.il/people/litman/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~litman/" ;
+    foaf:name "Litman, Ami" .
+
+<http://www.cs.technion.ac.il/people/matteo.orru> a foaf:Person ;
+    foaf:homepage "https://www.researchgate.net/profile/Matteo_Orru/" ;
+    foaf:name "Orru, Matteo" .
+
+<http://www.cs.technion.ac.il/people/mendlson/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mendlson/" ;
+    foaf:name "Mendelson, Avi" .
+
+<http://www.cs.technion.ac.il/people/mic/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mic/" ;
+    foaf:name "Lindenbaum, Michael" .
+
+<http://www.cs.technion.ac.il/people/mirela/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mirela/" ;
+    foaf:name "Ben-Chen, Mirela" .
+
+<http://www.cs.technion.ac.il/people/moran/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~moran/" ;
+    foaf:name "Moran, Shlomo" .
+
+<http://www.cs.technion.ac.il/people/mzib/> a foaf:Person ;
+    foaf:homepage "http://ie.technion.ac.il/~mcib/" ;
+    foaf:name "Zibulevsky, Michael" .
+
+<http://www.cs.technion.ac.il/people/nailon/> a foaf:Person ;
+    foaf:homepage "http://nailon.googlepages.com/" ;
+    foaf:name "Ailon, Nir" .
+
+<http://www.cs.technion.ac.il/people/naor/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~naor/" ;
+    foaf:name "Naor, Seffi" .
+
+<http://www.cs.technion.ac.il/people/netanel/> a foaf:Person ;
+    foaf:homepage "/people/netanel/" ;
+    foaf:name "Raviv, Netanel" .
+
+<http://www.cs.technion.ac.il/people/orna/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~orna/" ;
+    foaf:name "Grumberg, Orna" .
+
+<http://www.cs.technion.ac.il/people/ornan/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ornan/" ;
+    foaf:name "Ornan, Uzzi" .
+
+<http://www.cs.technion.ac.il/people/orrd/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~orrd/" ;
+    foaf:name "Dunkelman, Orr" .
+
+<http://www.cs.technion.ac.il/people/oshmu/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~oshmu/" ;
+    foaf:name "Shmueli, Oded" .
+
+<http://www.cs.technion.ac.il/people/ovantzos/> a foaf:Person ;
+    foaf:homepage "http://numod.ins.uni-bonn.de/people/vantzos/" ;
+    foaf:name "Vantzos, Orestis" .
+
+<http://www.cs.technion.ac.il/people/paz/> a foaf:Person ;
+    foaf:homepage "/people/paz/" ;
+    foaf:name "Paz, Azaria" .
+
+<http://www.cs.technion.ac.il/people/pinter/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~pinter/" ;
+    foaf:name "Pinter, Ron Y." .
+
+<http://www.cs.technion.ac.il/people/porat/> a foaf:Person ;
+    foaf:homepage "https://researcher.ibm.com/researcher/view.php?person=il-PORAT" ;
+    foaf:name "Porat, Sara" .
+
+<http://www.cs.technion.ac.il/people/rabani/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~rabani/" ;
+    foaf:name "Rabani, Yuval" .
+
+<http://www.cs.technion.ac.il/people/ramic/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ramic/" ;
+    foaf:name "Cohen, Rami" .
+
+<http://www.cs.technion.ac.il/people/rani/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~rani/" ;
+    foaf:name "El-Yaniv, Ran" .
+
+<http://www.cs.technion.ac.il/people/raskinl/> a foaf:Person ;
+    foaf:homepage "/people/raskinl/" ;
+    foaf:name "Raskin, Leonid" .
+
+<http://www.cs.technion.ac.il/people/rcohen/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~rcohen/" ;
+    foaf:name "Cohen, Reuven" .
+
+<http://www.cs.technion.ac.il/people/reuven/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~reuven/" ;
+    foaf:name "Bar-Yehuda, Reuven" .
+
+<http://www.cs.technion.ac.il/people/rkishony/> a foaf:Person ;
+    foaf:homepage "http://biology.technion.ac.il/?cmd=staff.47&act=read&id=267" ;
+    foaf:name "Kishony, Roy" .
+
+<http://www.cs.technion.ac.il/people/rlempel/> a foaf:Person ;
+    foaf:homepage "/people/rlempel/" ;
+    foaf:name "Lempel, Ronny" .
+
+<http://www.cs.technion.ac.il/people/roee/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~roee/" ;
+    foaf:name "Engelberg, Roee" .
+
+<http://www.cs.technion.ac.il/people/ron/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ron/" ;
+    foaf:name "Kimmel, Ron" .
+
+<http://www.cs.technion.ac.il/people/ronenbar/> a foaf:Person ;
+    foaf:homepage "/people/ronenbar/" ;
+    foaf:name "Bar-Nahor, Ronen" .
+
+<http://www.cs.technion.ac.il/people/ronny/> a foaf:Person ;
+    foaf:homepage "http://ronny.cswp.cs.technion.ac.il/" ;
+    foaf:name "Roth, Ronny" .
+
+<http://www.cs.technion.ac.il/people/ronrubin/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ronrubin/" ;
+    foaf:name "Rubinstein, Ron" .
+
+<http://www.cs.technion.ac.il/people/roy/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~roy/" ;
+    foaf:name "Friedman, Roy" .
+
+<http://www.cs.technion.ac.il/people/sarab/> a foaf:Person ;
+    foaf:homepage "/people/sarab/" ;
+    foaf:name "Bitan, Sara" .
+
+<http://www.cs.technion.ac.il/people/schwartz/> a foaf:Person ;
+    foaf:homepage "http://schwartz.cswp.cs.technion.ac.il/" ;
+    foaf:name "Schwartz, Roy" .
+
+<http://www.cs.technion.ac.il/people/sharoni/> a foaf:Person ;
+    foaf:homepage "/people/sharoni/" ;
+    foaf:name "Feldman, Sharoni" .
+
+<http://www.cs.technion.ac.il/people/shaulm/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~shaulm/" ;
+    foaf:name "Markovitch, Shaul" .
+
+<http://www.cs.technion.ac.il/people/shiria/> a foaf:Person ;
+    foaf:homepage "http://www.shiriazenkot.com" ;
+    foaf:name "Azenkot, Shiri" .
+
+<http://www.cs.technion.ac.il/people/surke/> a foaf:Person ;
+    foaf:homepage "/people/surke/" ;
+    foaf:name "Sheinvald, Sarai" .
+
+<http://www.cs.technion.ac.il/people/talmo/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~talmo/" ;
+    foaf:name "Mor, Tal" .
+
+<http://www.cs.technion.ac.il/people/tamer/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~tamer/" ;
+    foaf:name "Salman, Tamer" .
+
+<http://www.cs.technion.ac.il/people/tammya/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~tammya/" ;
+    foaf:name "Avraham, Tamar" .
+
+<http://www.cs.technion.ac.il/people/tomera/> a foaf:Person ;
+    foaf:homepage "/people/tomera/" ;
+    foaf:name "Tomer, Amir" .
+
+<http://www.cs.technion.ac.il/people/tomersh/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~tomersh/" ;
+    foaf:name "Shlomi, Tomer" .
+
+<http://www.cs.technion.ac.il/people/tsachis/> a foaf:Person ;
+    foaf:homepage "/people/tsachis/" ;
+    foaf:name "Sharfman, Izchak Tzachi" .
+
+<http://www.cs.technion.ac.il/people/unga/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~unga/" ;
+    foaf:name "Ungarish, Marius" .
+
+<http://www.cs.technion.ac.il/people/yaakobi/> a foaf:Person ;
+    foaf:homepage "http://yaakobi.net.technion.ac.il/" ;
+    foaf:name "Yaakobi, Eitan" .
+
+<http://www.cs.technion.ac.il/people/yaelerez/> a foaf:Person ;
+    foaf:homepage "/people/yaelerez/" ;
+    foaf:name "Erez, Yael" .
+
+<http://www.cs.technion.ac.il/people/yaelmg/> a foaf:Person ;
+    foaf:homepage "http://yaelab.technion.ac.il/" ;
+    foaf:name "Mandel-Gutfreund, Yael" .
+
+<http://www.cs.technion.ac.il/people/yahave/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yahave/" ;
+    foaf:name "Yahav, Eran" .
+
+<http://www.cs.technion.ac.il/people/yairr/> a foaf:Person ;
+    foaf:homepage "/people/yairr/" ;
+    foaf:name "Rezek, Yair" .
+
+<http://www.cs.technion.ac.il/people/yechiel/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/users/yechiel/" ;
+    foaf:name "Kimchi, Yechiel" .
+
+<http://www.cs.technion.ac.il/people/yetsion/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yetsion/" ;
+    foaf:name "Etsion, Yoav" .
+
+<http://www.cs.technion.ac.il/people/yoavh/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yoavh/" ;
+    foaf:name "Haimovitch, Yoav" .
+
+<http://www.cs.technion.ac.il/people/yoaz/> a foaf:Person ;
+    foaf:homepage "/people/yoaz/" ;
+    foaf:name "Yoaz, Adi" .
+
+<http://www.cs.technion.ac.il/people/yogi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yogi/" ;
+    foaf:name "Gil, Yossi" .
+
+<http://www.cs.technion.ac.il/people/yossiv/> a foaf:Person ;
+    foaf:homepage "/people/yossiv/" ;
+    foaf:name "Weinstein, Yossi" .
+
+<http://www.cs.technion.ac.il/people/yuvalfi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.toronto.edu/~yuvalf/" ;
+    foaf:name "Filmus, Yuval" .
+
+<http://www.cs.technion.ac.il/people/yuvali/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yuvali/" ;
+    foaf:name "Ishai, Yuval" .
+
+<http://www.cs.technion.ac.il/people/z--1722/> a foaf:Person ;
+    foaf:homepage "http://www.arijuels.com/" ;
+    foaf:name "Juels, Ari" .
+
+<http://www.cs.technion.ac.il/people/z--287/> a foaf:Person ;
+    foaf:homepage "/people/z--287/" ;
+    foaf:name "Rubin, Shai" .
+
+<http://www.cs.technion.ac.il/people/z--629/> a foaf:Person ;
+    foaf:homepage "/people/z--629/" ;
+    foaf:name "Shulman, Amichai" .
+
+<http://www.cs.technion.ac.il/people/z--alexshif/> a foaf:Person ;
+    foaf:homepage "/people/z--alexshif/" ;
+    foaf:name "Schiftner, Alex" .
+
+<http://www.cs.technion.ac.il/people/z--davidi/> a foaf:Person ;
+    foaf:homepage "/people/z--davidi/" ;
+    foaf:name "David, Izhak" .
+
+<http://www.cs.technion.ac.il/people/z--even/> a foaf:Person ;
+    foaf:homepage "/people/memoriam/z--even/" ;
+    foaf:name "Even, Shimon" .
+
+<http://www.cs.technion.ac.il/people/z--gadir/> a foaf:Person ;
+    foaf:homepage "/people/memoriam/z--gadir/" ;
+    foaf:name "Rahamim, Gadi" .
+
+<http://www.cs.technion.ac.il/people/z--goel/> a foaf:Person ;
+    foaf:homepage "/people/z--goel/" ;
+    foaf:name "Samuel, Goel" .
+
+<http://www.cs.technion.ac.il/people/z--inbar/> a foaf:Person ;
+    foaf:homepage "/people/z--inbar/" ;
+    foaf:name "Inbar, Ohad" .
+
+<http://www.cs.technion.ac.il/people/z--israeli/> a foaf:Person ;
+    foaf:homepage "/people/memoriam/z--israeli/" ;
+    foaf:name "Israeli, Moshe" .
+
+<http://www.cs.technion.ac.il/people/z--karp/> a foaf:Person ;
+    foaf:homepage "http://www.eecs.berkeley.edu/Faculty/Homepages/karp.html" ;
+    foaf:name "Richard, Karp" .
+
+<http://www.cs.technion.ac.il/people/z--michalim/> a foaf:Person ;
+    foaf:homepage "/people/z--michalim/" ;
+    foaf:name "Iluz-Mimoni, Michal" .
+
+<http://www.cs.technion.ac.il/people/z--myoeli/> a foaf:Person ;
+    foaf:homepage "/people/memoriam/z--myoeli/" ;
+    foaf:name "Yoeli, Michael" .
+
+<http://www.cs.technion.ac.il/people/z--ohads/> a foaf:Person ;
+    foaf:homepage "/people/z--ohads/" ;
+    foaf:name "Shacham, Ohad" .
+
+<http://www.cs.technion.ac.il/people/z--pearlj/> a foaf:Person ;
+    foaf:homepage "http://bayes.cs.ucla.edu/jp_home.html" ;
+    foaf:name "Pearl, Judea" .
+
+<http://www.cs.technion.ac.il/people/z--perrin/> a foaf:Person ;
+    foaf:homepage "/people/z--perrin/" ;
+    foaf:name "Perrin, Matthieu" .
+
+<http://www.cs.technion.ac.il/people/z--rachel/> a foaf:Person ;
+    foaf:homepage "/people/memoriam/z--rachel/" ;
+    foaf:name "Pelled, Rachel" .
+
+<http://www.cs.technion.ac.il/people/z--self/> a foaf:Person ;
+    foaf:homepage "/people/z--self/" ;
+    foaf:name "Sela, Frank" .
+
+<http://www.cs.technion.ac.il/people/zaks/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~zaks/" ;
+    foaf:name "Zaks, Shmuel" .
+
+<http://www.cs.technion.ac.il/people/zbarukh/> a foaf:Person ;
+    foaf:homepage "/people/zbarukh/" ;
+    foaf:name "Ziv, Baruch" .
+
+<http://www.cs.technion.ac.il/people/zohary/> a foaf:Person ;
+    foaf:homepage "http://bioinfo.cs.technion.ac.il/people/zohar/" ;
+    foaf:name "Yakhini, Zohar" .
+
