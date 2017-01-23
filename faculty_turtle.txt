@@ -123,6 +123,7 @@
     foaf:member <http://www.cs.technion.ac.il/people/z--even/>,
         <http://www.cs.technion.ac.il/people/z--gadir/>,
         <http://www.cs.technion.ac.il/people/z--israeli/>,
+        <http://www.cs.technion.ac.il/people/z--listopad/>,
         <http://www.cs.technion.ac.il/people/z--myoeli/>,
         <http://www.cs.technion.ac.il/people/z--rachel/> .
 
@@ -134,8 +135,7 @@
         <http://www.cs.technion.ac.il/people/jineshmac/>,
         <http://www.cs.technion.ac.il/people/matteo.orru>,
         <http://www.cs.technion.ac.il/people/netanel/>,
-        <http://www.cs.technion.ac.il/people/ovantzos/>,
-        <http://www.cs.technion.ac.il/people/z--perrin/> .
+        <http://www.cs.technion.ac.il/people/ovantzos/> .
 
 <http://www.cs.technion.ac.il/faculty/Research_Associates> a foaf:Group ;
     foaf:member <http://www.cs.technion.ac.il/people/gala/>,
@@ -165,559 +165,995 @@
         <http://www.cs.technion.ac.il/people/rabani/>,
         <http://www.cs.technion.ac.il/people/z--alexshif/> .
 
+<http://www.cs.technion.ac.il/images/people/adleram.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/anya.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/asidi.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/assaf.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/baram.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/barequet.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/barkan.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/bennyk.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/biham.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/bron.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/bshouty.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ckeren.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/cmshalom.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/dan.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/dang.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/danny.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/dean.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/dhlorenz.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ehudr.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/elad.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/eldar.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/eli.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/erez.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/etzion.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/eyalk.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/francez.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/freddy.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/gadial.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/gala.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/gershon.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/gisrael.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/gnakibly.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/gotsman.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/hadas.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/hagit.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/heymann.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/huizhang.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/idabran.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/imaman.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/itai.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/janos.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/kaminski.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/kantor.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/katz.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/kirar.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/kohavi.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ladypine.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/lempel.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/litman.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/matteo.orru.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/mic.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/mirela.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/moran.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/mzib.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/nailon.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/naor.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/orna.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ornan.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/orrd.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/oshmu.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/paz.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/pinter.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/porat.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/rabani.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ramic.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/rani.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/rcohen.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/reuven.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/rkishony.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/roee.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ron.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ronny.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/ronrubin.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/roy.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/schwartz.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/shaulm.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/shiria.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/talmo.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/tamer.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/tammya.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/tomera.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/tomersh.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/unga.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yaakobi.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yaelmg.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yahave.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yechiel.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yetsion.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yoavh.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yogi.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yuvalfi.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/yuvali.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__1722.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__629.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__even.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__gadir.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__israeli.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__karp.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__listopad.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__michalim.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__myoeli.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__ohads.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__pearlj.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/z__rachel.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/zaks.jpg> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/people/zohary.jpg> a foaf:Image .
+
 <http://www.cs.technion.ac.il/people/adleram/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~adleram/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/adleram.jpg> ;
+    foaf:mbox "adleram@cs.technion.ac.il" ;
     foaf:name "Adler, Amir" .
 
 <http://www.cs.technion.ac.il/people/ailia/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ailia/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "ailia@cs.technion.ac.il" ;
     foaf:name "Averbouch, Ilia" .
 
 <http://www.cs.technion.ac.il/people/anya/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~anya/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/anya.jpg> ;
+    foaf:mbox "anya@cs.technion.ac.il" ;
     foaf:name "Levin, Anya" .
 
 <http://www.cs.technion.ac.il/people/asidi/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~asidi/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/asidi.jpg> ;
+    foaf:mbox "asidi@cs.technion.ac.il" ;
     foaf:name "Sidi, Avraham" .
 
 <http://www.cs.technion.ac.il/people/assaf/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~assaf/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/assaf.jpg> ;
+    foaf:mbox "assaf@cs.technion.ac.il" ;
     foaf:name "Schuster, Assaf" .
 
 <http://www.cs.technion.ac.il/people/aviadzuc/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~aviadzuc/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "aviadzuc@cs.technion.ac.il" ;
     foaf:name "Zuck, Aviad" .
 
 <http://www.cs.technion.ac.il/people/baram/> a foaf:Person ;
     foaf:homepage "http://baram.net.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/baram.jpg> ;
+    foaf:mbox "baram@cs.technion.ac.il" ;
     foaf:name "Baram, Yoram" .
 
 <http://www.cs.technion.ac.il/people/barequet/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~barequet/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/barequet.jpg> ;
+    foaf:mbox "barequet@cs.technion.ac.il" ;
     foaf:name "Barequet, Gill" .
 
 <http://www.cs.technion.ac.il/people/barkan/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~barkan/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/barkan.jpg> ;
+    foaf:mbox "barkan@cs.technion.ac.il" ;
     foaf:name "Barkan, Elad Pinhas" .
 
 <http://www.cs.technion.ac.il/people/batyak/> a foaf:Person ;
-    foaf:homepage "/people/batyak/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    foaf:mbox "batyak@cs.technion.ac.il" ;
     foaf:name "Kenig, Batya" .
 
 <http://www.cs.technion.ac.il/people/bennyk/> a foaf:Person ;
     foaf:homepage "http://benny.net.technion.ac.il" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/bennyk.jpg> ;
+    foaf:mbox "bennyk@cs.technion.ac.il" ;
     foaf:name "Kimelfeld, Benny" .
 
 <http://www.cs.technion.ac.il/people/biham/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~biham/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/biham.jpg> ;
+    foaf:mbox "biham@cs.technion.ac.il" ;
     foaf:name "Biham, Eli" .
 
 <http://www.cs.technion.ac.il/people/bron/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~bron/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/bron.jpg> ;
+    foaf:mbox "bron@cs.technion.ac.il" ;
     foaf:name "Bronstein, Alexander" .
 
 <http://www.cs.technion.ac.il/people/bshouty/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~bshouty/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/bshouty.jpg> ;
+    foaf:mbox "bshouty@cs.technion.ac.il" ;
     foaf:name "Bshouty, Nader" .
 
 <http://www.cs.technion.ac.il/people/bussel/> a foaf:Person ;
-    foaf:homepage "/people/bussel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "bussel@cs.technion.ac.il" ;
     foaf:name "Bussel, Isaac" .
 
 <http://www.cs.technion.ac.il/people/ckeren/> a foaf:Person ;
     foaf:homepage "http://ckeren.net.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ckeren.jpg> ;
+    foaf:mbox "ckeren@cs.technion.ac.il" ;
     foaf:name "Censor-Hillel, Keren" .
 
 <http://www.cs.technion.ac.il/people/cmshalom/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~cmshalom/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/cmshalom.jpg> ;
+    foaf:mbox "cmshalom@cs.technion.ac.il" ;
     foaf:name "Shalom, Mordohay" .
 
 <http://www.cs.technion.ac.il/people/cselena/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~cselena/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    foaf:mbox "cselena@cs.technion.ac.il" ;
     foaf:name "Ravve, Elena" .
 
 <http://www.cs.technion.ac.il/people/ctal/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ctal/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "ctal@cs.technion.ac.il" ;
     foaf:name "Cohen, Tal" .
 
 <http://www.cs.technion.ac.il/people/dan/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~dan/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/dan.jpg> ;
+    foaf:mbox "dan@cs.technion.ac.il" ;
     foaf:name "Tsafrir, Dan" .
 
 <http://www.cs.technion.ac.il/people/dang/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~dang/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/dang.jpg> ;
+    foaf:mbox "dang@cs.technion.ac.il" ;
     foaf:name "Geiger, Dan" .
 
 <http://www.cs.technion.ac.il/people/danny/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~danny/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/danny.jpg> ;
+    foaf:mbox "danny@cs.technion.ac.il" ;
     foaf:name "Raz, Danny" .
 
 <http://www.cs.technion.ac.il/people/dean/> a foaf:Person ;
     foaf:homepage "http://irad.net.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/dean.jpg> ;
+    foaf:mbox "dean@cs.technion.ac.il" ;
     foaf:name "Yavneh, Irad" .
 
 <http://www.cs.technion.ac.il/people/dgalin/> a foaf:Person ;
-    foaf:homepage "/people/dgalin/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "dgalin@cs.technion.ac.il" ;
     foaf:name "Galin, Daniel" .
 
 <http://www.cs.technion.ac.il/people/dhlorenz/> a foaf:Person ;
     foaf:homepage "http://www.openu.ac.il/home/lorenz/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/dhlorenz.jpg> ;
+    foaf:mbox "dhlorenz@gmail.com" ;
     foaf:name "Lorenz, David H." .
 
 <http://www.cs.technion.ac.il/people/ehudr/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ehudr/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ehudr.jpg> ;
+    foaf:mbox "ehudr@cs.technion.ac.il" ;
     foaf:name "Rivlin, Ehud" .
 
 <http://www.cs.technion.ac.il/people/elad/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~elad/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/elad.jpg> ;
+    foaf:mbox "elad@cs.technion.ac.il" ;
     foaf:name "Elad, Michael" .
 
 <http://www.cs.technion.ac.il/people/eldar/> a foaf:Person ;
     foaf:homepage "http://eldar.cswp.cs.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/eldar.jpg> ;
+    foaf:mbox "eldar@cs.technion.ac.il" ;
     foaf:name "Fischer, Eldar" .
 
 <http://www.cs.technion.ac.il/people/eli/> a foaf:Person ;
     foaf:homepage "http://www.eecs.harvard.edu/~eli/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/eli.jpg> ;
+    foaf:mbox "eli@cs.technion.ac.il" ;
     foaf:name "Ben-Sasson, Eli" .
 
 <http://www.cs.technion.ac.il/people/erez/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~erez/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/erez.jpg> ;
+    foaf:mbox "erez@cs.technion.ac.il" ;
     foaf:name "Petrank, Erez" .
 
 <http://www.cs.technion.ac.il/people/etzion/> a foaf:Person ;
     foaf:homepage "http://etzion.net.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/etzion.jpg> ;
+    foaf:mbox "etzion@cs.technion.ac.il" ;
     foaf:name "Etzion, Tuvi" .
 
 <http://www.cs.technion.ac.il/people/eyalk/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~eyalk/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/eyalk.jpg> ;
+    foaf:mbox "eyalk@cs.technion.ac.il" ;
     foaf:name "Kushilevitz, Eyal" .
 
 <http://www.cs.technion.ac.il/people/francez/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~francez/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/francez.jpg> ;
+    foaf:mbox "francez@cs.technion.ac.il" ;
     foaf:name "Francez, Nissim" .
 
 <http://www.cs.technion.ac.il/people/freddy/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~freddy/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/freddy.jpg> ;
+    foaf:mbox "freddy@cs.technion.ac.il" ;
     foaf:name "Bruckstein, Alfred M." .
 
 <http://www.cs.technion.ac.il/people/gadial/> a foaf:Person ;
-    foaf:homepage "/people/gadial/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/gadial.jpg> ;
+    foaf:mbox "gadial@cs.technion.ac.il" ;
     foaf:name "Aleksandrowicz, Gadi" .
 
 <http://www.cs.technion.ac.il/people/gala/> a foaf:Person ;
     foaf:homepage "http://gala.cswp.cs.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/gala.jpg> ;
+    foaf:mbox "gala@cs.technion.ac.il" ;
     foaf:name "Yadgar, Gala" .
 
 <http://www.cs.technion.ac.il/people/gershon/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~gershon/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/gershon.jpg> ;
+    foaf:mbox "gershon@cs.technion.ac.il" ;
     foaf:name "Elber, Gershon" .
 
 <http://www.cs.technion.ac.il/people/gisrael/> a foaf:Person ;
-    foaf:homepage "/people/gisrael/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/gisrael.jpg> ;
+    foaf:mbox "gisrael@cs.technion.ac.il" ;
     foaf:name "Gutter, Israel" .
 
 <http://www.cs.technion.ac.il/people/gotsman/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~gotsman/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/gotsman.jpg> ;
+    foaf:mbox "gotsman@cs.technion.ac.il" ;
     foaf:name "Gotsman, Craig (Chaim)" .
 
 <http://www.cs.technion.ac.il/people/hadas/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~hadas/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/hadas.jpg> ;
+    foaf:mbox "hadas@cs.technion.ac.il" ;
     foaf:name "Shachnai, Hadas" .
 
 <http://www.cs.technion.ac.il/people/hagit/> a foaf:Person ;
     foaf:homepage "http://hagit.net.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/hagit.jpg> ;
+    foaf:mbox "hagit@cs.technion.ac.il" ;
     foaf:name "Attiya, Hagit" .
 
 <http://www.cs.technion.ac.il/people/heymann/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~heymann/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/heymann.jpg> ;
+    foaf:mbox "heymann@cs.technion.ac.il" ;
     foaf:name "Heymann, Michael" .
 
 <http://www.cs.technion.ac.il/people/huizhang/> a foaf:Person ;
     foaf:homepage "http://huizhang.cswp.cs.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/huizhang.jpg> ;
+    foaf:mbox "huizhang@cs.technion.ac.il" ;
     foaf:name "Zhang, Hui" .
 
 <http://www.cs.technion.ac.il/people/idabran/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~idabran/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/idabran.jpg> ;
+    foaf:mbox "idabran@cs.technion.ac.il" ;
     foaf:name "Dabran, Itai" .
 
 <http://www.cs.technion.ac.il/people/imaman/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~imaman/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/imaman.jpg> ;
+    foaf:mbox "imaman@cs.technion.ac.il" ;
     foaf:name "Maman, Itay" .
 
 <http://www.cs.technion.ac.il/people/itai/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~itai/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/itai.jpg> ;
+    foaf:mbox "itai@cs.technion.ac.il" ;
     foaf:name "Itai, Alon" .
 
 <http://www.cs.technion.ac.il/people/janos/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~janos/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/janos.jpg> ;
+    foaf:mbox "janos@cs.technion.ac.il" ;
     foaf:name "Makowsky, Johann" .
 
 <http://www.cs.technion.ac.il/people/jineshmac/> a foaf:Person ;
-    foaf:homepage "/people/jineshmac/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "jineshmac@cs.technion.ac.il" ;
     foaf:name "Machchhar, Jinesh" .
 
 <http://www.cs.technion.ac.il/people/kaminski/> a foaf:Person ;
-    foaf:homepage "/people/kaminski/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/kaminski.jpg> ;
+    foaf:mbox "kaminski@cs.technion.ac.il" ;
     foaf:name "Kaminski, Michael" .
 
 <http://www.cs.technion.ac.il/people/kantor/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~kantor/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/kantor.jpg> ;
+    foaf:mbox "kantor@cs.technion.ac.il" ;
     foaf:name "Kantorowitz, Eliezer" .
 
 <http://www.cs.technion.ac.il/people/katz/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~katz/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/katz.jpg> ;
+    foaf:mbox "katz@cs.technion.ac.il" ;
     foaf:name "Katz, Shmuel" .
 
 <http://www.cs.technion.ac.il/people/kayla/> a foaf:Person ;
-    foaf:homepage "/people/kayla/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    foaf:mbox "kayla@cs.technion.ac.il" ;
     foaf:name "Jacobs, Kayla" .
 
 <http://www.cs.technion.ac.il/people/kirar/> a foaf:Person ;
     foaf:homepage "http://tx.technion.ac.il/~kirar/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/kirar.jpg> ;
+    foaf:mbox "kirar@cs.technion.ac.il" ;
     foaf:name "Radinsky, Kira" .
 
 <http://www.cs.technion.ac.il/people/kohavi/> a foaf:Person ;
-    foaf:homepage "/people/kohavi/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/kohavi.jpg> ;
+    foaf:mbox "kohavi@cs.technion.ac.il" ;
     foaf:name "Kohavi, Zvi" .
 
 <http://www.cs.technion.ac.il/people/kuper/> a foaf:Person ;
-    foaf:homepage "/people/kuper/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "kuper@cs.technion.ac.il" ;
     foaf:name "Kupershtock, Roni" .
 
 <http://www.cs.technion.ac.il/people/ladypine/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ladypine/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ladypine.jpg> ;
+    foaf:mbox "ladypine@cs.technion.ac.il" ;
     foaf:name "Agmon Ben-Yehuda, Orna" .
 
 <http://www.cs.technion.ac.il/people/lempel/> a foaf:Person ;
-    foaf:homepage "/people/lempel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/lempel.jpg> ;
+    foaf:mbox "lempel@cs.technion.ac.il" ;
     foaf:name "Lempel, Abraham" .
 
 <http://www.cs.technion.ac.il/people/levyt/> a foaf:Person ;
-    foaf:homepage "/people/levyt/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "levyt@cs.technion.ac.il" ;
     foaf:name "Levi, Tamir" .
 
 <http://www.cs.technion.ac.il/people/lihu/> a foaf:Person ;
-    foaf:homepage "/people/lihu/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "lihu.rappoport@intel.com" ;
     foaf:name "Rappoport, Lihu" .
 
 <http://www.cs.technion.ac.il/people/litman/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~litman/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/litman.jpg> ;
+    foaf:mbox "litman@cs.technion.ac.il" ;
     foaf:name "Litman, Ami" .
 
 <http://www.cs.technion.ac.il/people/matteo.orru> a foaf:Person ;
     foaf:homepage "https://www.researchgate.net/profile/Matteo_Orru/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/matteo.orru.jpg> ;
+    foaf:mbox "matteo.orru@cs.technion.ac.il" ;
     foaf:name "Orru, Matteo" .
 
 <http://www.cs.technion.ac.il/people/mendlson/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~mendlson/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "avi.mendelson@tce.technion.ac.il" ;
     foaf:name "Mendelson, Avi" .
 
 <http://www.cs.technion.ac.il/people/mic/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~mic/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/mic.jpg> ;
+    foaf:mbox "mic@cs.technion.ac.il" ;
     foaf:name "Lindenbaum, Michael" .
 
 <http://www.cs.technion.ac.il/people/mirela/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~mirela/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/mirela.jpg> ;
+    foaf:mbox "mirela@cs.technion.ac.il" ;
     foaf:name "Ben-Chen, Mirela" .
 
 <http://www.cs.technion.ac.il/people/moran/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~moran/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/moran.jpg> ;
+    foaf:mbox "moran@cs.technion.ac.il" ;
     foaf:name "Moran, Shlomo" .
 
 <http://www.cs.technion.ac.il/people/mzib/> a foaf:Person ;
     foaf:homepage "http://ie.technion.ac.il/~mcib/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/mzib.jpg> ;
+    foaf:mbox "mzib@cs.technion.ac.il" ;
     foaf:name "Zibulevsky, Michael" .
 
 <http://www.cs.technion.ac.il/people/nailon/> a foaf:Person ;
     foaf:homepage "http://nailon.googlepages.com/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/nailon.jpg> ;
+    foaf:mbox "nailon@cs.technion.ac.il" ;
     foaf:name "Ailon, Nir" .
 
 <http://www.cs.technion.ac.il/people/naor/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~naor/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/naor.jpg> ;
+    foaf:mbox "naor@cs.technion.ac.il" ;
     foaf:name "Naor, Seffi" .
 
 <http://www.cs.technion.ac.il/people/netanel/> a foaf:Person ;
-    foaf:homepage "/people/netanel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "netanel@cs.technion.ac.il" ;
     foaf:name "Raviv, Netanel" .
 
 <http://www.cs.technion.ac.il/people/orna/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~orna/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/orna.jpg> ;
+    foaf:mbox "orna@cs.technion.ac.il" ;
     foaf:name "Grumberg, Orna" .
 
 <http://www.cs.technion.ac.il/people/ornan/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ornan/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ornan.jpg> ;
+    foaf:mbox "ornan@cs.technion.ac.il" ;
     foaf:name "Ornan, Uzzi" .
 
 <http://www.cs.technion.ac.il/people/orrd/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~orrd/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/orrd.jpg> ;
+    foaf:mbox "orrd@cs.technion.ac.il" ;
     foaf:name "Dunkelman, Orr" .
 
 <http://www.cs.technion.ac.il/people/oshmu/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~oshmu/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/oshmu.jpg> ;
+    foaf:mbox "oshmu@cs.technion.ac.il" ;
     foaf:name "Shmueli, Oded" .
 
 <http://www.cs.technion.ac.il/people/ovantzos/> a foaf:Person ;
     foaf:homepage "http://numod.ins.uni-bonn.de/people/vantzos/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "ovantzos@cs.technion.ac.il" ;
     foaf:name "Vantzos, Orestis" .
 
 <http://www.cs.technion.ac.il/people/paz/> a foaf:Person ;
-    foaf:homepage "/people/paz/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/paz.jpg> ;
+    foaf:mbox "paz@cs.technion.ac.il" ;
     foaf:name "Paz, Azaria" .
 
 <http://www.cs.technion.ac.il/people/pinter/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~pinter/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/pinter.jpg> ;
+    foaf:mbox "pinter@cs.technion.ac.il" ;
     foaf:name "Pinter, Ron Y." .
 
 <http://www.cs.technion.ac.il/people/porat/> a foaf:Person ;
     foaf:homepage "https://researcher.ibm.com/researcher/view.php?person=il-PORAT" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/porat.jpg> ;
+    foaf:mbox "porat@cs.technion.ac.il" ;
     foaf:name "Porat, Sara" .
 
 <http://www.cs.technion.ac.il/people/rabani/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~rabani/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/rabani.jpg> ;
+    foaf:mbox "rabani@cs.technion.ac.il" ;
     foaf:name "Rabani, Yuval" .
 
 <http://www.cs.technion.ac.il/people/ramic/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ramic/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ramic.jpg> ;
+    foaf:mbox "ramic@cs.technion.ac.il" ;
     foaf:name "Cohen, Rami" .
 
 <http://www.cs.technion.ac.il/people/rani/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~rani/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/rani.jpg> ;
+    foaf:mbox "rani@cs.technion.ac.il" ;
     foaf:name "El-Yaniv, Ran" .
 
 <http://www.cs.technion.ac.il/people/raskinl/> a foaf:Person ;
-    foaf:homepage "/people/raskinl/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "raskinl@cs.technion.ac.il" ;
     foaf:name "Raskin, Leonid" .
 
 <http://www.cs.technion.ac.il/people/rcohen/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~rcohen/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/rcohen.jpg> ;
+    foaf:mbox "rcohen@cs.technion.ac.il" ;
     foaf:name "Cohen, Reuven" .
 
 <http://www.cs.technion.ac.il/people/reuven/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~reuven/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/reuven.jpg> ;
+    foaf:mbox "reuven@cs.technion.ac.il" ;
     foaf:name "Bar-Yehuda, Reuven" .
 
 <http://www.cs.technion.ac.il/people/rkishony/> a foaf:Person ;
     foaf:homepage "http://biology.technion.ac.il/?cmd=staff.47&act=read&id=267" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/rkishony.jpg> ;
+    foaf:mbox "rkishony@technion.ac.il" ;
     foaf:name "Kishony, Roy" .
 
 <http://www.cs.technion.ac.il/people/rlempel/> a foaf:Person ;
-    foaf:homepage "/people/rlempel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "rlempel@cs.technion.ac.il" ;
     foaf:name "Lempel, Ronny" .
 
 <http://www.cs.technion.ac.il/people/roee/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~roee/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/roee.jpg> ;
+    foaf:mbox "roee@cs.technion.ac.il" ;
     foaf:name "Engelberg, Roee" .
 
 <http://www.cs.technion.ac.il/people/ron/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ron/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ron.jpg> ;
+    foaf:mbox "ron@cs.technion.ac.il" ;
     foaf:name "Kimmel, Ron" .
 
 <http://www.cs.technion.ac.il/people/ronenbar/> a foaf:Person ;
-    foaf:homepage "/people/ronenbar/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "ronenbar@cs.technion.ac.il" ;
     foaf:name "Bar-Nahor, Ronen" .
 
 <http://www.cs.technion.ac.il/people/ronny/> a foaf:Person ;
     foaf:homepage "http://ronny.cswp.cs.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ronny.jpg> ;
+    foaf:mbox "ronny@cs.technion.ac.il" ;
     foaf:name "Roth, Ronny" .
 
 <http://www.cs.technion.ac.il/people/ronrubin/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~ronrubin/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/ronrubin.jpg> ;
+    foaf:mbox "ronrubin@cs.technion.ac.il" ;
     foaf:name "Rubinstein, Ron" .
 
 <http://www.cs.technion.ac.il/people/roy/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~roy/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/roy.jpg> ;
+    foaf:mbox "roy@cs.technion.ac.il" ;
     foaf:name "Friedman, Roy" .
 
 <http://www.cs.technion.ac.il/people/sarab/> a foaf:Person ;
-    foaf:homepage "/people/sarab/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    foaf:mbox "sarab@cs.technion.ac.il" ;
     foaf:name "Bitan, Sara" .
 
 <http://www.cs.technion.ac.il/people/schwartz/> a foaf:Person ;
     foaf:homepage "http://schwartz.cswp.cs.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/schwartz.jpg> ;
+    foaf:mbox "schwartz@cs.technion.ac.il" ;
     foaf:name "Schwartz, Roy" .
 
 <http://www.cs.technion.ac.il/people/sharoni/> a foaf:Person ;
-    foaf:homepage "/people/sharoni/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "sharoni@cs.technion.ac.il" ;
     foaf:name "Feldman, Sharoni" .
 
 <http://www.cs.technion.ac.il/people/shaulm/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~shaulm/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/shaulm.jpg> ;
+    foaf:mbox "shaulm@cs.technion.ac.il" ;
     foaf:name "Markovitch, Shaul" .
 
 <http://www.cs.technion.ac.il/people/shiria/> a foaf:Person ;
     foaf:homepage "http://www.shiriazenkot.com" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/shiria.jpg> ;
+    foaf:mbox "shiria@cs.technion.ac.il" ;
     foaf:name "Azenkot, Shiri" .
 
 <http://www.cs.technion.ac.il/people/surke/> a foaf:Person ;
-    foaf:homepage "/people/surke/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    foaf:mbox "surke@cs.technion.ac.il" ;
     foaf:name "Sheinvald, Sarai" .
 
 <http://www.cs.technion.ac.il/people/talmo/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~talmo/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/talmo.jpg> ;
+    foaf:mbox "talmo@cs.technion.ac.il" ;
     foaf:name "Mor, Tal" .
 
 <http://www.cs.technion.ac.il/people/tamer/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~tamer/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/tamer.jpg> ;
+    foaf:mbox "tamer@cs.technion.ac.il" ;
     foaf:name "Salman, Tamer" .
 
 <http://www.cs.technion.ac.il/people/tammya/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~tammya/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/tammya.jpg> ;
+    foaf:mbox "tammya@cs.technion.ac.il" ;
     foaf:name "Avraham, Tamar" .
 
 <http://www.cs.technion.ac.il/people/tomera/> a foaf:Person ;
-    foaf:homepage "/people/tomera/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/tomera.jpg> ;
+    foaf:mbox "tomera@cs.technion.ac.il" ;
     foaf:name "Tomer, Amir" .
 
 <http://www.cs.technion.ac.il/people/tomersh/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~tomersh/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/tomersh.jpg> ;
+    foaf:mbox "tomersh@cs.technion.ac.il" ;
     foaf:name "Shlomi, Tomer" .
 
 <http://www.cs.technion.ac.il/people/tsachis/> a foaf:Person ;
-    foaf:homepage "/people/tsachis/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "tsachis@cs.technion.ac.il" ;
     foaf:name "Sharfman, Izchak Tzachi" .
 
 <http://www.cs.technion.ac.il/people/unga/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~unga/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/unga.jpg> ;
+    foaf:mbox "unga@cs.technion.ac.il" ;
     foaf:name "Ungarish, Marius" .
 
 <http://www.cs.technion.ac.il/people/yaakobi/> a foaf:Person ;
     foaf:homepage "http://yaakobi.net.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yaakobi.jpg> ;
+    foaf:mbox "yaakobi@cs.technion.ac.il" ;
     foaf:name "Yaakobi, Eitan" .
 
 <http://www.cs.technion.ac.il/people/yaelerez/> a foaf:Person ;
-    foaf:homepage "/people/yaelerez/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    foaf:mbox "yaelerez@cs.technion.ac.il" ;
     foaf:name "Erez, Yael" .
 
 <http://www.cs.technion.ac.il/people/yahave/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~yahave/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yahave.jpg> ;
+    foaf:mbox "yahave@cs.technion.ac.il" ;
     foaf:name "Yahav, Eran" .
 
 <http://www.cs.technion.ac.il/people/yairr/> a foaf:Person ;
-    foaf:homepage "/people/yairr/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "yairr@cs.technion.ac.il" ;
     foaf:name "Rezek, Yair" .
 
 <http://www.cs.technion.ac.il/people/yechiel/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/users/yechiel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yechiel.jpg> ;
+    foaf:mbox "yechiel@cs.technion.ac.il" ;
     foaf:name "Kimchi, Yechiel" .
 
 <http://www.cs.technion.ac.il/people/yetsion/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~yetsion/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yetsion.jpg> ;
+    foaf:mbox "yoav.etsion@tce.technion.ac.il" ;
     foaf:name "Etsion, Yoav" .
 
 <http://www.cs.technion.ac.il/people/yoavh/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~yoavh/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yoavh.jpg> ;
+    foaf:mbox "yoavh@cs.technion.ac.il" ;
     foaf:name "Haimovitch, Yoav" .
 
 <http://www.cs.technion.ac.il/people/yoaz/> a foaf:Person ;
-    foaf:homepage "/people/yoaz/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "yoaz@cs.technion.ac.il" ;
     foaf:name "Yoaz, Adi" .
 
 <http://www.cs.technion.ac.il/people/yogi/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~yogi/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yogi.jpg> ;
+    foaf:mbox "yogi@cs.technion.ac.il" ;
     foaf:name "Gil, Yossi" .
 
 <http://www.cs.technion.ac.il/people/yossiv/> a foaf:Person ;
-    foaf:homepage "/people/yossiv/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "yossiv@cs.technion.ac.il" ;
     foaf:name "Weinstein, Yossi" .
 
 <http://www.cs.technion.ac.il/people/yuvalfi/> a foaf:Person ;
     foaf:homepage "http://www.cs.toronto.edu/~yuvalf/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yuvalfi.jpg> ;
+    foaf:mbox "yuvalfi@cs.technion.ac.il" ;
     foaf:name "Filmus, Yuval" .
 
 <http://www.cs.technion.ac.il/people/yuvali/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~yuvali/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yuvali.jpg> ;
+    foaf:mbox "yuvali@cs.technion.ac.il" ;
     foaf:name "Ishai, Yuval" .
 
 <http://www.cs.technion.ac.il/people/z--1722/> a foaf:Person ;
     foaf:homepage "http://www.arijuels.com/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__1722.jpg> ;
+    foaf:mbox "juels@cornell.edu" ;
     foaf:name "Juels, Ari" .
 
 <http://www.cs.technion.ac.il/people/z--287/> a foaf:Person ;
-    foaf:homepage "/people/z--287/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
     foaf:name "Rubin, Shai" .
 
 <http://www.cs.technion.ac.il/people/z--629/> a foaf:Person ;
-    foaf:homepage "/people/z--629/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__629.jpg> ;
+    foaf:mbox "shulman@imperva.com" ;
     foaf:name "Shulman, Amichai" .
 
 <http://www.cs.technion.ac.il/people/z--alexshif/> a foaf:Person ;
-    foaf:homepage "/people/z--alexshif/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
     foaf:name "Schiftner, Alex" .
 
 <http://www.cs.technion.ac.il/people/z--davidi/> a foaf:Person ;
-    foaf:homepage "/people/z--davidi/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
     foaf:name "David, Izhak" .
 
 <http://www.cs.technion.ac.il/people/z--even/> a foaf:Person ;
-    foaf:homepage "/people/memoriam/z--even/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__even.jpg> ;
     foaf:name "Even, Shimon" .
 
 <http://www.cs.technion.ac.il/people/z--gadir/> a foaf:Person ;
-    foaf:homepage "/people/memoriam/z--gadir/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__gadir.jpg> ;
     foaf:name "Rahamim, Gadi" .
 
 <http://www.cs.technion.ac.il/people/z--goel/> a foaf:Person ;
-    foaf:homepage "/people/z--goel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
     foaf:name "Samuel, Goel" .
 
 <http://www.cs.technion.ac.il/people/z--inbar/> a foaf:Person ;
-    foaf:homepage "/people/z--inbar/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
     foaf:name "Inbar, Ohad" .
 
 <http://www.cs.technion.ac.il/people/z--israeli/> a foaf:Person ;
-    foaf:homepage "/people/memoriam/z--israeli/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__israeli.jpg> ;
     foaf:name "Israeli, Moshe" .
 
 <http://www.cs.technion.ac.il/people/z--karp/> a foaf:Person ;
     foaf:homepage "http://www.eecs.berkeley.edu/Faculty/Homepages/karp.html" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__karp.jpg> ;
     foaf:name "Richard, Karp" .
 
+<http://www.cs.technion.ac.il/people/z--listopad/> a foaf:Person ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__listopad.jpg> ;
+    foaf:name "Listopad, Zvi" .
+
 <http://www.cs.technion.ac.il/people/z--michalim/> a foaf:Person ;
-    foaf:homepage "/people/z--michalim/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__michalim.jpg> ;
+    foaf:mbox "michali@technion.ac.il" ;
     foaf:name "Iluz-Mimoni, Michal" .
 
 <http://www.cs.technion.ac.il/people/z--myoeli/> a foaf:Person ;
-    foaf:homepage "/people/memoriam/z--myoeli/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__myoeli.jpg> ;
     foaf:name "Yoeli, Michael" .
 
 <http://www.cs.technion.ac.il/people/z--ohads/> a foaf:Person ;
-    foaf:homepage "/people/z--ohads/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__ohads.jpg> ;
     foaf:name "Shacham, Ohad" .
 
 <http://www.cs.technion.ac.il/people/z--pearlj/> a foaf:Person ;
     foaf:homepage "http://bayes.cs.ucla.edu/jp_home.html" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__pearlj.jpg> ;
     foaf:name "Pearl, Judea" .
 
-<http://www.cs.technion.ac.il/people/z--perrin/> a foaf:Person ;
-    foaf:homepage "/people/z--perrin/" ;
-    foaf:name "Perrin, Matthieu" .
-
 <http://www.cs.technion.ac.il/people/z--rachel/> a foaf:Person ;
-    foaf:homepage "/people/memoriam/z--rachel/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/z__rachel.jpg> ;
     foaf:name "Pelled, Rachel" .
 
 <http://www.cs.technion.ac.il/people/z--self/> a foaf:Person ;
-    foaf:homepage "/people/z--self/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
     foaf:name "Sela, Frank" .
 
 <http://www.cs.technion.ac.il/people/zaks/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~zaks/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/zaks.jpg> ;
+    foaf:mbox "zaks@cs.technion.ac.il" ;
     foaf:name "Zaks, Shmuel" .
 
 <http://www.cs.technion.ac.il/people/zbarukh/> a foaf:Person ;
-    foaf:homepage "/people/zbarukh/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    foaf:mbox "zbarukh@cs.technion.ac.il" ;
     foaf:name "Ziv, Baruch" .
 
 <http://www.cs.technion.ac.il/people/zohary/> a foaf:Person ;
     foaf:homepage "http://bioinfo.cs.technion.ac.il/people/zohar/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/zohary.jpg> ;
+    foaf:mbox "zohar_yakhini@agilent.com" ;
     foaf:name "Yakhini, Zohar" .
 
 <http://www.cs.technion.ac.il/people/gnakibly/> a foaf:Person ;
     foaf:homepage "http://www.cs.technion.ac.il/~gnakibly/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/gnakibly.jpg> ;
+    foaf:mbox "gnakibly@cs.technion.ac.il" ;
     foaf:name "Nakibly, Gabi" .
 
 <http://www.cs.technion.ac.il/people/yaelmg/> a foaf:Person ;
     foaf:homepage "http://yaelab.technion.ac.il/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/yaelmg.jpg> ;
+    foaf:mbox "yaelmg@tx.technion.ac.il" ;
     foaf:name "Mandel-Gutfreund, Yael" .
+
+<http://www.cs.technion.ac.il/images/no-photo-woman.gif> a foaf:Image .
+
+<http://www.cs.technion.ac.il/images/no-photo-man.gif> a foaf:Image .
 
