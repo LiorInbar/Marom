@@ -25,13 +25,11 @@ def questions_not_exist_check():
 	return False
 
 
-def type_triple():
-	page.triples.append({})
-	page.triples[len(page.triples)-1]['subject']='<'+page.get_url()+'>'
-	page.triples[len(page.triples)-1]['predicate']='<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>'
-	page.triples[len(page.triples)-1]['object']='<http://jbs.technion.ac.il/resource/Question>'
+def add_type_triple():
+	page.add_triple('<'+page.get_url()+'>','<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>',
+		'<http://jbs.technion.ac.il/resource/Question>')
 
-def title_triple():
+def add_title_triple():
 	page.set_subject_query('//h1/text()')
 	page.set_predicate('<http://jbs.technion.ac.il/resource/title>')
 	page.set_object_query('/text()')
@@ -47,7 +45,7 @@ def title_triple():
 	page.triples[len(page.triples)-1]['object']=some_encoding_issues(page.triples[len(page.triples)-1]['object'])
 
 
-def rabbi_triple():
+def add_rabbi_triple():
 	page.set_subject_query('//h2/a/text()')
 	page.set_predicate('<http://jbs.technion.ac.il/resource/rabbiName>')
 	page.set_object_query('/text()')
@@ -60,7 +58,7 @@ def rabbi_triple():
 	page.triples[len(page.triples)-1]['object']=some_encoding_issues(page.triples[len(page.triples)-1]['object'])
 
 
-def date_triple():
+def add_date_triple():
 	page.set_subject_query('//div[@class="quesDate"]/text()')
 	page.set_predicate('<http://jbs.technion.ac.il/resource/date>')
 	page.set_object_query('/text()')
@@ -75,7 +73,7 @@ def date_triple():
 
 
 
-def question_and_answer_text():
+def add_question_and_answer_text():
 	subejct_elements = page.evaluate_xpath('//p[@class="content"]//text()')
 	question = ''
 	answer = ''
@@ -151,21 +149,21 @@ while index <= 100:
 	
 	
 	#inserting the question class triple
-	type_triple()
+	add_type_triple()
 
 	#geting the title
 
-	title_triple()
+	add_title_triple()
 
 	#rabbi triples
 
-	rabbi_triple()
+	add_rabbi_triple()
 
 	#date triples
-	date_triple()
+	add_date_triple()
 
 	#question and answer text - the ugly part
-	question_and_answer_text()
+	add_question_and_answer_text()
 
 
 	index=index+1
