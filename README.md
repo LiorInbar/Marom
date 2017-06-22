@@ -52,7 +52,7 @@ to create and use __page__ instance, define page object with the constructor **p
    
   
   
-page.set_url("http://www.cs.technion.ac.il/people/graduate-students/")        
+`page.set_url("http://www.cs.technion.ac.il/people/graduate-students/")`        
 page.set_subject_query('//ul[@class="peoplelist"]/li/a[last()]/@href')           
 def subject_func_person(s):      
 	return 'http://www.cs.technion.ac.il'+s    
