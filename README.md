@@ -14,7 +14,22 @@ to create and use __page__ instance, define page object with the constructor **p
   
   `import marom`  
     
-  `p = page()`.
+  `p = page()`.  
+  
+  ## page methods:  
+  
+ the methods of a page object create triples using parameters loaded into them with setters methods.  
+ 
+ create_triples():  
+ the main method of the module - matching subjects to objects, both are achieved through xpath queries,
+ via specific predicate. to use the methods, you have to load the following parameters to the  __page__ object 
+ using the following setters:  
+ set_url(url): the url of the webpage from which you extract the data  
+ set_subject_query(query): xpath query for extracting the list of subjects
+ set_subject_func(func): a function for proccesing the output of each element of the subject query output, or 0 if no 
+ proccesing is needed.
+ 
+
 
 
   
