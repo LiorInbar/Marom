@@ -42,9 +42,11 @@ to create and use __page__ instance, define page object with the constructor **p
    
  '\<ul class="peoplelist">
  \<li>\<span class="nohomelink">\</span>\<a href="/people/sdolevfe/" title="Department info page for Dolev Adas">Adas, Dolev\</a>\</li>  
-  \<li>\<span class="nohomelink">\</span>\<a href="/people/a.mohammad" title="Department info page for Mohammad   Agbarya">Agbarya,Mohammad\</a>\</li> '  
-    
-    for every student, we want the __href__ atribute of the __a__ element to be subject, with the prefix __http://www.cs.technion.ac.il__. the predicate is foaf:name. the name is the text of the __a__ element.
+  \<li>\<span class="nohomelink">\</span>\<a href="/people/a.mohammad" title="Department info page for Mohammad   Agbarya">Agbarya,Mohammad\</a>\</li>'  
+    
+    
+      
+    for every student, we want the __href__ atribute of the __a__ element to be subject, with the prefix __http://www.cs.technion.ac.il__. the predicate is foaf:name. the name is the text of the __a__ element.
     the subect function add the __http://www.cs.technion.ac.il__ prefix, and we don't need object function.
     the object is not an RDF resource. then the code will be:  
    
