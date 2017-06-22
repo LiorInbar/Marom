@@ -40,9 +40,9 @@ to create and use __page__ instance, define page object with the constructor **p
  we want to get student names from the page http://www.cs.technion.ac.il/people/graduate-students/. on the  "peoplelist" section we have:
    
    
- '\<ul class="peoplelist">
+**\<ul class="peoplelist">
  \<li>\<span class="nohomelink">\</span>\<a href="/people/sdolevfe/" title="Department info page for Dolev Adas">Adas, Dolev\</a>\</li>  
-  \<li>\<span class="nohomelink">\</span>\<a href="/people/a.mohammad" title="Department info page for Mohammad   Agbarya">Agbarya,Mohammad\</a>\</li>'  
+  \<li>\<span class="nohomelink">\</span>\<a href="/people/a.mohammad" title="Department info page for Mohammad   Agbarya">Agbarya,Mohammad\</a>\</li>** 
     
     
       
