@@ -24,10 +24,19 @@ to create and use __page__ instance, define page object with the constructor **p
  the main method of the module - matching subjects to objects, both are achieved through xpath queries,
  via specific predicate. to use the methods, you have to load the following parameters to the  __page__ object 
  using the following setters:  
- set_url(url): the url of the webpage from which you extract the data  
- set_subject_query(query): xpath query for extracting the list of subjects
- set_subject_func(func): a function for proccesing the output of each element of the subject query output, or 0 if no 
+ __set_url(url)__: the url of the webpage from which you extract the data.  
+ __set_subject_query__(query): xpath query for extracting the list of subjects.
+ __set_subject_func(func)__: a function for proccesing the output of each element of the subject query output, or 0 if no 
  proccesing is needed.
+ __set_predicate(predicate)__: the predicate of the triples.
+ __set_object_query(query)__: xpath query for extracting the list of objects.the query should be relative to the target
+ element of the subject query. that is, the target element of the subject query is the root element of the object query.  
+ __set_object_func(func)__: a function for proccesing the output of each element of the object query output, or 0 if no   
+ proccesing is needed.  
+ in adition, you will need to mention wethter the object of the triple is another RDF resource or a reguler string,  
+ by either activate set_object_type_resource() or set_object_type_string().  
+ after this settings, you can activate create triples(). 
+ 
  
 
 
