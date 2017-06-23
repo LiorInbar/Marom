@@ -63,7 +63,11 @@ page.set_object_query('/text()')
 page.set_object_func(0)    
 page.set_object_type_string()    
 page.create_triples() 
-```
+```  
+   
+the create_triple() method can generaly be used in almost every kind of triples extraction, but sometimes it is more comfortable to use 
+some shortcuts. for example, sometimes we want our subject or object to be a some constant string, rather then the result of expath query. in this case, we can use the __add_triple_subject_xpath__ or the __add_triple_object_xpath__ methods:  
+
 
  
  
