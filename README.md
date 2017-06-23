@@ -68,6 +68,22 @@ page.create_triples()
 the create_triple() method can generaly be used in almost every kind of triples extraction, but sometimes it is more comfortable to use 
 some shortcuts. for example, sometimes we want our subject or object to be a some constant string, rather then the result of expath query. in this case, we can use the __add_triple_subject_xpath(object)__ or the __add_triple_object_xpath(subject)__ methods:  
 in __add_triple_subject_xpath__, the object is a constant string, so you don't need to set the object query and function. instead you pass the object string as a parameter. similarly, in __add_triple_object_xpath(subject)__ the object is a constant string, so you don't need to set the subject query and function (the object query is relative to the root element).  
+example:  
+from the same page, we want to declare every student as an RDF resource of type foaf:Person. therefore we will create triples in which the object is the constant string 'http://xmlns.com/foaf/0.1/Person':  
+  
+  ```  
+page.set_url("http://www.cs.technion.ac.il/people/graduate-students/")        
+page.set_subject_query('//ul[@class="peoplelist"]/li/a[last()]/@href)
+def subject_func_person(s):      
+	return 'http://www.cs.technion.ac.il'+s    
+sf_person = subject_func_person  
+page.set_subject_func(sf_person)        
+page.set_predicate('http://www.w3.org/1999/02/22-rdf-syntax-ns#type')      
+page.set_object_type_resource()    
+page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
+ 
+```  
+
   
   
 
