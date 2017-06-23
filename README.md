@@ -67,6 +67,7 @@ page.create_triples()
    
 the create_triple() method can generaly be used in almost every kind of triples extraction, but sometimes it is more comfortable to use 
 some shortcuts. for example, sometimes we want our subject or object to be a some constant string, rather then the result of expath query. in this case, we can use the __add_triple_subject_xpath__ or the __add_triple_object_xpath__ methods:  
+in __add_triple_subject_xpath__, the object is a constant string, so you don't need to set the object query and function. instead you pass the object string as a parameter
 
 
  
