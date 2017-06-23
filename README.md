@@ -46,8 +46,8 @@ to create and use __page__ instance, define page object with the constructor **p
     
     
       
-    for every student, we want the __href__ atribute of the __a__ element to be subject, with the prefix __http://www.cs.technion.ac.il__. the predicate is foaf:name. the name is the text of the __a__ element.
-    the subect function add the __http://www.cs.technion.ac.il__ prefix, and we don't need object function.
+    for every student, we want the __href__ atribute of the __a__ element to be subject, with the prefix __'http://www.cs.technion.ac.il'__. the predicate is foaf:name. the name is the text of the __a__ element.
+    the subect function add the __'http://www.cs.technion.ac.il'__ prefix, and we don't need object function.
     the object is not an RDF resource. then the code will be:  
    
   
