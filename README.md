@@ -11,10 +11,10 @@ the marom module can be download from the project github page - download the fil
 ## using the module: 
 the module define the class __page__, which consists of a list of triples and the methods that create them.
 to create and use __page__ instance, define page object with the constructor **page()**:  
-  
-  `import marom`  
-    
-  `p = page()`.  
+  ```   
+  import marom     
+  page = page().  
+  ```  
   
   ## page methods:  
   
