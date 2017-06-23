@@ -25,16 +25,16 @@ to create and use __page__ instance, define page object with the constructor **p
  via specific predicate. to use the methods, you have to load the following parameters to the  __page__ object 
  using the following setters:  
  __set_url(url)__: the url of the webpage from which you extract the data.  
- __set_subject_query__(query): xpath query for extracting the list of subjects.
+ __set_subject_query__(query): xpath query for extracting the list of subjects.  
  __set_subject_func(func)__: a function for proccesing the output of each element of the subject query output, or 0 if no 
- proccesing is needed.
- __set_predicate(predicate)__: the predicate of the triples.
- __set_object_query(query)__: xpath query for extracting the list of objects.the query should be relative to the target
- element of the subject query. that is, the target element of the subject query is the root element of the object query.  
- __set_object_func(func)__: a function for proccesing the output of each element of the object query output, or 0 if no   
  proccesing is needed.  
+ __set_predicate(predicate)__: the predicate of the triples.  
+ __set_object_query(query)__: xpath query for extracting the list of objects.the query should be relative to the target
+ element of the subject query. that is, the target element of the subject query is the root element of the object query.    
+ __set_object_func(func)__: a function for proccesing the output of each element of the object query output, or 0 if no   
+ proccesing is needed.    
  in adition, you will need to mention wethter the object of the triple is another RDF resource or a reguler string,  
- by either activate __set_object_type_resource()__ or __set_object_type_string()__.  
+ by either activate __set_object_type_resource()__ or __set_object_type_string()__.    
  after this settings, you can activate __create triples()__.  
  example:  
  we want to get student names from the page http://www.cs.technion.ac.il/people/graduate-students/. on the  "peoplelist" section we have:
