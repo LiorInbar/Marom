@@ -97,11 +97,3 @@ page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
 .
  
  
-
-
-
-
-  
-we will present using of the module by extracting data and create triples from the staff page of the CS department - 
-http://www.cs.technion.ac.il/people/faculty/.
-
