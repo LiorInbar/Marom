@@ -87,7 +87,10 @@ page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
   another option is simply add a single triple to the triples colection, with the function  
   __add_triple(subject,predicate,object)__ .  
   
-  
+  ## the triples colection  
+    
+    the triples colection is a list of map objects with fields 'subject', 'predicate, and 'object'.
+    althogh it is better not to update this list directly (without using one of the above methods), it is posible, and sometimes neccesery.
   
  
 
