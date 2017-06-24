@@ -83,14 +83,18 @@ page.set_object_type_resource()
 page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
  
 ```  
-
+  
+  another option is simply add a single triple to the triples colection, with the function  
+  __add_triple(subject,predicate,object)__ .  
   
   
+  
+ 
 
+.
+ 
+ 
 
- 
- 
- 
 
 
 
