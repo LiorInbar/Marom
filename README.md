@@ -89,8 +89,8 @@ page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
   
   ## the triples colection  
     
-    the triples colection is a list of map objects with fields 'subject', 'predicate, and 'object'.
-    althogh it is better not to update this list directly (without using one of the above methods), it is posible, and sometimes neccesery.
+ the triples colection is a list of map objects with fields 'subject', 'predicate, and 'object'.
+ althogh it is better not to update this list directly (without using one of the above methods), it is posible, and sometimes neccesery.
   
  
 
