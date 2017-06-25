@@ -97,7 +97,7 @@ page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
  After you finish to create triples, you turn the triples colection into RDF document with the method __turtle(file_name)__,
  flle_name is the name of the output file.
  
- ##Examples of use  
+ ## Examples of use  
    
  For complete examples of usage, see in  the files faculty.py students.py labs_triples.py staff.py and the output files 
  faculty_turtle.txt, students_turtle.txt, labs_turtle.txt, staff_turtle.txt you can see the usage of the module to extract triples from technon CS department's web pages.    
