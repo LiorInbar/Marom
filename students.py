@@ -1,67 +1,57 @@
-import triples_creator
+import marom
 import re
 
-url="http://www.cs.technion.ac.il/people/graduate-students/"
+page = marom.page()
 
-subject_query_person='//ul[@class="peoplelist"]/li/a[last()]/@href'
+page.set_url("http://www.cs.technion.ac.il/people/graduate-students/")
+page.set_object_type_resource()
+page.set_subject_query('//ul[@class="peoplelist"]/li/a[last()]/@href')
+page.set_predicate('http://www.w3.org/1999/02/22-rdf-syntax-ns#type')
 def subject_func_person(s):
-	return '<http://www.cs.technion.ac.il'+s+'>'
-type_predicate = '<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>'
-def object_func_person():
-	return '<http://xmlns.com/foaf/0.1/Person>'
+	return 'http://www.cs.technion.ac.il'+s
 sf_person = subject_func_person
-of_person = object_func_person
-
-triples = triples_creator.create_triples(url,subject_query_person,sf_person,type_predicate,0,of_person)
+page.set_subject_func(sf_person)
+page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
 
 URIs = []
-for a in triples:
+for a in page.triples:
 	uri = a['subject']
 	uri = re.sub(r'[<>]',"",uri)
 	uri = re.sub(r'graduate-students/','',uri)
 	URIs.append(uri)
 
 
-homepage_query='/../a[1]/@href'
-homepage_predicate = '<http://xmlns.com/foaf/0.1/homepage>'
-def object_func_homepage(s):
-	return '"'+s+'"'
-of_homepage = object_func_homepage
+page.set_predicate('http://xmlns.com/foaf/0.1/name')
+page.set_subject_query('//ul[@class="peoplelist"]/li/a[last()]/@href')
+page.set_object_query('/text()')
+page.set_object_func(0)
+page.set_object_type_string()
+page.create_triples()
 
 
-triples = triples + triples_creator.create_triples(url,subject_query_person,sf_person,homepage_predicate,homepage_query,of_homepage)	
+page.set_predicate('http://xmlns.com/foaf/0.1/homepage')
+page.set_object_query('/../a[1]/@href')
+page.create_triples()
 
 
-name_query='/text()'
-name_predicate = '<http://xmlns.com/foaf/0.1/name>'
-def object_func_name(s):
-	return '"'+s+'"'
-of_name = object_func_name
-
-
-triples = triples + triples_creator.create_triples(url,subject_query_person,sf_person,name_predicate,name_query,of_name)
-
-
-group_query = '//h2/text()'
-group_predicate = '<http://xmlns.com/foaf/0.1/Group>'
+page.set_object_type_resource()
+page.set_subject_query('//h2/text()')
+page.set_predicate('http://www.w3.org/1999/02/22-rdf-syntax-ns#type')
 def subject_func_group(s):
 	s = re.sub(' ','_',s)
-	return '<http://www.cs.technion.ac.il/students/'+s+'>'
-def object_func_group():
-	return '<http://xmlns.com/foaf/0.1/Group>'
+	return 'http://www.cs.technion.ac.il/faculty/'+s
 sf_group = subject_func_group
-of_group = object_func_group
+page.set_subject_func(sf_group)
+page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Group')
 
-triples = triples + triples_creator.create_triples(url,group_query,sf_group,type_predicate,0,of_group)
 
-
-member_predicate = '<http://xmlns.com/foaf/0.1/member>'
-member_query = '/following-sibling::ul[position()=1]/li/a[last()]/@href'
+page.set_predicate('http://xmlns.com/foaf/0.1/member')
+page.set_object_query('/following-sibling::ul[position()=1]/li/a[last()]/@href')
 def object_func_member(s):
-	return '<http://www.cs.technion.ac.il'+s+'>'
+	return 'http://www.cs.technion.ac.il'+s
 of_member = object_func_member
-
-triples = triples + triples_creator.create_triples(url,group_query,sf_group,member_predicate,member_query,of_member)
+page.set_object_func(of_member)
+page.create_triples()
 
 
 mbox_query1 = '//dt[text()="Email:"]/following-sibling::dd[position()=1]'
@@ -85,28 +75,35 @@ of_image_class = object_func_image_class
 of_image_property = object_func_image_property
 
 
+def func_image(s):
+	return 'http://www.cs.technion.ac.il'+s
+f_image = func_image
+
+
 
 temp = []
 for uri in URIs:
-	def subject_func_person_for_image(s):
-		return '<'+uri+'>'
-	sf_person_for_image = subject_func_person_for_image
+	page.set_object_type_resource()
+	page.set_url(uri)
+	page.set_subject_query('//img[@class="personphoto"]/@src')
+	page.set_predicate('http://www.w3.org/1999/02/22-rdf-syntax-ns#type')
+	page.set_subject_func(f_image) 
+	page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Image')
 
-	triples = triples + triples_creator.create_triples(uri,image_query1,
-	sf_image,type_predicate,0,of_image_class)
-	triples = triples + triples_creator.create_triples(uri,image_query1,
-	subject_func_person_for_image,image_predicate,image_query2,of_image_property)	
+	page.set_object_func(f_image)
+	page.set_object_query('//img[@class="personphoto"]/@src')
+	page.set_predicate('http://xmlns.com/foaf/0.1/img')
+	page.add_triple_object_xpath(uri)
 
-	def subject_func_mbox(s):
-		return '<'+uri+'>'
-	sf_mbox = subject_func_mbox
-	temp = temp + triples_creator.create_triples(uri,mbox_query1,
-		sf_mbox,mbox_predicate,mbox_query2,of_mbox)	
-for t in range(len(temp)):
-	if t>0 :
-		if temp[t]['subject']==temp[t-1]['subject']:
-			triples.append({'subject' : temp[t]['subject'],'predicate' : mbox_predicate,'object' : '"'+temp[t-1]['object']+'@'+temp[t]['object']+'"'})
+	page.set_object_type_string()
+	page.set_object_query('//dt[text()="Email:"]/following-sibling::dd[position()=1]/text()')
+	page.set_predicate('http://xmlns.com/foaf/0.1/mbox')
+	page.set_object_func(0)
+	page.add_triple_object_xpath(uri)
+	if page.triples[len(page.triples)-1]['predicate']==page.triples[len(page.triples)-2]['predicate']:
+		page.triples[len(page.triples)-2]['object']='"'+re.sub('"','',page.triples[len(page.triples)-2]['object'])+'@'+re.sub('"','',page.triples[len(page.triples)-1]['object'])+'"'
+		del page.triples[len(page.triples)-1]
 
 
-triples_creator.turtle(triples, 'students_turtle.txt')
+page.turtle('students_turtle.txt')
 
