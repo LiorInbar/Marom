@@ -2,7 +2,7 @@
 MAROM - Rdf Ontology Mapper
 
 ## Installations:
-The module works on python 2.  
+The module works on python 3.  
 External modules required:  
 * lxml: processing xml documents and perform xpath queries - http://lxml.de/  
 * rdflib: create turtle files - https://rdflib.readthedocs.io/en/stable/  
