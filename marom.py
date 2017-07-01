@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import urllib
+import urllib.request
 from lxml import html
 from lxml import etree
 import xml.etree.ElementTree as ET
@@ -12,7 +12,8 @@ import re
 
 
 def encoding_fix(text):
-	return re.sub(b'\xc3\x97\xc2',b'\xd7',unicode(text).encode('utf-8')).decode('utf-8')
+	#return re.sub(b'\xc3\x97\xc2',b'\xd7',unicode(text).encode('utf-8')).decode('utf-8')
+	return text
 
 
 
@@ -35,7 +36,7 @@ class page:
 	def set_object_func(self,func):
 		self.object_func = func
 	def evaluate_xpath(self,query):
-		data = urllib.urlopen(self.get_url()).read()
+		data = urllib.request.urlopen(self.get_url()).read()
 		tree = etree.HTML(data)
 		result = tree.xpath(query)
 		for i in range(len(result)):
@@ -56,7 +57,7 @@ class page:
 
 
 	def create_triples(self):
-	    page = urllib.urlopen(self.url).read()
+	    page = urllib.request.urlopen(self.url).read()
 	    tree = etree.HTML(page)
 	    new_triples = []
 	    if self.subject_query!=0:
@@ -95,7 +96,7 @@ class page:
 	    self.triples = self.triples + new_triples
 
 	def add_triple_object_xpath(self,subject):
-	    page = urllib.urlopen(self.get_url()).read()
+	    page = urllib.request.urlopen(self.get_url()).read()
 	    tree = etree.HTML(page)
 	    result = tree.xpath(self.object_query)
 	    for i in range(len(result)):
@@ -115,7 +116,7 @@ class page:
 
 
 	def add_triple_subject_xpath(self,Object):
-	    page = urllib.urlopen(self.get_url()).read()
+	    page = urllib.request.urlopen(self.get_url()).read()
 	    tree = etree.HTML(page)
 	    result = tree.xpath(self.subject_query)
 	    for i in range(len(result)):
@@ -138,7 +139,7 @@ class page:
 	    g.parse(output_file, format="nt")
 	    g.serialize(destination=output_file,format='turtle')
 	    for line in fileinput.input(output_file, inplace=True):
-	        print(string.replace(line,'ns1:','foaf:').rstrip())   
+	        print(line.replace('ns1:','foaf:').rstrip())   
 
 
 

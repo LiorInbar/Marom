@@ -93,29 +93,30 @@ def boring_technical_stuff():
 			page.triples[i]['object']='"zz'+str(j)+'zz"'
 			j=j+1
 
-	page.turtle('questions_output.txt')
+	page.turtle('questions_output20000_25000.txt')
 
-	with open('questions_output.txt','r') as f:
+	with open('questions_output20000_25000.txt','r') as f:
 		text = f.read()
 	f.close()
 	for i in range(len(arr)):
 		s = '"zz'+str(i)+'zz"'
 		text = re.sub(s,arr[i],text)
-	f = open('questions_output.txt','w')
-	f.write(text.encode('utf-8'))
+	f = open('questions_output20000_25000.txt','w')
+	f.write(text)
 	f.close()
-	for line in fileinput.input('questions_output2.txt', inplace=True):
-		print(string.replace(line,'foaf:','jbo:').rstrip()) 
+	for line in fileinput.input('questions_output20000_25000.txt', inplace=True):
+		print(line.replace('foaf:','jbo:').rstrip()) 
 	f.close()
 
 page = marom.page()
-index=10001
-questions_not_exist = open('questions_not_exist2.txt','w')
+index=20001
+questions_not_exist = open('questions_not_exist20000_25000.txt','w')
 count = open('page_count.txt','w')
 
-while index <= 20000:
+while index <= 25000:
 	page.set_url('http://www.yeshiva.org.il/ask/'+str(index))
 	count.write(str(index)+'\n')
+	print(index)
 	if questions_not_exist_check(page):
 		questions_not_exist.write(str(index)+'\n')
 		index=index+1
