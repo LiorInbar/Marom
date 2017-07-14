@@ -5,7 +5,13 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
+foaf:Image a owl:Class ;
+    rdfs:subClassOf foaf:Document .
+	rdfs:label "Image" ;
 
+foaf:Document a owl:Class ;
+	rdfs:label "Document" ;
+	
 foaf:Group a owl:Class ;
     rdfs:subClassOf foaf:Agent .
 	rdfs:label "Group" ;
