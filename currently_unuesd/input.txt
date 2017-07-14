@@ -1,3 +1,0 @@
-//ul[@class="peoplelist"]/li/a[2]/@href $ @ a foaf:Person
-//ul[@class="peoplelist"]/li/a[2]/@href $ /./../text() $ @ foaf:name @@ 
-//ul[@class="peoplelist"]/li/a[2]/@href $  /./../../a[1]/@href $ @  foaf:homepage  @@
