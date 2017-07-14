@@ -99,7 +99,7 @@ page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Person')
  
  ## Examples of use  
    
- For complete examples of usage, see in  the files faculty/faculty.py students/students.py labs/labs_triples.py staff/staff.py and the output files faculty/faculty_turtle.txt, students/students_turtle.txt, labs/labs_turtle.txt, staff/staff_turtle.txt you can see the usage of the module to extract triples from technon CS department's web pages.  
+ For complete examples of usage, see in  the files CS/faculty.py CS/students.py CS/labs_triples.py CS/staff.py and the output files CS/output/faculty_turtle.txt, CS/output/students_turtle.txt, CS/output/labs_turtle.txt, CS/output/staff_turtle.txt you can see the usage of the module to extract triples from technon CS department's web pages.  
 In the file questions/questions.py you can see extractions of data from tens of thousands of Q&A pages from Yeshiva.org.il. 
  
  
