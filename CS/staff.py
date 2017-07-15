@@ -84,5 +84,11 @@ for uri in URIs:
 	page.set_object_func(sf_image)
 	page.add_triple_object_xpath(uri)
 
+	page.set_object_type_string()
+	page.set_object_query('//dt[text()="Phone:"]/following-sibling::dd[position()=1]/text()')
+	page.set_predicate('http://xmlns.com/foaf/0.1/phone')
+	page.set_object_func(0)
+	page.add_triple_object_xpath(uri)
+
 page.turtle('staff_turtle.txt')
 

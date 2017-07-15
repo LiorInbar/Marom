@@ -104,6 +104,11 @@ for uri in URIs:
 		page.triples[len(page.triples)-2]['object']='"'+re.sub('"','',page.triples[len(page.triples)-2]['object'])+'@'+re.sub('"','',page.triples[len(page.triples)-1]['object'])+'"'
 		del page.triples[len(page.triples)-1]
 
+	page.set_object_query('//dt[text()="Phone:"]/following-sibling::dd[position()=1]/text()')
+	page.set_predicate('http://xmlns.com/foaf/0.1/phone')
+	page.set_object_func(0)
+	page.add_triple_object_xpath(uri)
+
 
 page.turtle('students_turtle.txt')
 

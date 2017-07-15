@@ -66,11 +66,10 @@ def func_image(s):
 	return 'http://www.cs.technion.ac.il'+s
 f_image = func_image
 
-
 temp = []
 for uri in URIs:
 	page.set_url(uri)
-	page.set_subject_func(f_image) 
+	page.set_subject_func(f_image)
 	page.set_subject_query('//img[@class="personphoto"]/@src')
 	page.set_predicate('http://www.w3.org/1999/02/22-rdf-syntax-ns#type')
 	page.add_triple_subject_xpath('http://xmlns.com/foaf/0.1/Image')
@@ -80,6 +79,7 @@ for uri in URIs:
 	page.set_object_func(f_image)
 	page.add_triple_object_xpath(uri)
 
+	
 	page.set_object_query('//dt[text()="Email:"]/following-sibling::dd[position()=1]/text()')
 	page.set_predicate('http://xmlns.com/foaf/0.1/mbox')
 	page.set_object_type_string()
@@ -88,6 +88,29 @@ for uri in URIs:
 	if page.triples[len(page.triples)-1]['predicate']==page.triples[len(page.triples)-2]['predicate']:
 		page.triples[len(page.triples)-2]['object']='"'+re.sub('"','',page.triples[len(page.triples)-2]['object'])+'@'+re.sub('"','',page.triples[len(page.triples)-1]['object'])+'"'
 		del page.triples[len(page.triples)-1]
+	
+	page.set_object_query('//dt[text()="Phone:"]/following-sibling::dd[position()=1]/text()')
+	page.set_predicate('http://xmlns.com/foaf/0.1/phone')
+	page.set_object_func(0)
+	page.add_triple_object_xpath(uri)
+
+
+	infolist = page.evaluate_xpath('//dt[text()="Research interests"]/following-sibling::dd[position()=1]/text()')
+	if len(infolist)>0:
+		infolist[0]=infolist[0].replace('\r\n',' ')
+		infolist[0]=infolist[0].replace('\n',' ')
+		infolist[0]=infolist[0].replace('\r',' ')		
+		infolist[0]=infolist[0].replace('.','')
+		infolist[0]=infolist[0].replace('"','')
+		if ';' in infolist[0]:
+			infostring = infolist[0].split(';')
+		else:
+			infostring = infolist[0].split(',')
+		for info in infostring:
+			page.add_triple(uri,'http://xmlns.com/foaf/0.1/interest',info)
+
+
+
 
 page.turtle('faculty_turtle.txt')
 
