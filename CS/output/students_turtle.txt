@@ -1,11 +1,11 @@
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.cs.technion.ac.il/faculty/LAPIDIM_Students> a foaf:Group ;
-    foaf:member <http://www.cs.technion.ac.il/people/maltsev/>,
+<http://www.cs.technion.ac.il/faculty/LAPIDIM_Students> a ns1:Group ;
+    ns1:member <http://www.cs.technion.ac.il/people/maltsev/>,
         <http://www.cs.technion.ac.il/people/z--adame/>,
         <http://www.cs.technion.ac.il/people/z--danibar/>,
         <http://www.cs.technion.ac.il/people/z--dorimed/>,
@@ -24,8 +24,8 @@
         <http://www.cs.technion.ac.il/people/z--uris/>,
         <http://www.cs.technion.ac.il/people/z--vald/> .
 
-<http://www.cs.technion.ac.il/faculty/M.Sc._Students> a foaf:Group ;
-    foaf:member <http://www.cs.technion.ac.il/people/a.mohammad>,
+<http://www.cs.technion.ac.il/faculty/M.Sc._Students> a ns1:Group ;
+    ns1:member <http://www.cs.technion.ac.il/people/a.mohammad>,
         <http://www.cs.technion.ac.il/people/akravi/>,
         <http://www.cs.technion.ac.il/people/ali.tabaja>,
         <http://www.cs.technion.ac.il/people/alonbri/>,
@@ -184,8 +184,8 @@
         <http://www.cs.technion.ac.il/people/z--1748/>,
         <http://www.cs.technion.ac.il/people/zuphit/> .
 
-<http://www.cs.technion.ac.il/faculty/Ph.D._Students> a foaf:Group ;
-    foaf:member <http://www.cs.technion.ac.il/people/alon.s>,
+<http://www.cs.technion.ac.il/faculty/Ph.D._Students> a ns1:Group ;
+    ns1:member <http://www.cs.technion.ac.il/people/alon.s>,
         <http://www.cs.technion.ac.il/people/amipaz/>,
         <http://www.cs.technion.ac.il/people/amirgeva/>,
         <http://www.cs.technion.ac.il/people/amitboy/>,
@@ -247,8 +247,8 @@
         <http://www.cs.technion.ac.il/people/ydar/>,
         <http://www.cs.technion.ac.il/people/ygal/> .
 
-<http://www.cs.technion.ac.il/faculty/SAMBA_Students> a foaf:Group ;
-    foaf:member <http://www.cs.technion.ac.il/people/maltsev/>,
+<http://www.cs.technion.ac.il/faculty/SAMBA_Students> a ns1:Group ;
+    ns1:member <http://www.cs.technion.ac.il/people/maltsev/>,
         <http://www.cs.technion.ac.il/people/z--aimana/>,
         <http://www.cs.technion.ac.il/people/z--danico/>,
         <http://www.cs.technion.ac.il/people/z--drorda/>,
@@ -257,1726 +257,1727 @@
         <http://www.cs.technion.ac.il/people/z--sharonku/>,
         <http://www.cs.technion.ac.il/people/z--tomerla/> .
 
-<http://www.cs.technion.ac.il/images/people/amirgeva.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/amirgeva.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/anavy.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/anavy.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/arietal.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/arietal.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/arthurk.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/arthurk.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/avivy.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/avivy.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/avnerel.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/avnerel.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/azencot.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/azencot.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/ddana.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/ddana.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/dorzohar.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/dorzohar.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/dsainz.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/dsainz.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/edwardv.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/edwardv.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/ekravi.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/ekravi.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/erangi.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/erangi.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/fire.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/fire.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/fonaro.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/fonaro.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/gilkup.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/gilkup.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/gkutiel.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/gkutiel.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/hassan.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/hassan.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/hilap.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/hilap.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/idanyani.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/idanyani.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/igors.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/igors.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/itaih.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/itaih.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/jsulam.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/jsulam.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/kviat.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/kviat.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/levyohananov.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/levyohananov.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/liatpf.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/liatpf.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/matansel.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/matansel.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/mayaarl.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/mayaarl.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/maytal.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/maytal.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/mbs.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/mbs.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/melanyc.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/melanyc.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/mgabel.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/mgabel.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/michal.f.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/michal.f.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/mlitbk.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/mlitbk.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/mshalah.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/mshalah.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/nuritdv.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/nuritdv.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/omerkatz.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/omerkatz.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/oran.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/oran.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/paigautam.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/paigautam.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/ranko.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/ranko.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/roeige.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/roeige.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/rotemliss.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/rotemliss.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/sarai.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/sarai.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/saviramm.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/saviramm.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/sbadian.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/sbadian.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/shaivak.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/shaivak.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/shroman.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/shroman.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/shunita.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/shunita.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/smosesli.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/smosesli.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/snirc.jpg> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/snirc.jpg> a ns1:Image .
 
-<http://www.cs.technion.ac.il/images/people/snofca.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/sorimar.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/sran.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/srojeh.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/stavp.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/syairr.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/szarecki.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/tomerghelber.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/uzi.cohen.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/vardanp.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/yanivd.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/yoavn.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/people/yon_b.jpg> a foaf:Image .
-
-<http://www.cs.technion.ac.il/people/a.mohammad> a foaf:Person ;
-    foaf:homepage "/people/a.mohammad" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "a.mohammad@cs.technion.ac.il" ;
-    foaf:name "Agbarya, Mohammad" ;
-    foaf:phone "(972)-4-829-4307" .
-
-<http://www.cs.technion.ac.il/people/akravi/> a foaf:Person ;
-    foaf:homepage "/people/akravi/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "akravi@cs.technion.ac.il" ;
-    foaf:name "Kravi, Ayelet" ;
-    foaf:phone "(972)-4-829-3854" .
-
-<http://www.cs.technion.ac.il/people/ali.tabaja> a foaf:Person ;
-    foaf:homepage "/people/ali.tabaja" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ali.tabaja@cs.technion.ac.il" ;
-    foaf:name "Tabaja, Ali" ;
-    foaf:phone "(972)-4-829-4260" .
-
-<http://www.cs.technion.ac.il/people/alon.s> a foaf:Person ;
-    foaf:homepage "/people/alon.s" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "alon.s@cs.technion.ac.il" ;
-    foaf:name "Stern, Alon" .
-
-<http://www.cs.technion.ac.il/people/alonbri/> a foaf:Person ;
-    foaf:homepage "/people/alonbri/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "alonbri@cs.technion.ac.il" ;
-    foaf:name "Brifman, Alon" .
-
-<http://www.cs.technion.ac.il/people/amipaz/> a foaf:Person ;
-    foaf:homepage "/people/amipaz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "amipaz@cs.technion.ac.il" ;
-    foaf:name "Paz, Ami" ;
-    foaf:phone "(972)-4-829-5531" .
-
-<http://www.cs.technion.ac.il/people/amirc/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~amirc/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "amirc@cs.technion.ac.il" ;
-    foaf:name "Cohen, Amir" ;
-    foaf:phone "(972)-4-829-4307" .
-
-<http://www.cs.technion.ac.il/people/amirgeva/> a foaf:Person ;
-    foaf:homepage "http://amirgeva.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/amirgeva.jpg> ;
-    foaf:mbox "amirgeva@cs.technion.ac.il" ;
-    foaf:name "Geva, Amir" ;
-    foaf:phone "(972)-4-829-4935" .
-
-<http://www.cs.technion.ac.il/people/amitboy/> a foaf:Person ;
-    foaf:homepage "/people/amitboy/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "amitboy@cs.technion.ac.il" ;
-    foaf:name "Boyarski, Amit" ;
-    foaf:phone "(972)-4-829-4867" .
-
-<http://www.cs.technion.ac.il/people/amitgr/> a foaf:Person ;
-    foaf:homepage "/people/amitgr/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "amitgr@cs.technion.ac.il" ;
-    foaf:name "Gross, Amit" .
-
-<http://www.cs.technion.ac.il/people/ammicha3/> a foaf:Person ;
-    foaf:homepage "/people/ammicha3/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ammicha3@cs.technion.ac.il" ;
-    foaf:name "Amir, Michael" ;
-    foaf:phone "(972)-4-829-4930" .
-
-<http://www.cs.technion.ac.il/people/anavy/> a foaf:Person ;
-    foaf:homepage "http://anavy.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/anavy.jpg> ;
-    foaf:mbox "anavy@cs.technion.ac.il" ;
-    foaf:name "Anavy, Leon" ;
-    foaf:phone "(972)-4-829-5530" .
-
-<http://www.cs.technion.ac.il/people/andrew.isakov> a foaf:Person ;
-    foaf:homepage "/people/andrew.isakov" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "andrew.isakov@cs.technion.ac.il" ;
-    foaf:name "Isakov, Andrew" ;
-    foaf:phone "(972)-4-829-4890" .
-
-<http://www.cs.technion.ac.il/people/annat/> a foaf:Person ;
-    foaf:homepage "/people/annat/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "annat@cs.technion.ac.il" ;
-    foaf:name "Trostanetski, Anna" ;
-    foaf:phone "(972)-4-829-4315" .
-
-<http://www.cs.technion.ac.il/people/arietal/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~arietal/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/arietal.jpg> ;
-    foaf:mbox "arietal@cs.technion.ac.il" ;
-    foaf:name "Tal, Arie" ;
-    foaf:phone "(972)-4-829-4319" .
-
-<http://www.cs.technion.ac.il/people/arthurk/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~arthurk/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/arthurk.jpg> ;
-    foaf:mbox "arthurk@cs.technion.ac.il" ;
-    foaf:name "Kiyanovski, Arthur" ;
-    foaf:phone "(972)-4-829-4883" .
-
-<http://www.cs.technion.ac.il/people/ashtern/> a foaf:Person ;
-    foaf:homepage "/people/ashtern/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ashtern@cs.technion.ac.il" ;
-    foaf:name "Stern, Alon" ;
-    foaf:phone "(972)-4-829-4895" .
-
-<http://www.cs.technion.ac.il/people/avivy/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~avivy/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/avivy.jpg> ;
-    foaf:mbox "avivy@cs.technion.ac.il" ;
-    foaf:name "Yehezkel, Aviv" .
-
-<http://www.cs.technion.ac.il/people/avnerel/> a foaf:Person ;
-    foaf:homepage "/people/avnerel/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/avnerel.jpg> ;
-    foaf:mbox "avnerel@cs.technion.ac.il" ;
-    foaf:name "Elizarov, Avner" ;
-    foaf:phone "(972)-4-829-3864" .
-
-<http://www.cs.technion.ac.il/people/azencot/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~azencot/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/azencot.jpg> ;
-    foaf:mbox "azencot@cs.technion.ac.il" ;
-    foaf:name "Azencot, Omri" ;
-    foaf:phone "(972)-4-829-4896" .
-
-<http://www.cs.technion.ac.il/people/balber/> a foaf:Person ;
-    foaf:homepage "/people/balber/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "balber@cs.technion.ac.il" ;
-    foaf:name "Balber, Michael" .
-
-<http://www.cs.technion.ac.il/people/barakpat/> a foaf:Person ;
-    foaf:homepage "/people/barakpat/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "barakpat@cs.technion.ac.il" ;
-    foaf:name "Pat, Barak" .
-
-<http://www.cs.technion.ac.il/people/batg/> a foaf:Person ;
-    foaf:homepage "/people/batg/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "batg@cs.technion.ac.il" ;
-    foaf:name "Golden, Batchen" ;
-    foaf:phone "(972)-4-829-3376" .
-
-<http://www.cs.technion.ac.il/people/bdaviv/> a foaf:Person ;
-    foaf:homepage "/people/bdaviv/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "bdaviv@cs.technion.ac.il" ;
-    foaf:name "Ben-David, Aviv" .
-
-<http://www.cs.technion.ac.il/people/benezair/> a foaf:Person ;
-    foaf:homepage "/people/benezair/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "benezair@cs.technion.ac.il" ;
-    foaf:name "Ezair, Ben" ;
-    foaf:phone "(972)-4-829-4928" .
-
-<http://www.cs.technion.ac.il/people/borispi/> a foaf:Person ;
-    foaf:homepage "/people/borispi/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "borispi@cs.technion.ac.il" ;
-    foaf:name "Pismenny, Boris" ;
-    foaf:phone "(972)-4-829-4309" .
-
-<http://www.cs.technion.ac.il/people/carmeli/> a foaf:Person ;
-    foaf:homepage "/people/carmeli/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "carmeli@cs.technion.ac.il" ;
-    foaf:name "Carmeli, Amit" .
-
-<http://www.cs.technion.ac.il/people/daliaca/> a foaf:Person ;
-    foaf:homepage "/people/daliaca/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "daliaca@cs.technion.ac.il" ;
-    foaf:name "Alperovich, Dalia" .
-
-<http://www.cs.technion.ac.il/people/dandan/> a foaf:Person ;
-    foaf:homepage "/people/dandan/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "dandan@cs.technion.ac.il" ;
-    foaf:name "Ezuz, Daniel" ;
-    foaf:phone "(972)-4-829-4347" .
-
-<http://www.cs.technion.ac.il/people/daniil.rodin> a foaf:Person ;
-    foaf:homepage "/people/daniil.rodin" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "daniil.rodin@cs.technion.ac.il" ;
-    foaf:name "Rodin, Daniil" ;
-    foaf:phone "(972)-4-829-4928" .
-
-<http://www.cs.technion.ac.il/people/danrasin/> a foaf:Person ;
-    foaf:homepage "/people/danrasin/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "danrasin@cs.technion.ac.il" ;
-    foaf:name "Rasin, Dan" ;
-    foaf:phone "(972)-4-829-4315" .
-
-<http://www.cs.technion.ac.il/people/david.co> a foaf:Person ;
-    foaf:homepage "/people/david.co" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "david.co@cs.technion.ac.il" ;
-    foaf:name "Cohen, David" ;
-    foaf:phone "(972)-4-829-4897" .
-
-<http://www.cs.technion.ac.il/people/ddana/> a foaf:Person ;
-    foaf:homepage "http://ddana.cswp.cs.technion.ac.il" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/ddana.jpg> ;
-    foaf:mbox "ddana@cs.technion.ac.il" ;
-    foaf:name "Drachsler-Cohen, Dana" ;
-    foaf:phone "(972)-4-829-4806" .
-
-<http://www.cs.technion.ac.il/people/derech/> a foaf:Person ;
-    foaf:homepage "/people/derech/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "derech@cs.technion.ac.il" ;
-    foaf:name "Derech, Niv" .
-
-<http://www.cs.technion.ac.il/people/dmitry.ra> a foaf:Person ;
-    foaf:homepage "/people/dmitry.ra" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "dmitry.ra@cs.technion.ac.il" ;
-    foaf:name "Rabinovich, Dmitry" ;
-    foaf:phone "(972)-4-829-4930" .
-
-<http://www.cs.technion.ac.il/people/dnaori/> a foaf:Person ;
-    foaf:homepage "/people/dnaori/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "dnaori@cs.technion.ac.il" ;
-    foaf:name "Naori, David" ;
-    foaf:phone "(972)-4-829-5534" .
-
-<http://www.cs.technion.ac.il/people/dolevelb/> a foaf:Person ;
-    foaf:homepage "/people/dolevelb/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "dolevelb@cs.technion.ac.il" ;
-    foaf:name "Elbaz, Dolev" ;
-    foaf:phone "(972)-4-829-3373" .
-
-<http://www.cs.technion.ac.il/people/dorharris/> a foaf:Person ;
-    foaf:homepage "/people/dorharris/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "dorharris@cs.technion.ac.il" ;
-    foaf:name "Harris, Dor" ;
-    foaf:phone "(972)-4-829-4924" .
-
-<http://www.cs.technion.ac.il/people/dorhovav/> a foaf:Person ;
-    foaf:homepage "/people/dorhovav/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "dorhovav@cs.technion.ac.il" ;
-    foaf:name "Hovav, Dor" .
-
-<http://www.cs.technion.ac.il/people/dorma10/> a foaf:Person ;
-    foaf:homepage "/people/dorma10/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "dorma10@cs.technion.ac.il" ;
-    foaf:name "Ma'ayan, Dor" .
-
-<http://www.cs.technion.ac.il/people/dorzohar/> a foaf:Person ;
-    foaf:homepage "/people/dorzohar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/dorzohar.jpg> ;
-    foaf:mbox "dorzohar@cs.technion.ac.il" ;
-    foaf:name "Zohar, Dor" ;
-    foaf:phone "(972)-4-829-3714" .
-
-<http://www.cs.technion.ac.il/people/dsainz/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~dsainz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/dsainz.jpg> ;
-    foaf:mbox "dsainz@cs.technion.ac.il" ;
-    foaf:name "Sainz, David" .
-
-<http://www.cs.technion.ac.il/people/dvir.dukhan> a foaf:Person ;
-    foaf:homepage "/people/dvir.dukhan" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "dvir.dukhan@cs.technion.ac.il" ;
-    foaf:name "Dukhan, Dvir" ;
-    foaf:phone "(972)-4-829-3375" .
-
-<http://www.cs.technion.ac.il/people/edens/> a foaf:Person ;
-    foaf:homepage "/people/edens/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "edens@cs.technion.ac.il" ;
-    foaf:name "Saig, Eden" ;
-    foaf:phone "(972)-4-829-4335" .
-
-<http://www.cs.technion.ac.il/people/edwardv/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~edwardv/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/edwardv.jpg> ;
-    foaf:mbox "edwardv@cs.technion.ac.il" ;
-    foaf:name "Vitkin, Edward" .
-
-<http://www.cs.technion.ac.il/people/ekravi/> a foaf:Person ;
-    foaf:homepage "http://ekravi.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/ekravi.jpg> ;
-    foaf:mbox "ekravi@cs.technion.ac.il" ;
-    foaf:name "Kravi, Elad" ;
-    foaf:phone "(972)-4-829-4306" .
-
-<http://www.cs.technion.ac.il/people/elbazdan/> a foaf:Person ;
-    foaf:homepage "/people/elbazdan/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "elbazdan@cs.technion.ac.il" ;
-    foaf:name "Elbaz, Dan" ;
-    foaf:phone "(972)-4-829-4614" .
-
-<http://www.cs.technion.ac.il/people/elielzer/> a foaf:Person ;
-    foaf:homepage "/people/elielzer/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "elielzer@cs.technion.ac.il" ;
-    foaf:name "Bridger, Dov" .
-
-<http://www.cs.technion.ac.il/people/erangi/> a foaf:Person ;
-    foaf:homepage "/people/erangi/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/erangi.jpg> ;
-    foaf:mbox "erangi@cs.technion.ac.il" ;
-    foaf:name "Gilad, Eran" ;
-    foaf:phone "(972)-4-829-4306" .
-
-<http://www.cs.technion.ac.il/people/esterliv/> a foaf:Person ;
-    foaf:homepage "/people/esterliv/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "esterliv@cs.technion.ac.il" ;
-    foaf:name "Livshits, Ester" ;
-    foaf:phone "(972)-4-829-3374" .
-
-<http://www.cs.technion.ac.il/people/evron/> a foaf:Person ;
-    foaf:homepage "/people/evron/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "evron@cs.technion.ac.il" ;
-    foaf:name "Evron, Itay" ;
-    foaf:phone "(972)-4-829-4309" .
-
-<http://www.cs.technion.ac.il/people/eyahn/> a foaf:Person ;
-    foaf:homepage "/people/eyahn/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "eyahn@cs.technion.ac.il" ;
-    foaf:name "Ahn, Eunyong" .
-
-<http://www.cs.technion.ac.il/people/eyalmiz/> a foaf:Person ;
-    foaf:homepage "/people/eyalmiz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "eyalmiz@cs.technion.ac.il" ;
-    foaf:name "Mizrachi, Eyal" .
-
-<http://www.cs.technion.ac.il/people/eylonsho999/> a foaf:Person ;
-    foaf:homepage "/people/eylonsho999/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "eylonsho999@cs.technion.ac.il" ;
-    foaf:name "Shoshan, Eylon" ;
-    foaf:phone "(972)-4-829-4351" .
-
-<http://www.cs.technion.ac.il/people/eytan.s> a foaf:Person ;
-    foaf:homepage "/people/eytan.s" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "eytan.s@cs.technion.ac.il" ;
-    foaf:name "Singher, Eytan" ;
-    foaf:phone "(972)-4-829-3940" .
-
-<http://www.cs.technion.ac.il/people/fadym/> a foaf:Person ;
-    foaf:homepage "/people/fadym/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "fadym@cs.technion.ac.il" ;
-    foaf:name "Massarwi, Fady" ;
-    foaf:phone "(972)-4-829-3896" .
-
-<http://www.cs.technion.ac.il/people/fire/> a foaf:Person ;
-    foaf:homepage "/people/fire/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/fire.jpg> ;
-    foaf:mbox "fire@cs.technion.ac.il" ;
-    foaf:name "Fayerverker, Itay" ;
-    foaf:phone "(972)-4-829-4890" .
-
-<http://www.cs.technion.ac.il/people/fonaro/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~fonaro/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/fonaro.jpg> ;
-    foaf:mbox "fonaro@cs.technion.ac.il" ;
-    foaf:name "Funaro, Liran" ;
-    foaf:phone "(972)-4-829-4935" .
-
-<http://www.cs.technion.ac.il/people/gabay/> a foaf:Person ;
-    foaf:homepage "/people/gabay/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "gabay@cs.technion.ac.il" ;
-    foaf:name "Gabay, Roi" .
-
-<http://www.cs.technion.ac.il/people/galls2/> a foaf:Person ;
-    foaf:homepage "/people/galls2/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "galls2@cs.technion.ac.il" ;
-    foaf:name "Sade, Gal" ;
-    foaf:phone "(972)-4-829-4924" .
-
-<http://www.cs.technion.ac.il/people/galy/> a foaf:Person ;
-    foaf:homepage "/people/galy/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "galy@cs.technion.ac.il" ;
-    foaf:name "Milman, Gal" ;
-    foaf:phone "(972)-4-829-4620" .
-
-<http://www.cs.technion.ac.il/people/gdor80/> a foaf:Person ;
-    foaf:homepage "/people/gdor80/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "gdor80@cs.technion.ac.il" ;
-    foaf:name "Granat, Dor" ;
-    foaf:phone "(972)-4-829-4924" .
-
-<http://www.cs.technion.ac.il/people/gilbe/> a foaf:Person ;
-    foaf:homepage "/people/gilbe/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "gilbe@cs.technion.ac.il" ;
-    foaf:name "Ben-Shachar, Gil" ;
-    foaf:phone "(972)-4-829-4619" .
-
-<http://www.cs.technion.ac.il/people/giliyav/> a foaf:Person ;
-    foaf:homepage "/people/giliyav/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "giliyav@cs.technion.ac.il" ;
-    foaf:name "Yavneh, Gili" ;
-    foaf:phone "(972)-4-829-4341" .
-
-<http://www.cs.technion.ac.il/people/gilkup/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~gilkup/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/gilkup.jpg> ;
-    foaf:mbox "gilkup@cs.technion.ac.il" ;
-    foaf:name "Kupfer, Gil" ;
-    foaf:phone "(972)-4-829-4881" .
-
-<http://www.cs.technion.ac.il/people/gkutiel/> a foaf:Person ;
-    foaf:homepage "http://gkutiel.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/gkutiel.jpg> ;
-    foaf:mbox "gkutiel@cs.technion.ac.il" ;
-    foaf:name "Kutiel, Gilad" ;
-    foaf:phone "(972)-4-829-4975" .
-
-<http://www.cs.technion.ac.il/people/grishav/> a foaf:Person ;
-    foaf:homepage "/people/grishav/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "grishav@cs.technion.ac.il" ;
-    foaf:name "Vaksman, Gregory" ;
-    foaf:phone "(972)-4-829-3905" .
-
-<http://www.cs.technion.ac.il/people/guyrosin/> a foaf:Person ;
-    foaf:homepage "/people/guyrosin/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "guyrosin@cs.technion.ac.il" ;
-    foaf:name "Rosin, Guy" .
-
-<http://www.cs.technion.ac.il/people/guziel/> a foaf:Person ;
-    foaf:homepage "/people/guziel/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "guziel@cs.technion.ac.il" ;
-    foaf:name "Uziel, Guy" ;
-    foaf:phone "(972)-4-829-4960" .
-
-<http://www.cs.technion.ac.il/people/hassan/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~hassan/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/hassan.jpg> ;
-    foaf:mbox "hassan@cs.technion.ac.il" ;
-    foaf:name "Abassie, Hassan" ;
-    foaf:phone "(972)-4-829-4958" .
-
-<http://www.cs.technion.ac.il/people/hfrenkel/> a foaf:Person ;
-    foaf:homepage "http://hfrenkel.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "hfrenkel@cs.technion.ac.il" ;
-    foaf:name "Frenkel, Hadar" ;
-    foaf:phone "(972)-4-829-4315" .
-
-<http://www.cs.technion.ac.il/people/hilap/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~hilap/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/hilap.jpg> ;
-    foaf:mbox "hilap@cs.technion.ac.il" ;
-    foaf:name "Peleg, Hila" ;
-    foaf:phone "(972)-4-829-4958" .
-
-<http://www.cs.technion.ac.il/people/hongtao/> a foaf:Person ;
-    foaf:homepage "/people/hongtao/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "hongtao@cs.technion.ac.il" ;
-    foaf:name "Hong, Tao" ;
-    foaf:phone "(972)-4-829-4349" .
-
-<http://www.cs.technion.ac.il/people/idanha/> a foaf:Person ;
-    foaf:homepage "/people/idanha/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "idanha@cs.technion.ac.il" ;
-    foaf:name "Hasson, Idan" ;
-    foaf:phone "(972)-4-829-3428" .
-
-<http://www.cs.technion.ac.il/people/idansc/> a foaf:Person ;
-    foaf:homepage "/people/idansc/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "idansc@cs.technion.ac.il" ;
-    foaf:name "Schwartz, Idan" ;
-    foaf:phone "(972)-4-829-3826" .
-
-<http://www.cs.technion.ac.il/people/idanyani/> a foaf:Person ;
-    foaf:homepage "http://idanyani.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/idanyani.jpg> ;
-    foaf:mbox "idanyani@cs.technion.ac.il" ;
-    foaf:name "Yaniv, Idan" ;
-    foaf:phone "(972)-4-829-4881" .
-
-<http://www.cs.technion.ac.il/people/igors/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~igors/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/igors.jpg> ;
-    foaf:mbox "igors@cs.technion.ac.il" ;
-    foaf:name "Smolyar, Igor" ;
-    foaf:phone "(972)-4-829-4883" .
-
-<http://www.cs.technion.ac.il/people/igorzar/> a foaf:Person ;
-    foaf:homepage "/people/igorzar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "igorzar@cs.technion.ac.il" ;
-    foaf:name "Zarivach, Igor" .
-
-<http://www.cs.technion.ac.il/people/ikolchin/> a foaf:Person ;
-    foaf:homepage "/people/ikolchin/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ikolchin@cs.technion.ac.il" ;
-    foaf:name "Kolchinsky, Ilya" ;
-    foaf:phone "(972)-4-829-5534" .
-
-<http://www.cs.technion.ac.il/people/itaih/> a foaf:Person ;
-    foaf:homepage "/people/itaih/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/itaih.jpg> ;
-    foaf:mbox "itaih@cs.technion.ac.il" ;
-    foaf:name "Handler, Itai" ;
-    foaf:phone "(972)-4-829-4613" .
-
-<http://www.cs.technion.ac.il/people/ivodavid/> a foaf:Person ;
-    foaf:homepage "/people/ivodavid/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ivodavid@cs.technion.ac.il" ;
-    foaf:name "Oliveira, Ivo David" ;
-    foaf:phone "(972)-4-829-4613" .
-
-<http://www.cs.technion.ac.il/people/izikgo/> a foaf:Person ;
-    foaf:homepage "/people/izikgo/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "izikgo@cs.technion.ac.il" ;
-    foaf:name "Golan, Izhak" ;
-    foaf:phone "(972)-4-829-4925" .
-
-<http://www.cs.technion.ac.il/people/jalilm/> a foaf:Person ;
-    foaf:homepage "/people/jalilm/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "jalilm@cs.technion.ac.il" ;
-    foaf:name "Moraney, Jalil" ;
-    foaf:phone "(972)-4-829-5530" .
-
-<http://www.cs.technion.ac.il/people/john.noonan> a foaf:Person ;
-    foaf:homepage "/people/john.noonan" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "john.noonan@cs.technion.ac.il" ;
-    foaf:name "Noonan, John" ;
-    foaf:phone "(972)-4-829-3383" .
-
-<http://www.cs.technion.ac.il/people/jsulam/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~jsulam/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/jsulam.jpg> ;
-    foaf:mbox "jsulam@cs.technion.ac.il" ;
-    foaf:name "Sulam, Jeremias" ;
-    foaf:phone "(972)-4-829-4843" .
-
-<http://www.cs.technion.ac.il/people/kassnery/> a foaf:Person ;
-    foaf:homepage "/people/kassnery/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "kassnery@cs.technion.ac.il" ;
-    foaf:name "Kassner, Yaron" .
-
-<http://www.cs.technion.ac.il/people/kfirnz/> a foaf:Person ;
-    foaf:homepage "/people/kfirnz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "kfirnz@cs.technion.ac.il" ;
-    foaf:name "Nir-Zvi, Kfir" ;
-    foaf:phone "(972)-4-829-3897" .
-
-<http://www.cs.technion.ac.il/people/kligler/> a foaf:Person ;
-    foaf:homepage "/people/kligler/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "kligler@cs.technion.ac.il" ;
-    foaf:name "Kligler, Nati" .
-
-<http://www.cs.technion.ac.il/people/kreimer/> a foaf:Person ;
-    foaf:homepage "/people/kreimer/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "kreimer@cs.technion.ac.il" ;
-    foaf:name "Kreimer, Alexander" .
-
-<http://www.cs.technion.ac.il/people/kviat/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~kviat/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/kviat.jpg> ;
-    foaf:mbox "kviat@cs.technion.ac.il" ;
-    foaf:name "Kviatkovsky, Igor" .
-
-<http://www.cs.technion.ac.il/people/lalouche/> a foaf:Person ;
-    foaf:homepage "/people/lalouche/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "lalouche@cs.technion.ac.il" ;
-    foaf:name "Lalouche, Gal" .
-
-<http://www.cs.technion.ac.il/people/lazerson/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~lazerson/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "lazerson@cs.technion.ac.il" ;
-    foaf:name "Lazerson, Arnon" ;
-    foaf:phone "(972)-4-829-4946" .
-
-<http://www.cs.technion.ac.il/people/levyohananov/> a foaf:Person ;
-    foaf:homepage "/people/levyohananov/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/levyohananov.jpg> ;
-    foaf:mbox "levyohananov@campus.technion.ac.il" ;
-    foaf:name "Yohananov, Lev" ;
-    foaf:phone "(972)-4-829-4948" .
-
-<http://www.cs.technion.ac.il/people/liatpf/> a foaf:Person ;
-    foaf:homepage "/people/liatpf/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/liatpf.jpg> ;
-    foaf:mbox "liatpf@cs.technion.ac.il" ;
-    foaf:name "Peterfreund, Liat" ;
-    foaf:phone "(972)-4-829-4953" .
-
-<http://www.cs.technion.ac.il/people/lior.neumann> a foaf:Person ;
-    foaf:homepage "/people/lior.neumann" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "lior.neumann@cs.technion.ac.il" ;
-    foaf:name "Neumann, Lior" .
-
-<http://www.cs.technion.ac.il/people/liorf/> a foaf:Person ;
-    foaf:homepage "/people/liorf/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "liorf@cs.technion.ac.il" ;
-    foaf:name "Friedman, Lior" .
-
-<http://www.cs.technion.ac.il/people/liorsam/> a foaf:Person ;
-    foaf:homepage "/people/liorsam/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "liorsam@cs.technion.ac.il" ;
-    foaf:name "Samuel, Lior" .
-
-<http://www.cs.technion.ac.il/people/m7mdtb/> a foaf:Person ;
-    foaf:homepage "/people/m7mdtb/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "m7mdtb@cs.technion.ac.il" ;
-    foaf:name "Tibi, Muhammed" ;
-    foaf:phone "(972)-4-829-4891" .
-
-<http://www.cs.technion.ac.il/people/majdo/> a foaf:Person ;
-    foaf:homepage "/people/majdo/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "majdo@cs.technion.ac.il" ;
-    foaf:name "Omary, Majd" .
-
-<http://www.cs.technion.ac.il/people/margulis/> a foaf:Person ;
-    foaf:homepage "/people/margulis/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "margulis@cs.technion.ac.il" ;
-    foaf:name "Margulis, Igor" .
-
-<http://www.cs.technion.ac.il/people/maria.tu> a foaf:Person ;
-    foaf:homepage "/people/maria.tu" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "maria.tu@cs.technion.ac.il" ;
-    foaf:name "Tunik Schmidt, Maria" ;
-    foaf:phone "(972)-4-829-4886" .
-
-<http://www.cs.technion.ac.il/people/markuze/> a foaf:Person ;
-    foaf:homepage "/people/markuze/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "markuze@cs.technion.ac.il" ;
-    foaf:name "Markuze, Alex" .
-
-<http://www.cs.technion.ac.il/people/matansel/> a foaf:Person ;
-    foaf:homepage "http://matansela.strikingly.com/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/matansel.jpg> ;
-    foaf:mbox "matansel@cs.technion.ac.il" ;
-    foaf:name "Sela, Matan" ;
-    foaf:phone "(972)-4-829-4931" .
-
-<http://www.cs.technion.ac.il/people/matt.b> a foaf:Person ;
-    foaf:homepage "/people/matt.b" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "matt.b@cs.technion.ac.il" ;
-    foaf:name "Bonne, Matthias" ;
-    foaf:phone "(972)-4-829-3714" .
-
-<http://www.cs.technion.ac.il/people/mayaarl/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~mayaarl/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/mayaarl.jpg> ;
-    foaf:mbox "mayaarl@cs.technion.ac.il" ;
-    foaf:name "Arbel, Maya" ;
-    foaf:phone "(972)-4-829-3381" .
-
-<http://www.cs.technion.ac.il/people/mayalevy/> a foaf:Person ;
-    foaf:homepage "/people/mayalevy/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "mayalevy@cs.technion.ac.il" ;
-    foaf:name "Levy, Maya" ;
-    foaf:phone "(972)-4-829-4335" .
-
-<http://www.cs.technion.ac.il/people/maytal/> a foaf:Person ;
-    foaf:homepage "/people/maytal/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/maytal.jpg> ;
-    foaf:mbox "maytal@cs.technion.ac.il" ;
-    foaf:name "Messing, Maytal" .
-
-<http://www.cs.technion.ac.il/people/mbs/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~mbs/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/mbs.jpg> ;
-    foaf:mbox "mbs@cs.technion.ac.il" ;
-    foaf:name "Ben-Sinai, Meital" .
-
-<http://www.cs.technion.ac.il/people/melanyc/> a foaf:Person ;
-    foaf:homepage "/people/melanyc/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/melanyc.jpg> ;
-    foaf:mbox "melanyc@cs.technion.ac.il" ;
-    foaf:name "Cohen, Michal" ;
-    foaf:phone "(972)-4-829-4166" .
-
-<http://www.cs.technion.ac.il/people/mgabel/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~mgabel/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/mgabel.jpg> ;
-    foaf:mbox "mgabel@cs.technion.ac.il" ;
-    foaf:name "Gabel, Moshe" ;
-    foaf:phone "(972)-4-829-4946" .
-
-<http://www.cs.technion.ac.il/people/michal.f> a foaf:Person ;
-    foaf:homepage "/people/michal.f" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/michal.f.jpg> ;
-    foaf:mbox "michal.f@cs.technion.ac.il" ;
-    foaf:name "Friedman, Michal" ;
-    foaf:phone "(972)-4-829-4340" .
-
-<http://www.cs.technion.ac.il/people/michalho/> a foaf:Person ;
-    foaf:homepage "/people/michalho/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "michalho@cs.technion.ac.il" ;
-    foaf:name "Horovitz, Michal" ;
-    foaf:phone "(972)-4-829-3376" .
-
-<http://www.cs.technion.ac.il/people/mini/> a foaf:Person ;
-    foaf:homepage "/people/mini/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "mini@cs.technion.ac.il" ;
-    foaf:name "Minkin, Marina" ;
-    foaf:phone "(972)-4-829-3823" .
-
-<http://www.cs.technion.ac.il/people/mip/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~mip/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "mip@cs.technion.ac.il" ;
-    foaf:name "Peled, Matan" ;
-    foaf:phone "(972)-4-829-3826" .
-
-<http://www.cs.technion.ac.il/people/mjenya/> a foaf:Person ;
-    foaf:homepage "/people/mjenya/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "mjenya@cs.technion.ac.il" ;
-    foaf:name "Moroshko, Evgeny" .
-
-<http://www.cs.technion.ac.il/people/mlitbk/> a foaf:Person ;
-    foaf:homepage "/people/mlitbk/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/mlitbk.jpg> ;
-    foaf:mbox "mlitbk@cs.technion.ac.il" ;
-    foaf:name "Litvak, Michael" ;
-    foaf:phone "(972)-4-829-3373" .
-
-<http://www.cs.technion.ac.il/people/mriabzev/> a foaf:Person ;
-    foaf:homepage "/people/mriabzev/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "mriabzev@cs.technion.ac.il" ;
-    foaf:name "Riabzev, Michael" ;
-    foaf:phone "(972)-4-829-4319" .
-
-<http://www.cs.technion.ac.il/people/mshalah/> a foaf:Person ;
-    foaf:homepage "/people/mshalah/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/mshalah.jpg> ;
-    foaf:mbox "mshalah@cs.technion.ac.il" ;
-    foaf:name "Shalah, Mira" ;
-    foaf:phone "(972)-4-829-4886" .
-
-<http://www.cs.technion.ac.il/people/nadavbh/> a foaf:Person ;
-    foaf:homepage "/people/nadavbh/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "nadavbh@cs.technion.ac.il" ;
-    foaf:name "Bhonker, Nadav" ;
-    foaf:phone "(972)-4-829-4943" .
-
-<http://www.cs.technion.ac.il/people/nahumf/> a foaf:Person ;
-    foaf:homepage "/people/nahumf/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "nahumf@cs.technion.ac.il" ;
-    foaf:name "Farchi, Nahum" ;
-    foaf:phone "(972)-4-829-4347" .
-
-<http://www.cs.technion.ac.il/people/noamrvd/> a foaf:Person ;
-    foaf:homepage "/people/noamrvd/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "noamrvd@cs.technion.ac.il" ;
-    foaf:name "Ravid, Noam" ;
-    foaf:phone "(972)-4-829-4614" .
-
-<http://www.cs.technion.ac.il/people/nuritdv/> a foaf:Person ;
-    foaf:homepage "/people/nuritdv/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/nuritdv.jpg> ;
-    foaf:mbox "nuritdv@cs.technion.ac.il" ;
-    foaf:name "Devir, Nurit" ;
-    foaf:phone "(972)-4-829-3854" .
-
-<http://www.cs.technion.ac.il/people/nuritm/> a foaf:Person ;
-    foaf:homepage "/people/nuritm/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "nuritm@cs.technion.ac.il" ;
-    foaf:name "Moscovici, Nurit" ;
-    foaf:phone "(972)-4-829-5617" .
-
-<http://www.cs.technion.ac.il/people/ofer.guthmann> a foaf:Person ;
-    foaf:homepage "/people/ofer.guthmann" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ofer.guthmann@cs.technion.ac.il" ;
-    foaf:name "Guthmann, Ofer" ;
-    foaf:phone "(972)-4-829-4260" .
-
-<http://www.cs.technion.ac.il/people/ogivoli/> a foaf:Person ;
-    foaf:homepage "/people/ogivoli/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ogivoli@cs.technion.ac.il" ;
-    foaf:name "Givoli, Ofer" ;
-    foaf:phone "(972)-4-829-4362" .
-
-<http://www.cs.technion.ac.il/people/ohad/> a foaf:Person ;
-    foaf:homepage "/people/ohad/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ohad@cs.technion.ac.il" ;
-    foaf:name "Talmon, Ohad" ;
-    foaf:phone "(972)-4-829-4932" .
-
-<http://www.cs.technion.ac.il/people/ohadey/> a foaf:Person ;
-    foaf:homepage "/people/ohadey/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ohadey@cs.technion.ac.il" ;
-    foaf:name "Eytan, Ohad" ;
-    foaf:phone "(972)-4-829-3382" .
-
-<http://www.cs.technion.ac.il/people/omari/> a foaf:Person ;
-    foaf:homepage "/people/omari/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "omari@cs.technion.ac.il" ;
-    foaf:name "Omari, Adi" ;
-    foaf:phone "(972)-4-829-4894" .
-
-<http://www.cs.technion.ac.il/people/omerkatz/> a foaf:Person ;
-    foaf:homepage "http://omerkatz.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/omerkatz.jpg> ;
-    foaf:mbox "omerkatz@cs.technion.ac.il" ;
-    foaf:name "Katz, Omer" ;
-    foaf:phone "(972)-4-829-5527" .
-
-<http://www.cs.technion.ac.il/people/oran/> a foaf:Person ;
-    foaf:homepage "/people/oran/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/oran.jpg> ;
-    foaf:mbox "oran@cs.technion.ac.il" ;
-    foaf:name "Gilboa, Oran" .
-
-<http://www.cs.technion.ac.il/people/paigautam/> a foaf:Person ;
-    foaf:homepage "http://paigautam.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/paigautam.jpg> ;
-    foaf:mbox "paigautam@cs.technion.ac.il" ;
-    foaf:name "Pai, Gautam" ;
-    foaf:phone "(972)-4-829-4895" .
-
-<http://www.cs.technion.ac.il/people/ranas/> a foaf:Person ;
-    foaf:homepage "http://shroman.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "ranas@cs.technion.ac.il" ;
-    foaf:name "Shahout, Rana" ;
-    foaf:phone "(972)-4-829-4340" .
-
-<http://www.cs.technion.ac.il/people/ranko/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~ranko/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/ranko.jpg> ;
-    foaf:mbox "ranko@cs.technion.ac.il" ;
-    foaf:name "Koretzki, Ran" .
-
-<http://www.cs.technion.ac.il/people/rberman/> a foaf:Person ;
-    foaf:homepage "/people/rberman/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "rberman@cs.technion.ac.il" ;
-    foaf:name "Berman, Rachel" ;
-    foaf:phone "(972)-4-829-4341" .
-
-<http://www.cs.technion.ac.il/people/rbreuer/> a foaf:Person ;
-    foaf:homepage "/people/rbreuer/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "rbreuer@cs.technion.ac.il" ;
-    foaf:name "Breuer, Ran" .
-
-<http://www.cs.technion.ac.il/people/reidler/> a foaf:Person ;
-    foaf:homepage "/people/reidler/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "reidler@cs.technion.ac.il" ;
-    foaf:name "Reidler, Daniel" .
-
-<http://www.cs.technion.ac.il/people/roee.francos> a foaf:Person ;
-    foaf:homepage "/people/roee.francos" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "roee.francos@cs.technion.ac.il" ;
-    foaf:name "Francos, Roee" .
-
-<http://www.cs.technion.ac.il/people/roee.mor> a foaf:Person ;
-    foaf:homepage "/people/roee.mor" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "roee.mor@cs.technion.ac.il" ;
-    foaf:name "Mor, Roee" .
-
-<http://www.cs.technion.ac.il/people/roeige/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~roeige/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/roeige.jpg> ;
-    foaf:mbox "roeige@cs.technion.ac.il" ;
-    foaf:name "Gelbhart, Roei" ;
-    foaf:phone "(972)-4-829-4925" .
-
-<http://www.cs.technion.ac.il/people/rotemliss/> a foaf:Person ;
-    foaf:homepage "http://rotemliss.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/rotemliss.jpg> ;
-    foaf:mbox "rotemliss@cs.technion.ac.il" ;
-    foaf:name "Liss, Rotem" ;
-    foaf:phone "(972)-4-829-3428" .
-
-<http://www.cs.technion.ac.il/people/rz/> a foaf:Person ;
-    foaf:homepage "/people/rz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "rz@cs.technion.ac.il" ;
-    foaf:name "Zilberstein, Ran" .
-
-<http://www.cs.technion.ac.il/people/sa/> a foaf:Person ;
-    foaf:homepage "/people/sa/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sa@cs.technion.ac.il" ;
-    foaf:name "Fuchs, Amit" .
-
-<http://www.cs.technion.ac.il/people/saarraz/> a foaf:Person ;
-    foaf:homepage "/people/saarraz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "saarraz@cs.technion.ac.il" ;
-    foaf:name "Raz, Saar" .
-
-<http://www.cs.technion.ac.il/people/saarz/> a foaf:Person ;
-    foaf:homepage "/people/saarz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "saarz@cs.technion.ac.il" ;
-    foaf:name "Zehavi, Saar" ;
-    foaf:phone "(972)-4-829-4613" .
-
-<http://www.cs.technion.ac.il/people/salonaz/> a foaf:Person ;
-    foaf:homepage "/people/salonaz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "zadneprovski@gmail.com" ;
-    foaf:name "Golz, Alona" ;
-    foaf:phone "(972)-4-829-4929" .
-
-<http://www.cs.technion.ac.il/people/salons/> a foaf:Person ;
-    foaf:homepage "/people/salons/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "salons@cs.technion.ac.il" ;
-    foaf:name "Shtaierman, Alon" ;
-    foaf:phone "(972)-4-829-4166" .
-
-<http://www.cs.technion.ac.il/people/sanketh/> a foaf:Person ;
-    foaf:homepage "/people/sanketh/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sanketh@cs.technion.ac.il" ;
-    foaf:name "Vedula, Sanketh" ;
-    foaf:phone "(972)-4-829-4867" .
-
-<http://www.cs.technion.ac.il/people/sarai/> a foaf:Person ;
-    foaf:homepage "/people/sarai/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/sarai.jpg> ;
-    foaf:mbox "sarai@cs.technion.ac.il" ;
-    foaf:name "Duek, Sarai" .
-
-<http://www.cs.technion.ac.il/people/sassafro/> a foaf:Person ;
-    foaf:homepage "/people/sassafro/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sassafro@cs.technion.ac.il" ;
-    foaf:name "Rosenbaum, Assaf" ;
-    foaf:phone "(972)-4-829-5530" .
-
-<http://www.cs.technion.ac.il/people/saviramm/> a foaf:Person ;
-    foaf:homepage "/people/saviramm/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/saviramm.jpg> ;
-    foaf:mbox "saviramm@cs.technion.ac.il" ;
-    foaf:name "Magen, Aviram" ;
-    foaf:phone "(972)-4-829-4349" .
-
-<http://www.cs.technion.ac.il/people/sayals/> a foaf:Person ;
-    foaf:homepage "/people/sayals/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sayals@cs.technion.ac.il" ;
-    foaf:name "Shwatyz, Ayal" ;
-    foaf:phone "(972)-4-829-3821" .
-
-<http://www.cs.technion.ac.il/people/sbadian/> a foaf:Person ;
-    foaf:homepage "/people/sbadian/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/sbadian.jpg> ;
-    foaf:mbox "sbadian@cs.technion.ac.il" ;
-    foaf:name "Badian, Michal" ;
-    foaf:phone "(972)-4-829-3854" .
-
-<http://www.cs.technion.ac.il/people/sdolevfe/> a foaf:Person ;
-    foaf:homepage "/people/sdolevfe/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "sdolevfe@cs.technion.ac.il" ;
-    foaf:name "Adas, Dolev" ;
-    foaf:phone "(972)-4-829-3380" .
-
-<http://www.cs.technion.ac.il/people/seanh/> a foaf:Person ;
-    foaf:homepage "/people/seanh/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "seanh@cs.technion.ac.il" ;
-    foaf:name "Hadar, Sean" .
-
-<http://www.cs.technion.ac.il/people/serikhoury/> a foaf:Person ;
-    foaf:homepage "/people/serikhoury/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "serikhoury@cs.technion.ac.il" ;
-    foaf:name "Khoury, Seri" ;
-    foaf:phone "(972)-4-829-4340" .
-
-<http://www.cs.technion.ac.il/people/sgailw/> a foaf:Person ;
-    foaf:homepage "/people/sgailw/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "sgailw@cs.technion.ac.il" ;
-    foaf:name "Weiss, Gail" ;
-    foaf:phone "(972)-4-829-3864" .
-
-<http://www.cs.technion.ac.il/people/shai.ziv> a foaf:Person ;
-    foaf:homepage "/people/shai.ziv" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "shai.ziv@cs.technion.ac.il" ;
-    foaf:name "Ziv, Shai" .
-
-<http://www.cs.technion.ac.il/people/shaivak/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~shaivak/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/shaivak.jpg> ;
-    foaf:mbox "shaivak@cs.technion.ac.il" ;
-    foaf:name "Vaknin, Shai" ;
-    foaf:phone "(972)-4-829-5651" .
-
-<http://www.cs.technion.ac.il/people/sharon88/> a foaf:Person ;
-    foaf:homepage "/people/sharon88/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "sharon88@cs.technion.ac.il" ;
-    foaf:name "Koubi, Sharon" .
-
-<http://www.cs.technion.ac.il/people/shelal/> a foaf:Person ;
-    foaf:homepage "/people/shelal/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "shelal@cs.technion.ac.il" ;
-    foaf:name "Assi, Helal" ;
-    foaf:phone "(972)-4-829-4960" .
-
-<http://www.cs.technion.ac.il/people/shovall/> a foaf:Person ;
-    foaf:homepage "/people/shovall/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "shovall@cs.technion.ac.il" ;
-    foaf:name "Lagziel, Shoval" ;
-    foaf:phone "(972)-4-829-3428" .
-
-<http://www.cs.technion.ac.il/people/shroman/> a foaf:Person ;
-    foaf:homepage "http://shroman.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/shroman.jpg> ;
-    foaf:mbox "shroman@cs.technion.ac.il" ;
-    foaf:name "Shor, Roman" ;
-    foaf:phone "(972)-4-829-4307" .
-
-<http://www.cs.technion.ac.il/people/shunita/> a foaf:Person ;
-    foaf:homepage "/people/shunita/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/shunita.jpg> ;
-    foaf:mbox "shunita@cs.technion.ac.il" ;
-    foaf:name "Agmon, Shunit" ;
-    foaf:phone "(972)-4-829-5534" .
-
-<http://www.cs.technion.ac.il/people/smichald/> a foaf:Person ;
-    foaf:homepage "/people/smichald/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "smichald@cs.technion.ac.il" ;
-    foaf:name "Dory, Michal" ;
-    foaf:phone "(972)-4-829-3374" .
-
-<http://www.cs.technion.ac.il/people/smosesli/> a foaf:Person ;
-    foaf:homepage "/people/smosesli/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/smosesli.jpg> ;
-    foaf:mbox "smosesli@cs.technion.ac.il" ;
-    foaf:name "Lichtenstein, Moshe" ;
-    foaf:phone "(972)-4-829-3897" .
-
-<http://www.cs.technion.ac.il/people/smuzi/> a foaf:Person ;
-    foaf:homepage "/people/smuzi/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "smuzi@cs.technion.ac.il" ;
-    foaf:name "Smadja, Uzi" ;
-    foaf:phone "(972)-4-829-4619" .
-
-<http://www.cs.technion.ac.il/people/snirc/> a foaf:Person ;
-    foaf:homepage "/people/snirc/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/snirc.jpg> ;
-    foaf:mbox "snirc@cs.technion.ac.il" ;
-    foaf:name "Cohen, Snir" ;
-    foaf:phone "(972)-4-829-4260" .
-
-<http://www.cs.technion.ac.il/people/snivh/> a foaf:Person ;
-    foaf:homepage "/people/snivh/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "snivh@cs.technion.ac.il" ;
-    foaf:name "Hooker, Niv" ;
-    foaf:phone "(972)-4-829-3429" .
-
-<http://www.cs.technion.ac.il/people/snofca/> a foaf:Person ;
-    foaf:homepage "/people/snofca/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/snofca.jpg> ;
-    foaf:mbox "snofca@cs.technion.ac.il" ;
-    foaf:name "Carmeli, Nofar" ;
-    foaf:phone "(972)-4-829-4953" .
-
-<http://www.cs.technion.ac.il/people/snussa/> a foaf:Person ;
-    foaf:homepage "/people/snussa/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "snussa@cs.technion.ac.il" ;
-    foaf:name "Zamir, Nitzan" ;
-    foaf:phone "(972)-4-829-5617" .
-
-<http://www.cs.technion.ac.il/people/snyefet/> a foaf:Person ;
-    foaf:homepage "/people/snyefet/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "snyefet@cs.technion.ac.il" ;
-    foaf:name "Yefet, Noam" .
-
-<http://www.cs.technion.ac.il/people/sohadfed/> a foaf:Person ;
-    foaf:homepage "/people/sohadfed/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sohadfed@cs.technion.ac.il" ;
-    foaf:name "Feder, Ohad" .
-
-<http://www.cs.technion.ac.il/people/sophirdj/> a foaf:Person ;
-    foaf:homepage "/people/sophirdj/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sophirdj@cs.technion.ac.il" ;
-    foaf:name "De Jager, Ophir" .
-
-<http://www.cs.technion.ac.il/people/sorimar/> a foaf:Person ;
-    foaf:homepage "/people/sorimar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/sorimar.jpg> ;
-    foaf:mbox "sorimar@cs.technion.ac.il" ;
-    foaf:name "Marcovitch, Ori" ;
-    foaf:phone "(972)-4-829-3383" .
-
-<http://www.cs.technion.ac.il/people/sosin/> a foaf:Person ;
-    foaf:homepage "/people/sosin/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sosin@cs.technion.ac.il" ;
-    foaf:name "Sosin, Boris" ;
-    foaf:phone "(972)-4-829-3823" .
-
-<http://www.cs.technion.ac.il/people/sran/> a foaf:Person ;
-    foaf:homepage "/people/sran/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/sran.jpg> ;
-    foaf:mbox "sran@cs.technion.ac.il" ;
-    foaf:name "Ben-Basat, Ran" ;
-    foaf:phone "(972)-4-829-5531" .
-
-<http://www.cs.technion.ac.il/people/srikim/> a foaf:Person ;
-    foaf:homepage "/people/srikim/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "srikim@cs.technion.ac.il" ;
-    foaf:name "Malca, Rivka" .
-
-<http://www.cs.technion.ac.il/people/srojeh/> a foaf:Person ;
-    foaf:homepage "/people/srojeh/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/srojeh.jpg> ;
-    foaf:mbox "srojeh@cs.technion.ac.il" ;
-    foaf:name "Hayek, Rojeh" ;
-    foaf:phone "(972)-4-829-4362" .
-
-<http://www.cs.technion.ac.il/people/srubin/> a foaf:Person ;
-    foaf:homepage "/people/srubin/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "srubin@cs.technion.ac.il" ;
-    foaf:name "Rubin, Yehonatan" .
-
-<http://www.cs.technion.ac.il/people/sshahar/> a foaf:Person ;
-    foaf:homepage "/people/sshahar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sshahar@cs.technion.ac.il" ;
-    foaf:name "Harel, Shahar" ;
-    foaf:phone "(972)-4-829-4890" .
-
-<http://www.cs.technion.ac.il/people/stavp/> a foaf:Person ;
-    foaf:homepage "/people/stavp/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/stavp.jpg> ;
-    foaf:mbox "stavp@cs.technion.ac.il" ;
-    foaf:name "Perla, Stav" ;
-    foaf:phone "(972)-4-829-4312" .
-
-<http://www.cs.technion.ac.il/people/sutton/> a foaf:Person ;
-    foaf:homepage "/people/sutton/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "sutton@cs.technion.ac.il" ;
-    foaf:name "Sutton, Charles" ;
-    foaf:phone "(972)-4-829-3383" .
-
-<http://www.cs.technion.ac.il/people/syairr/> a foaf:Person ;
-    foaf:homepage "/people/syairr/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/syairr.jpg> ;
-    foaf:mbox "syairr@cs.technion.ac.il" ;
-    foaf:name "Reani, Yair" ;
-    foaf:phone "(972)-4-829-3940" .
-
-<http://www.cs.technion.ac.il/people/szarecki/> a foaf:Person ;
-    foaf:homepage "/people/szarecki/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/szarecki.jpg> ;
-    foaf:mbox "szarecki@cs.technion.ac.il" ;
-    foaf:name "Zarecki, Yonatan" ;
-    foaf:phone "(972)-4-829-4166" .
-
-<http://www.cs.technion.ac.il/people/szorik/> a foaf:Person ;
-    foaf:homepage "/people/szorik/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "szorik@cs.technion.ac.il" ;
-    foaf:name "Gekhman, Zorik" .
-
-<http://www.cs.technion.ac.il/people/tal.shor> a foaf:Person ;
-    foaf:homepage "/people/tal.shor" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "tal.shor@cs.technion.ac.il" ;
-    foaf:name "Shor, Tal" ;
-    foaf:phone "(972)-4-829-4932" .
-
-<http://www.cs.technion.ac.il/people/tamer.mour> a foaf:Person ;
-    foaf:homepage "/people/tamer.mour" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "tamer.mour@cs.technion.ac.il" ;
-    foaf:name "Mour, Tamer" ;
-    foaf:phone "(972)-4-829-4960" .
-
-<http://www.cs.technion.ac.il/people/tamirc/> a foaf:Person ;
-    foaf:homepage "/people/tamirc/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "tamirc@cs.technion.ac.il" ;
-    foaf:name "Carmeli, Tamir" .
-
-<http://www.cs.technion.ac.il/people/tanyabr/> a foaf:Person ;
-    foaf:homepage "/people/tanyabr/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "tanyabr@cs.technion.ac.il" ;
-    foaf:name "Brokhman, Tanya" ;
-    foaf:phone "(972)-4-829-4620" .
-
-<http://www.cs.technion.ac.il/people/titamar/> a foaf:Person ;
-    foaf:homepage "/people/titamar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "titamar@cs.technion.ac.il" ;
-    foaf:name "Talmi, Itamar" .
-
-<http://www.cs.technion.ac.il/people/tomer.golany> a foaf:Person ;
-    foaf:homepage "/people/tomer.golany" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "tomer.golany@cs.technion.ac.il" ;
-    foaf:name "Golany, Tomer" ;
-    foaf:phone "(972)-4-829-3821" .
-
-<http://www.cs.technion.ac.il/people/tomerghelber/> a foaf:Person ;
-    foaf:homepage "/people/tomerghelber/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/tomerghelber.jpg> ;
-    foaf:mbox "tomerghelber@cs.technion.ac.il" ;
-    foaf:name "Ghelber, Tomer" ;
-    foaf:phone "(972)-4-829-3940" .
-
-<http://www.cs.technion.ac.il/people/udiyavo/> a foaf:Person ;
-    foaf:homepage "/people/udiyavo/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "udiyavo@cs.technion.ac.il" ;
-    foaf:name "Yavo, Udi" .
-
-<http://www.cs.technion.ac.il/people/uri.shomroni> a foaf:Person ;
-    foaf:homepage "/people/uri.shomroni" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "uri.shomroni@cs.technion.ac.il" ;
-    foaf:name "Shomroni, Uri" .
-
-<http://www.cs.technion.ac.il/people/urialon/> a foaf:Person ;
-    foaf:homepage "/people/urialon/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "urialon@cs.technion.ac.il" ;
-    foaf:name "Alon, Uri" ;
-    foaf:phone "(972)-4-829-4806" .
-
-<http://www.cs.technion.ac.il/people/uzi.cohen> a foaf:Person ;
-    foaf:homepage "/people/uzi.cohen" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/uzi.cohen.jpg> ;
-    foaf:mbox "uzi.cohen@cs.technion.ac.il" ;
-    foaf:name "Cohen, Uzi" .
-
-<http://www.cs.technion.ac.il/people/vardanp/> a foaf:Person ;
-    foaf:homepage "http://vardanp.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/vardanp.jpg> ;
-    foaf:mbox "vardanp@cs.technion.ac.il" ;
-    foaf:name "Papyan, Vardan" ;
-    foaf:phone "(972)-4-829-4349" .
-
-<http://www.cs.technion.ac.il/people/wmakhoul/> a foaf:Person ;
-    foaf:homepage "/people/wmakhoul/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "wmakhoul@cs.technion.ac.il" ;
-    foaf:name "Makhoul, Waseem" ;
-    foaf:phone "(972)-4-829-4891" .
-
-<http://www.cs.technion.ac.il/people/yaelyan/> a foaf:Person ;
-    foaf:homepage "http://yaelyan.cswp.cs.technion.ac.il/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "yaelyan@cs.technion.ac.il" ;
-    foaf:name "Yankelevsky, Yael" ;
-    foaf:phone "(972)-4-829-4929" .
-
-<http://www.cs.technion.ac.il/people/yamit/> a foaf:Person ;
-    foaf:homepage "/people/yamit/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "yamit@cs.technion.ac.il" ;
-    foaf:name "Barshatz, Yamit" ;
-    foaf:phone "(972)-4-829-4620" .
-
-<http://www.cs.technion.ac.il/people/yanemcovsky/> a foaf:Person ;
-    foaf:homepage "/people/yanemcovsky/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yanemcovsky@cs.technion.ac.il" ;
-    foaf:name "Nemcovsky, Yaniv" ;
-    foaf:phone "(972)-4-829-3429" .
-
-<http://www.cs.technion.ac.il/people/yanirdam/> a foaf:Person ;
-    foaf:homepage "/people/yanirdam/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yanirdam@cs.technion.ac.il" ;
-    foaf:name "Damty, Yanir" .
-
-<http://www.cs.technion.ac.il/people/yanivd/> a foaf:Person ;
-    foaf:homepage "http://www.cs.technion.ac.il/~yanivd/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/yanivd.jpg> ;
-    foaf:mbox "yanivd@cs.technion.ac.il" ;
-    foaf:name "David, Yaniv Moshe" .
-
-<http://www.cs.technion.ac.il/people/ydar/> a foaf:Person ;
-    foaf:homepage "/people/ydar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ydar@cs.technion.ac.il" ;
-    foaf:name "Dar, Yehuda" ;
-    foaf:phone "(972)-4-829-4325" .
-
-<http://www.cs.technion.ac.il/people/ygal/> a foaf:Person ;
-    foaf:homepage "/people/ygal/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ygal@cs.technion.ac.il" ;
-    foaf:name "Yehuda, Gal" .
-
-<http://www.cs.technion.ac.il/people/ynezri/> a foaf:Person ;
-    foaf:homepage "/people/ynezri/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ynezri@cs.technion.ac.il" ;
-    foaf:name "Nezri, Yuval" ;
-    foaf:phone "(972)-4-829-4335" .
-
-<http://www.cs.technion.ac.il/people/ynon980/> a foaf:Person ;
-    foaf:homepage "/people/ynon980/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "ynon980@cs.technion.ac.il" ;
-    foaf:name "Horesh, Yinon" .
-
-<http://www.cs.technion.ac.il/people/yoavn/> a foaf:Person ;
-    foaf:homepage "/people/yoavn/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/yoavn.jpg> ;
-    foaf:mbox "yoavn@cs.technion.ac.il" ;
-    foaf:name "Nahshon, Yoav" ;
-    foaf:phone "(972)-4-829-3375" .
-
-<http://www.cs.technion.ac.il/people/yochaiz/> a foaf:Person ;
-    foaf:homepage "/people/yochaiz/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yochaiz@cs.technion.ac.il" ;
-    foaf:name "Zur, Yochai" ;
-    foaf:phone "(972)-4-829-5651" .
-
-<http://www.cs.technion.ac.il/people/yon-b/> a foaf:Person ;
-    foaf:homepage "/people/yon-b/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/people/yon_b.jpg> ;
-    foaf:mbox "yon_b@cs.technion.ac.il" ;
-    foaf:name "Buchnik, Yehonatan" ;
-    foaf:phone "(972)-4-829-4362" .
-
-<http://www.cs.technion.ac.il/people/yonatan.g> a foaf:Person ;
-    foaf:homepage "/people/yonatan.g" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yonatan.g@cs.technion.ac.il" ;
-    foaf:name "Geifman, Yonatan" ;
-    foaf:phone "(972)-4-829-4925" .
-
-<http://www.cs.technion.ac.il/people/yonic/> a foaf:Person ;
-    foaf:homepage "/people/yonic/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yonic@cs.technion.ac.il" ;
-    foaf:name "Choukroun, Yoni" ;
-    foaf:phone "(972)-4-829-4895" .
-
-<http://www.cs.technion.ac.il/people/yotamesh/> a foaf:Person ;
-    foaf:homepage "/people/yotamesh/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yotamesh@cs.technion.ac.il" ;
-    foaf:name "Eshel, Yotam" ;
-    foaf:phone "(972)-4-829-3939" .
-
-<http://www.cs.technion.ac.il/people/yufei/> a foaf:Person ;
-    foaf:homepage "/people/yufei/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "yufei@cs.technion.ac.il" ;
-    foaf:name "Zheng, Yufei" ;
-    foaf:phone "(972)-4-829-4897" .
-
-<http://www.cs.technion.ac.il/people/yurif/> a foaf:Person ;
-    foaf:homepage "/people/yurif/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yurif@cs.technion.ac.il" ;
-    foaf:name "Feldman, Yuri" ;
-    foaf:phone "(972)-4-829-3821" .
-
-<http://www.cs.technion.ac.il/people/yuval.dagan> a foaf:Person ;
-    foaf:homepage "/people/yuval.dagan" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yuval.dagan@cs.technion.ac.il" ;
-    foaf:name "Dagan, Yuval" .
-
-<http://www.cs.technion.ac.il/people/yyfairstein/> a foaf:Person ;
-    foaf:homepage "/people/yyfairstein/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "yyfairstein@cs.technion.ac.il" ;
-    foaf:name "Fairstein, Yaron" ;
-    foaf:phone "(972)-4-829-3714" .
-
-<http://www.cs.technion.ac.il/people/z--1748/> a foaf:Person ;
-    foaf:homepage "/people/z--1748/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Endrawis, Shadi" ;
-    foaf:phone "(972)-4-829-3373" .
-
-<http://www.cs.technion.ac.il/people/z--adame/> a foaf:Person ;
-    foaf:homepage "/people/z--adame/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Erdreich, Adam" .
-
-<http://www.cs.technion.ac.il/people/z--aimana/> a foaf:Person ;
-    foaf:homepage "/people/z--aimana/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Abu Yones, Aiman" .
-
-<http://www.cs.technion.ac.il/people/z--danibar/> a foaf:Person ;
-    foaf:homepage "/people/z--danibar/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:name "Bar Lev, Daniella" .
-
-<http://www.cs.technion.ac.il/people/z--danico/> a foaf:Person ;
-    foaf:homepage "/people/z--danico/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:name "Cohen, Daniel" .
-
-<http://www.cs.technion.ac.il/people/z--dorimed/> a foaf:Person ;
-    foaf:homepage "/people/z--dorimed/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Medini, Dori" .
-
-<http://www.cs.technion.ac.il/people/z--drorda/> a foaf:Person ;
-    foaf:homepage "/people/z--drorda/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:name "Dror, Daniel" .
-
-<http://www.cs.technion.ac.il/people/z--eladna/> a foaf:Person ;
-    foaf:homepage "/people/z--eladna/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Nachmias, Elad" .
-
-<http://www.cs.technion.ac.il/people/z--eliatu/> a foaf:Person ;
-    foaf:homepage "/people/z--eliatu/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:name "Turner, Elia" .
-
-<http://www.cs.technion.ac.il/people/z--gailon/> a foaf:Person ;
-    foaf:homepage "/people/z--gailon/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Gal, Eilon" .
-
-<http://www.cs.technion.ac.il/people/z--galb/> a foaf:Person ;
-    foaf:homepage "/people/z--galb/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Braun, Gal" .
-
-<http://www.cs.technion.ac.il/people/z--galp/> a foaf:Person ;
-    foaf:homepage "/people/z--galp/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Frenkel, Gal" .
-
-<http://www.cs.technion.ac.il/people/z--itaiya/> a foaf:Person ;
-    foaf:homepage "/people/z--itaiya/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Yakar, Itai" .
-
-<http://www.cs.technion.ac.il/people/z--lironb/> a foaf:Person ;
-    foaf:homepage "/people/z--lironb/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Bronfman, Liron" .
-
-<http://www.cs.technion.ac.il/people/z--nicolavd/> a foaf:Person ;
-    foaf:homepage "/people/z--nicolavd/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Avdella, Nicola" .
-
-<http://www.cs.technion.ac.il/people/z--nikud/> a foaf:Person ;
-    foaf:homepage "/people/z--nikud/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Kudriastev, Nikolay" .
-
-<http://www.cs.technion.ac.il/people/z--omeral/> a foaf:Person ;
-    foaf:homepage "/people/z--omeral/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Elkabetz, Omer" .
-
-<http://www.cs.technion.ac.il/people/z--shaize/> a foaf:Person ;
-    foaf:homepage "/people/z--shaize/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Zeevi, Shai" .
-
-<http://www.cs.technion.ac.il/people/z--shaorn/> a foaf:Person ;
-    foaf:homepage "/people/z--shaorn/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Yogev, Sharon Hai" .
-
-<http://www.cs.technion.ac.il/people/z--sharonku/> a foaf:Person ;
-    foaf:homepage "/people/z--sharonku/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Kuninin, Sharon" .
-
-<http://www.cs.technion.ac.il/people/z--tomerla/> a foaf:Person ;
-    foaf:homepage "/people/z--tomerla/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Lange, Tomer" ;
-    foaf:phone "(972)-4-829-4875" .
-
-<http://www.cs.technion.ac.il/people/z--uris/> a foaf:Person ;
-    foaf:homepage "/people/z--uris/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Sberlo, Ori" ;
-    foaf:phone "(972)-4-829-3373" .
-
-<http://www.cs.technion.ac.il/people/z--vald/> a foaf:Person ;
-    foaf:homepage "/people/z--vald/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:name "Dashinsky, Valentin" .
-
-<http://www.cs.technion.ac.il/people/zuphit/> a foaf:Person ;
-    foaf:homepage "/people/zuphit/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
-    foaf:mbox "zuphit@cs.technion.ac.il" ;
-    foaf:name "Fidelman, Zuphit" ;
-    foaf:phone "(972)-4-829-4341" .
-
-<http://www.cs.technion.ac.il/people/maltsev/> a foaf:Person ;
-    foaf:homepage "/people/maltsev/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:mbox "maltsev@cs.technion.ac.il" ;
-    foaf:name "Maltsev, Michael" ;
-    foaf:phone "(972)-4-829-4875" .
-
-<http://www.cs.technion.ac.il/people/z--galma/> a foaf:Person ;
-    foaf:homepage "/people/z--galma/" ;
-    foaf:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
-    foaf:name "Malka, Gal" .
-
-<http://www.cs.technion.ac.il/images/no-photo-woman.gif> a foaf:Image .
-
-<http://www.cs.technion.ac.il/images/no-photo-man.gif> a foaf:Image .
+<http://www.cs.technion.ac.il/images/people/snofca.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/sorimar.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/sran.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/srojeh.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/stavp.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/syairr.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/szarecki.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/tomerghelber.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/uzi.cohen.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/vardanp.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/yanivd.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/yoavn.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/people/yon_b.jpg> a ns1:Image .
+
+<http://www.cs.technion.ac.il/people/a.mohammad> a ns1:Person ;
+    ns1:homepage "/people/a.mohammad" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "a.mohammad@cs.technion.ac.il" ;
+    ns1:name "Agbarya, Mohammad" ;
+    ns1:phone "(972)-4-829-4307" .
+
+<http://www.cs.technion.ac.il/people/akravi/> a ns1:Person ;
+    ns1:homepage "/people/akravi/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "akravi@cs.technion.ac.il" ;
+    ns1:name "Kravi, Ayelet" ;
+    ns1:phone "(972)-4-829-3854" .
+
+<http://www.cs.technion.ac.il/people/ali.tabaja> a ns1:Person ;
+    ns1:homepage "/people/ali.tabaja" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ali.tabaja@cs.technion.ac.il" ;
+    ns1:name "Tabaja, Ali" ;
+    ns1:phone "(972)-4-829-4260" .
+
+<http://www.cs.technion.ac.il/people/alon.s> a ns1:Person ;
+    ns1:homepage "/people/alon.s" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "alon.s@cs.technion.ac.il" ;
+    ns1:name "Stern, Alon" .
+
+<http://www.cs.technion.ac.il/people/alonbri/> a ns1:Person ;
+    ns1:homepage "/people/alonbri/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "alonbri@cs.technion.ac.il" ;
+    ns1:name "Brifman, Alon" .
+
+<http://www.cs.technion.ac.il/people/amipaz/> a ns1:Person ;
+    ns1:homepage "/people/amipaz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "amipaz@cs.technion.ac.il" ;
+    ns1:name "Paz, Ami" ;
+    ns1:phone "(972)-4-829-5531" .
+
+<http://www.cs.technion.ac.il/people/amirc/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~amirc/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "amirc@cs.technion.ac.il" ;
+    ns1:name "Cohen, Amir" ;
+    ns1:phone "(972)-4-829-4307" .
+
+<http://www.cs.technion.ac.il/people/amirgeva/> a ns1:Person ;
+    ns1:homepage "http://amirgeva.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/amirgeva.jpg> ;
+    ns1:mbox "amirgeva@cs.technion.ac.il" ;
+    ns1:name "Geva, Amir" ;
+    ns1:phone "(972)-4-829-4935" .
+
+<http://www.cs.technion.ac.il/people/amitboy/> a ns1:Person ;
+    ns1:homepage "/people/amitboy/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "amitboy@cs.technion.ac.il" ;
+    ns1:name "Boyarski, Amit" ;
+    ns1:phone "(972)-4-829-4867" .
+
+<http://www.cs.technion.ac.il/people/amitgr/> a ns1:Person ;
+    ns1:homepage "/people/amitgr/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "amitgr@cs.technion.ac.il" ;
+    ns1:name "Gross, Amit" .
+
+<http://www.cs.technion.ac.il/people/ammicha3/> a ns1:Person ;
+    ns1:homepage "/people/ammicha3/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ammicha3@cs.technion.ac.il" ;
+    ns1:name "Amir, Michael" ;
+    ns1:phone "(972)-4-829-4930" .
+
+<http://www.cs.technion.ac.il/people/anavy/> a ns1:Person ;
+    ns1:homepage "http://anavy.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/anavy.jpg> ;
+    ns1:mbox "anavy@cs.technion.ac.il" ;
+    ns1:name "Anavy, Leon" ;
+    ns1:phone "(972)-4-829-5530" .
+
+<http://www.cs.technion.ac.il/people/andrew.isakov> a ns1:Person ;
+    ns1:homepage "/people/andrew.isakov" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "andrew.isakov@cs.technion.ac.il" ;
+    ns1:name "Isakov, Andrew" ;
+    ns1:phone "(972)-4-829-4890" .
+
+<http://www.cs.technion.ac.il/people/annat/> a ns1:Person ;
+    ns1:homepage "/people/annat/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "annat@cs.technion.ac.il" ;
+    ns1:name "Trostanetski, Anna" ;
+    ns1:phone "(972)-4-829-4315" .
+
+<http://www.cs.technion.ac.il/people/arietal/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~arietal/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/arietal.jpg> ;
+    ns1:mbox "arietal@cs.technion.ac.il" ;
+    ns1:name "Tal, Arie" ;
+    ns1:phone "(972)-4-829-4319" .
+
+<http://www.cs.technion.ac.il/people/arthurk/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~arthurk/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/arthurk.jpg> ;
+    ns1:mbox "arthurk@cs.technion.ac.il" ;
+    ns1:name "Kiyanovski, Arthur" ;
+    ns1:phone "(972)-4-829-4883" .
+
+<http://www.cs.technion.ac.il/people/ashtern/> a ns1:Person ;
+    ns1:homepage "/people/ashtern/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ashtern@cs.technion.ac.il" ;
+    ns1:name "Stern, Alon" ;
+    ns1:phone "(972)-4-829-4895" .
+
+<http://www.cs.technion.ac.il/people/avivy/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~avivy/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/avivy.jpg> ;
+    ns1:mbox "avivy@cs.technion.ac.il" ;
+    ns1:name "Yehezkel, Aviv" .
+
+<http://www.cs.technion.ac.il/people/avnerel/> a ns1:Person ;
+    ns1:homepage "/people/avnerel/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/avnerel.jpg> ;
+    ns1:mbox "avnerel@cs.technion.ac.il" ;
+    ns1:name "Elizarov, Avner" ;
+    ns1:phone "(972)-4-829-3864" .
+
+<http://www.cs.technion.ac.il/people/azencot/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~azencot/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/azencot.jpg> ;
+    ns1:mbox "azencot@cs.technion.ac.il" ;
+    ns1:name "Azencot, Omri" ;
+    ns1:phone "(972)-4-829-4896" .
+
+<http://www.cs.technion.ac.il/people/balber/> a ns1:Person ;
+    ns1:homepage "/people/balber/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "balber@cs.technion.ac.il" ;
+    ns1:name "Balber, Michael" .
+
+<http://www.cs.technion.ac.il/people/barakpat/> a ns1:Person ;
+    ns1:homepage "/people/barakpat/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "barakpat@cs.technion.ac.il" ;
+    ns1:name "Pat, Barak" .
+
+<http://www.cs.technion.ac.il/people/batg/> a ns1:Person ;
+    ns1:homepage "/people/batg/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "batg@cs.technion.ac.il" ;
+    ns1:name "Golden, Batchen" ;
+    ns1:phone "(972)-4-829-3376" .
+
+<http://www.cs.technion.ac.il/people/bdaviv/> a ns1:Person ;
+    ns1:homepage "/people/bdaviv/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "bdaviv@cs.technion.ac.il" ;
+    ns1:name "Ben-David, Aviv" .
+
+<http://www.cs.technion.ac.il/people/benezair/> a ns1:Person ;
+    ns1:homepage "/people/benezair/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "benezair@cs.technion.ac.il" ;
+    ns1:name "Ezair, Ben" ;
+    ns1:phone "(972)-4-829-4928" .
+
+<http://www.cs.technion.ac.il/people/borispi/> a ns1:Person ;
+    ns1:homepage "/people/borispi/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "borispi@cs.technion.ac.il" ;
+    ns1:name "Pismenny, Boris" ;
+    ns1:phone "(972)-4-829-4309" .
+
+<http://www.cs.technion.ac.il/people/carmeli/> a ns1:Person ;
+    ns1:homepage "/people/carmeli/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "carmeli@cs.technion.ac.il" ;
+    ns1:name "Carmeli, Amit" .
+
+<http://www.cs.technion.ac.il/people/daliaca/> a ns1:Person ;
+    ns1:homepage "/people/daliaca/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "daliaca@cs.technion.ac.il" ;
+    ns1:name "Alperovich, Dalia" .
+
+<http://www.cs.technion.ac.il/people/dandan/> a ns1:Person ;
+    ns1:homepage "/people/dandan/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "dandan@cs.technion.ac.il" ;
+    ns1:name "Ezuz, Daniel" ;
+    ns1:phone "(972)-4-829-4347" .
+
+<http://www.cs.technion.ac.il/people/daniil.rodin> a ns1:Person ;
+    ns1:homepage "/people/daniil.rodin" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "daniil.rodin@cs.technion.ac.il" ;
+    ns1:name "Rodin, Daniil" ;
+    ns1:phone "(972)-4-829-4928" .
+
+<http://www.cs.technion.ac.il/people/danrasin/> a ns1:Person ;
+    ns1:homepage "/people/danrasin/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "danrasin@cs.technion.ac.il" ;
+    ns1:name "Rasin, Dan" ;
+    ns1:phone "(972)-4-829-4315" .
+
+<http://www.cs.technion.ac.il/people/david.co> a ns1:Person ;
+    ns1:homepage "/people/david.co" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "david.co@cs.technion.ac.il" ;
+    ns1:name "Cohen, David" ;
+    ns1:phone "(972)-4-829-4897" .
+
+<http://www.cs.technion.ac.il/people/ddana/> a ns1:Person ;
+    ns1:homepage "http://ddana.cswp.cs.technion.ac.il" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/ddana.jpg> ;
+    ns1:mbox "ddana@cs.technion.ac.il" ;
+    ns1:name "Drachsler-Cohen, Dana" ;
+    ns1:phone "(972)-4-829-4806" .
+
+<http://www.cs.technion.ac.il/people/derech/> a ns1:Person ;
+    ns1:homepage "/people/derech/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "derech@cs.technion.ac.il" ;
+    ns1:name "Derech, Niv" .
+
+<http://www.cs.technion.ac.il/people/dmitry.ra> a ns1:Person ;
+    ns1:homepage "/people/dmitry.ra" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "dmitry.ra@cs.technion.ac.il" ;
+    ns1:name "Rabinovich, Dmitry" ;
+    ns1:phone "(972)-4-829-4930" .
+
+<http://www.cs.technion.ac.il/people/dnaori/> a ns1:Person ;
+    ns1:homepage "/people/dnaori/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "dnaori@cs.technion.ac.il" ;
+    ns1:name "Naori, David" ;
+    ns1:phone "(972)-4-829-5534" .
+
+<http://www.cs.technion.ac.il/people/dolevelb/> a ns1:Person ;
+    ns1:homepage "/people/dolevelb/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "dolevelb@cs.technion.ac.il" ;
+    ns1:name "Elbaz, Dolev" ;
+    ns1:phone "(972)-4-829-3373" .
+
+<http://www.cs.technion.ac.il/people/dorharris/> a ns1:Person ;
+    ns1:homepage "/people/dorharris/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "dorharris@cs.technion.ac.il" ;
+    ns1:name "Harris, Dor" ;
+    ns1:phone "(972)-4-829-4924" .
+
+<http://www.cs.technion.ac.il/people/dorhovav/> a ns1:Person ;
+    ns1:homepage "/people/dorhovav/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "dorhovav@cs.technion.ac.il" ;
+    ns1:name "Hovav, Dor" .
+
+<http://www.cs.technion.ac.il/people/dorma10/> a ns1:Person ;
+    ns1:homepage "/people/dorma10/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "dorma10@cs.technion.ac.il" ;
+    ns1:name "Ma'ayan, Dor" .
+
+<http://www.cs.technion.ac.il/people/dorzohar/> a ns1:Person ;
+    ns1:homepage "/people/dorzohar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/dorzohar.jpg> ;
+    ns1:mbox "dorzohar@cs.technion.ac.il" ;
+    ns1:name "Zohar, Dor" ;
+    ns1:phone "(972)-4-829-3714" .
+
+<http://www.cs.technion.ac.il/people/dsainz/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~dsainz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/dsainz.jpg> ;
+    ns1:mbox "dsainz@cs.technion.ac.il" ;
+    ns1:name "Sainz, David" .
+
+<http://www.cs.technion.ac.il/people/dvir.dukhan> a ns1:Person ;
+    ns1:homepage "/people/dvir.dukhan" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "dvir.dukhan@cs.technion.ac.il" ;
+    ns1:name "Dukhan, Dvir" ;
+    ns1:phone "(972)-4-829-3375" .
+
+<http://www.cs.technion.ac.il/people/edens/> a ns1:Person ;
+    ns1:homepage "/people/edens/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "edens@cs.technion.ac.il" ;
+    ns1:name "Saig, Eden" ;
+    ns1:phone "(972)-4-829-4335" .
+
+<http://www.cs.technion.ac.il/people/edwardv/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~edwardv/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/edwardv.jpg> ;
+    ns1:mbox "edwardv@cs.technion.ac.il" ;
+    ns1:name "Vitkin, Edward" .
+
+<http://www.cs.technion.ac.il/people/ekravi/> a ns1:Person ;
+    ns1:homepage "http://ekravi.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/ekravi.jpg> ;
+    ns1:mbox "ekravi@cs.technion.ac.il" ;
+    ns1:name "Kravi, Elad" ;
+    ns1:phone "(972)-4-829-4306" .
+
+<http://www.cs.technion.ac.il/people/elbazdan/> a ns1:Person ;
+    ns1:homepage "/people/elbazdan/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "elbazdan@cs.technion.ac.il" ;
+    ns1:name "Elbaz, Dan" ;
+    ns1:phone "(972)-4-829-4614" .
+
+<http://www.cs.technion.ac.il/people/elielzer/> a ns1:Person ;
+    ns1:homepage "/people/elielzer/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "elielzer@cs.technion.ac.il" ;
+    ns1:name "Bridger, Dov" .
+
+<http://www.cs.technion.ac.il/people/erangi/> a ns1:Person ;
+    ns1:homepage "/people/erangi/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/erangi.jpg> ;
+    ns1:mbox "erangi@cs.technion.ac.il" ;
+    ns1:name "Gilad, Eran" ;
+    ns1:phone "(972)-4-829-4306" .
+
+<http://www.cs.technion.ac.il/people/esterliv/> a ns1:Person ;
+    ns1:homepage "/people/esterliv/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "esterliv@cs.technion.ac.il" ;
+    ns1:name "Livshits, Ester" ;
+    ns1:phone "(972)-4-829-3374" .
+
+<http://www.cs.technion.ac.il/people/evron/> a ns1:Person ;
+    ns1:homepage "/people/evron/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "evron@cs.technion.ac.il" ;
+    ns1:name "Evron, Itay" ;
+    ns1:phone "(972)-4-829-4309" .
+
+<http://www.cs.technion.ac.il/people/eyahn/> a ns1:Person ;
+    ns1:homepage "/people/eyahn/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "eyahn@cs.technion.ac.il" ;
+    ns1:name "Ahn, Eunyong" .
+
+<http://www.cs.technion.ac.il/people/eyalmiz/> a ns1:Person ;
+    ns1:homepage "/people/eyalmiz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "eyalmiz@cs.technion.ac.il" ;
+    ns1:name "Mizrachi, Eyal" .
+
+<http://www.cs.technion.ac.il/people/eylonsho999/> a ns1:Person ;
+    ns1:homepage "/people/eylonsho999/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "eylonsho999@cs.technion.ac.il" ;
+    ns1:name "Shoshan, Eylon" ;
+    ns1:phone "(972)-4-829-4351" .
+
+<http://www.cs.technion.ac.il/people/eytan.s> a ns1:Person ;
+    ns1:homepage "/people/eytan.s" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "eytan.s@cs.technion.ac.il" ;
+    ns1:name "Singher, Eytan" ;
+    ns1:phone "(972)-4-829-3940" .
+
+<http://www.cs.technion.ac.il/people/fadym/> a ns1:Person ;
+    ns1:homepage "/people/fadym/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "fadym@cs.technion.ac.il" ;
+    ns1:name "Massarwi, Fady" ;
+    ns1:phone "(972)-4-829-3896" .
+
+<http://www.cs.technion.ac.il/people/fire/> a ns1:Person ;
+    ns1:homepage "/people/fire/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/fire.jpg> ;
+    ns1:mbox "fire@cs.technion.ac.il" ;
+    ns1:name "Fayerverker, Itay" ;
+    ns1:phone "(972)-4-829-4890" .
+
+<http://www.cs.technion.ac.il/people/fonaro/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~fonaro/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/fonaro.jpg> ;
+    ns1:mbox "fonaro@cs.technion.ac.il" ;
+    ns1:name "Funaro, Liran" ;
+    ns1:phone "(972)-4-829-4935" .
+
+<http://www.cs.technion.ac.il/people/gabay/> a ns1:Person ;
+    ns1:homepage "/people/gabay/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "gabay@cs.technion.ac.il" ;
+    ns1:name "Gabay, Roi" .
+
+<http://www.cs.technion.ac.il/people/galls2/> a ns1:Person ;
+    ns1:homepage "/people/galls2/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "galls2@cs.technion.ac.il" ;
+    ns1:name "Sade, Gal" ;
+    ns1:phone "(972)-4-829-4924" .
+
+<http://www.cs.technion.ac.il/people/galy/> a ns1:Person ;
+    ns1:homepage "/people/galy/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "galy@cs.technion.ac.il" ;
+    ns1:name "Milman, Gal" ;
+    ns1:phone "(972)-4-829-4620" .
+
+<http://www.cs.technion.ac.il/people/gdor80/> a ns1:Person ;
+    ns1:homepage "/people/gdor80/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "gdor80@cs.technion.ac.il" ;
+    ns1:name "Granat, Dor" ;
+    ns1:phone "(972)-4-829-4924" .
+
+<http://www.cs.technion.ac.il/people/gilbe/> a ns1:Person ;
+    ns1:homepage "/people/gilbe/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "gilbe@cs.technion.ac.il" ;
+    ns1:name "Ben-Shachar, Gil" ;
+    ns1:phone "(972)-4-829-4619" .
+
+<http://www.cs.technion.ac.il/people/giliyav/> a ns1:Person ;
+    ns1:homepage "/people/giliyav/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "giliyav@cs.technion.ac.il" ;
+    ns1:name "Yavneh, Gili" ;
+    ns1:phone "(972)-4-829-4341" .
+
+<http://www.cs.technion.ac.il/people/gilkup/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~gilkup/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/gilkup.jpg> ;
+    ns1:mbox "gilkup@cs.technion.ac.il" ;
+    ns1:name "Kupfer, Gil" ;
+    ns1:phone "(972)-4-829-4881" .
+
+<http://www.cs.technion.ac.il/people/gkutiel/> a ns1:Person ;
+    ns1:homepage "http://gkutiel.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/gkutiel.jpg> ;
+    ns1:mbox "gkutiel@cs.technion.ac.il" ;
+    ns1:name "Kutiel, Gilad" ;
+    ns1:phone "(972)-4-829-4975" .
+
+<http://www.cs.technion.ac.il/people/grishav/> a ns1:Person ;
+    ns1:homepage "/people/grishav/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "grishav@cs.technion.ac.il" ;
+    ns1:name "Vaksman, Gregory" ;
+    ns1:phone "(972)-4-829-3905" .
+
+<http://www.cs.technion.ac.il/people/guyrosin/> a ns1:Person ;
+    ns1:homepage "/people/guyrosin/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "guyrosin@cs.technion.ac.il" ;
+    ns1:name "Rosin, Guy" .
+
+<http://www.cs.technion.ac.il/people/guziel/> a ns1:Person ;
+    ns1:homepage "/people/guziel/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "guziel@cs.technion.ac.il" ;
+    ns1:name "Uziel, Guy" ;
+    ns1:phone "(972)-4-829-4960" .
+
+<http://www.cs.technion.ac.il/people/hassan/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~hassan/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/hassan.jpg> ;
+    ns1:mbox "hassan@cs.technion.ac.il" ;
+    ns1:name "Abassie, Hassan" ;
+    ns1:phone "(972)-4-829-4958" .
+
+<http://www.cs.technion.ac.il/people/hfrenkel/> a ns1:Person ;
+    ns1:homepage "http://hfrenkel.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "hfrenkel@cs.technion.ac.il" ;
+    ns1:name "Frenkel, Hadar" ;
+    ns1:phone "(972)-4-829-4315" .
+
+<http://www.cs.technion.ac.il/people/hilap/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~hilap/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/hilap.jpg> ;
+    ns1:mbox "hilap@cs.technion.ac.il" ;
+    ns1:name "Peleg, Hila" ;
+    ns1:phone "(972)-4-829-4958" .
+
+<http://www.cs.technion.ac.il/people/hongtao/> a ns1:Person ;
+    ns1:homepage "/people/hongtao/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "hongtao@cs.technion.ac.il" ;
+    ns1:name "Hong, Tao" ;
+    ns1:phone "(972)-4-829-4349" .
+
+<http://www.cs.technion.ac.il/people/idanha/> a ns1:Person ;
+    ns1:homepage "/people/idanha/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "idanha@cs.technion.ac.il" ;
+    ns1:name "Hasson, Idan" ;
+    ns1:phone "(972)-4-829-3428" .
+
+<http://www.cs.technion.ac.il/people/idansc/> a ns1:Person ;
+    ns1:homepage "/people/idansc/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "idansc@cs.technion.ac.il" ;
+    ns1:name "Schwartz, Idan" ;
+    ns1:phone "(972)-4-829-3826" .
+
+<http://www.cs.technion.ac.il/people/idanyani/> a ns1:Person ;
+    ns1:homepage "http://idanyani.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/idanyani.jpg> ;
+    ns1:mbox "idanyani@cs.technion.ac.il" ;
+    ns1:name "Yaniv, Idan" ;
+    ns1:phone "(972)-4-829-4881" .
+
+<http://www.cs.technion.ac.il/people/igors/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~igors/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/igors.jpg> ;
+    ns1:mbox "igors@cs.technion.ac.il" ;
+    ns1:name "Smolyar, Igor" ;
+    ns1:phone "(972)-4-829-4883" .
+
+<http://www.cs.technion.ac.il/people/igorzar/> a ns1:Person ;
+    ns1:homepage "/people/igorzar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "igorzar@cs.technion.ac.il" ;
+    ns1:name "Zarivach, Igor" .
+
+<http://www.cs.technion.ac.il/people/ikolchin/> a ns1:Person ;
+    ns1:homepage "/people/ikolchin/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ikolchin@cs.technion.ac.il" ;
+    ns1:name "Kolchinsky, Ilya" ;
+    ns1:phone "(972)-4-829-5534" .
+
+<http://www.cs.technion.ac.il/people/itaih/> a ns1:Person ;
+    ns1:homepage "/people/itaih/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/itaih.jpg> ;
+    ns1:mbox "itaih@cs.technion.ac.il" ;
+    ns1:name "Handler, Itai" ;
+    ns1:phone "(972)-4-829-4613" .
+
+<http://www.cs.technion.ac.il/people/ivodavid/> a ns1:Person ;
+    ns1:homepage "/people/ivodavid/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ivodavid@cs.technion.ac.il" ;
+    ns1:name "Oliveira, Ivo David" ;
+    ns1:phone "(972)-4-829-4613" .
+
+<http://www.cs.technion.ac.il/people/izikgo/> a ns1:Person ;
+    ns1:homepage "/people/izikgo/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "izikgo@cs.technion.ac.il" ;
+    ns1:name "Golan, Izhak" ;
+    ns1:phone "(972)-4-829-4925" .
+
+<http://www.cs.technion.ac.il/people/jalilm/> a ns1:Person ;
+    ns1:homepage "/people/jalilm/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "jalilm@cs.technion.ac.il" ;
+    ns1:name "Moraney, Jalil" ;
+    ns1:phone "(972)-4-829-5530" .
+
+<http://www.cs.technion.ac.il/people/john.noonan> a ns1:Person ;
+    ns1:homepage "/people/john.noonan" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "john.noonan@cs.technion.ac.il" ;
+    ns1:name "Noonan, John" ;
+    ns1:phone "(972)-4-829-3383" .
+
+<http://www.cs.technion.ac.il/people/jsulam/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~jsulam/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/jsulam.jpg> ;
+    ns1:mbox "jsulam@cs.technion.ac.il" ;
+    ns1:name "Sulam, Jeremias" ;
+    ns1:phone "(972)-4-829-4843" .
+
+<http://www.cs.technion.ac.il/people/kassnery/> a ns1:Person ;
+    ns1:homepage "/people/kassnery/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "kassnery@cs.technion.ac.il" ;
+    ns1:name "Kassner, Yaron" .
+
+<http://www.cs.technion.ac.il/people/kfirnz/> a ns1:Person ;
+    ns1:homepage "/people/kfirnz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "kfirnz@cs.technion.ac.il" ;
+    ns1:name "Nir-Zvi, Kfir" ;
+    ns1:phone "(972)-4-829-3897" .
+
+<http://www.cs.technion.ac.il/people/kligler/> a ns1:Person ;
+    ns1:homepage "/people/kligler/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "kligler@cs.technion.ac.il" ;
+    ns1:name "Kligler, Nati" .
+
+<http://www.cs.technion.ac.il/people/kreimer/> a ns1:Person ;
+    ns1:homepage "/people/kreimer/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "kreimer@cs.technion.ac.il" ;
+    ns1:name "Kreimer, Alexander" .
+
+<http://www.cs.technion.ac.il/people/kviat/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~kviat/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/kviat.jpg> ;
+    ns1:mbox "kviat@cs.technion.ac.il" ;
+    ns1:name "Kviatkovsky, Igor" .
+
+<http://www.cs.technion.ac.il/people/lalouche/> a ns1:Person ;
+    ns1:homepage "/people/lalouche/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "lalouche@cs.technion.ac.il" ;
+    ns1:name "Lalouche, Gal" .
+
+<http://www.cs.technion.ac.il/people/lazerson/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~lazerson/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "lazerson@cs.technion.ac.il" ;
+    ns1:name "Lazerson, Arnon" ;
+    ns1:phone "(972)-4-829-4946" .
+
+<http://www.cs.technion.ac.il/people/levyohananov/> a ns1:Person ;
+    ns1:homepage "/people/levyohananov/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/levyohananov.jpg> ;
+    ns1:mbox "levyohananov@campus.technion.ac.il" ;
+    ns1:name "Yohananov, Lev" ;
+    ns1:phone "(972)-4-829-4948" .
+
+<http://www.cs.technion.ac.il/people/liatpf/> a ns1:Person ;
+    ns1:homepage "/people/liatpf/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/liatpf.jpg> ;
+    ns1:mbox "liatpf@cs.technion.ac.il" ;
+    ns1:name "Peterfreund, Liat" ;
+    ns1:phone "(972)-4-829-4953" .
+
+<http://www.cs.technion.ac.il/people/lior.neumann> a ns1:Person ;
+    ns1:homepage "/people/lior.neumann" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "lior.neumann@cs.technion.ac.il" ;
+    ns1:name "Neumann, Lior" .
+
+<http://www.cs.technion.ac.il/people/liorf/> a ns1:Person ;
+    ns1:homepage "/people/liorf/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "liorf@cs.technion.ac.il" ;
+    ns1:name "Friedman, Lior" .
+
+<http://www.cs.technion.ac.il/people/liorsam/> a ns1:Person ;
+    ns1:homepage "/people/liorsam/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "liorsam@cs.technion.ac.il" ;
+    ns1:name "Samuel, Lior" .
+
+<http://www.cs.technion.ac.il/people/m7mdtb/> a ns1:Person ;
+    ns1:homepage "/people/m7mdtb/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "m7mdtb@cs.technion.ac.il" ;
+    ns1:name "Tibi, Muhammed" ;
+    ns1:phone "(972)-4-829-4891" .
+
+<http://www.cs.technion.ac.il/people/majdo/> a ns1:Person ;
+    ns1:homepage "/people/majdo/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "majdo@cs.technion.ac.il" ;
+    ns1:name "Omary, Majd" .
+
+<http://www.cs.technion.ac.il/people/margulis/> a ns1:Person ;
+    ns1:homepage "/people/margulis/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "margulis@cs.technion.ac.il" ;
+    ns1:name "Margulis, Igor" .
+
+<http://www.cs.technion.ac.il/people/maria.tu> a ns1:Person ;
+    ns1:homepage "/people/maria.tu" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "maria.tu@cs.technion.ac.il" ;
+    ns1:name "Tunik Schmidt, Maria" ;
+    ns1:phone "(972)-4-829-4886" .
+
+<http://www.cs.technion.ac.il/people/markuze/> a ns1:Person ;
+    ns1:homepage "/people/markuze/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "markuze@cs.technion.ac.il" ;
+    ns1:name "Markuze, Alex" .
+
+<http://www.cs.technion.ac.il/people/matansel/> a ns1:Person ;
+    ns1:homepage "http://matansela.strikingly.com/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/matansel.jpg> ;
+    ns1:mbox "matansel@cs.technion.ac.il" ;
+    ns1:name "Sela, Matan" ;
+    ns1:phone "(972)-4-829-4931" .
+
+<http://www.cs.technion.ac.il/people/matt.b> a ns1:Person ;
+    ns1:homepage "/people/matt.b" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "matt.b@cs.technion.ac.il" ;
+    ns1:name "Bonne, Matthias" ;
+    ns1:phone "(972)-4-829-3714" .
+
+<http://www.cs.technion.ac.il/people/mayaarl/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~mayaarl/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/mayaarl.jpg> ;
+    ns1:mbox "mayaarl@cs.technion.ac.il" ;
+    ns1:name "Arbel, Maya" ;
+    ns1:phone "(972)-4-829-3381" .
+
+<http://www.cs.technion.ac.il/people/mayalevy/> a ns1:Person ;
+    ns1:homepage "/people/mayalevy/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "mayalevy@cs.technion.ac.il" ;
+    ns1:name "Levy, Maya" ;
+    ns1:phone "(972)-4-829-4335" .
+
+<http://www.cs.technion.ac.il/people/maytal/> a ns1:Person ;
+    ns1:homepage "/people/maytal/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/maytal.jpg> ;
+    ns1:mbox "maytal@cs.technion.ac.il" ;
+    ns1:name "Messing, Maytal" .
+
+<http://www.cs.technion.ac.il/people/mbs/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~mbs/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/mbs.jpg> ;
+    ns1:mbox "mbs@cs.technion.ac.il" ;
+    ns1:name "Ben-Sinai, Meital" .
+
+<http://www.cs.technion.ac.il/people/melanyc/> a ns1:Person ;
+    ns1:homepage "/people/melanyc/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/melanyc.jpg> ;
+    ns1:mbox "melanyc@cs.technion.ac.il" ;
+    ns1:name "Cohen, Michal" ;
+    ns1:phone "(972)-4-829-4166" .
+
+<http://www.cs.technion.ac.il/people/mgabel/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~mgabel/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/mgabel.jpg> ;
+    ns1:mbox "mgabel@cs.technion.ac.il" ;
+    ns1:name "Gabel, Moshe" ;
+    ns1:phone "(972)-4-829-4946" .
+
+<http://www.cs.technion.ac.il/people/michal.f> a ns1:Person ;
+    ns1:homepage "/people/michal.f" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/michal.f.jpg> ;
+    ns1:mbox "michal.f@cs.technion.ac.il" ;
+    ns1:name "Friedman, Michal" ;
+    ns1:phone "(972)-4-829-4340" .
+
+<http://www.cs.technion.ac.il/people/michalho/> a ns1:Person ;
+    ns1:homepage "/people/michalho/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "michalho@cs.technion.ac.il" ;
+    ns1:name "Horovitz, Michal" ;
+    ns1:phone "(972)-4-829-3376" .
+
+<http://www.cs.technion.ac.il/people/mini/> a ns1:Person ;
+    ns1:homepage "/people/mini/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "mini@cs.technion.ac.il" ;
+    ns1:name "Minkin, Marina" ;
+    ns1:phone "(972)-4-829-3823" .
+
+<http://www.cs.technion.ac.il/people/mip/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~mip/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "mip@cs.technion.ac.il" ;
+    ns1:name "Peled, Matan" ;
+    ns1:phone "(972)-4-829-3826" .
+
+<http://www.cs.technion.ac.il/people/mjenya/> a ns1:Person ;
+    ns1:homepage "/people/mjenya/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "mjenya@cs.technion.ac.il" ;
+    ns1:name "Moroshko, Evgeny" .
+
+<http://www.cs.technion.ac.il/people/mlitbk/> a ns1:Person ;
+    ns1:homepage "/people/mlitbk/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/mlitbk.jpg> ;
+    ns1:mbox "mlitbk@cs.technion.ac.il" ;
+    ns1:name "Litvak, Michael" ;
+    ns1:phone "(972)-4-829-3373" .
+
+<http://www.cs.technion.ac.il/people/mriabzev/> a ns1:Person ;
+    ns1:homepage "/people/mriabzev/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "mriabzev@cs.technion.ac.il" ;
+    ns1:name "Riabzev, Michael" ;
+    ns1:phone "(972)-4-829-4319" .
+
+<http://www.cs.technion.ac.il/people/mshalah/> a ns1:Person ;
+    ns1:homepage "/people/mshalah/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/mshalah.jpg> ;
+    ns1:mbox "mshalah@cs.technion.ac.il" ;
+    ns1:name "Shalah, Mira" ;
+    ns1:phone "(972)-4-829-4886" .
+
+<http://www.cs.technion.ac.il/people/nadavbh/> a ns1:Person ;
+    ns1:homepage "/people/nadavbh/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "nadavbh@cs.technion.ac.il" ;
+    ns1:name "Bhonker, Nadav" ;
+    ns1:phone "(972)-4-829-4943" .
+
+<http://www.cs.technion.ac.il/people/nahumf/> a ns1:Person ;
+    ns1:homepage "/people/nahumf/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "nahumf@cs.technion.ac.il" ;
+    ns1:name "Farchi, Nahum" ;
+    ns1:phone "(972)-4-829-4347" .
+
+<http://www.cs.technion.ac.il/people/noamrvd/> a ns1:Person ;
+    ns1:homepage "/people/noamrvd/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "noamrvd@cs.technion.ac.il" ;
+    ns1:name "Ravid, Noam" ;
+    ns1:phone "(972)-4-829-4614" .
+
+<http://www.cs.technion.ac.il/people/nuritdv/> a ns1:Person ;
+    ns1:homepage "/people/nuritdv/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/nuritdv.jpg> ;
+    ns1:mbox "nuritdv@cs.technion.ac.il" ;
+    ns1:name "Devir, Nurit" ;
+    ns1:phone "(972)-4-829-3854" .
+
+<http://www.cs.technion.ac.il/people/nuritm/> a ns1:Person ;
+    ns1:homepage "/people/nuritm/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "nuritm@cs.technion.ac.il" ;
+    ns1:name "Moscovici, Nurit" ;
+    ns1:phone "(972)-4-829-5617" .
+
+<http://www.cs.technion.ac.il/people/ofer.guthmann> a ns1:Person ;
+    ns1:homepage "/people/ofer.guthmann" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ofer.guthmann@cs.technion.ac.il" ;
+    ns1:name "Guthmann, Ofer" ;
+    ns1:phone "(972)-4-829-4260" .
+
+<http://www.cs.technion.ac.il/people/ogivoli/> a ns1:Person ;
+    ns1:homepage "/people/ogivoli/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ogivoli@cs.technion.ac.il" ;
+    ns1:name "Givoli, Ofer" ;
+    ns1:phone "(972)-4-829-4362" .
+
+<http://www.cs.technion.ac.il/people/ohad/> a ns1:Person ;
+    ns1:homepage "/people/ohad/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ohad@cs.technion.ac.il" ;
+    ns1:name "Talmon, Ohad" ;
+    ns1:phone "(972)-4-829-4932" .
+
+<http://www.cs.technion.ac.il/people/ohadey/> a ns1:Person ;
+    ns1:homepage "/people/ohadey/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ohadey@cs.technion.ac.il" ;
+    ns1:name "Eytan, Ohad" ;
+    ns1:phone "(972)-4-829-3382" .
+
+<http://www.cs.technion.ac.il/people/omari/> a ns1:Person ;
+    ns1:homepage "/people/omari/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "omari@cs.technion.ac.il" ;
+    ns1:name "Omari, Adi" ;
+    ns1:phone "(972)-4-829-4894" .
+
+<http://www.cs.technion.ac.il/people/omerkatz/> a ns1:Person ;
+    ns1:homepage "http://omerkatz.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/omerkatz.jpg> ;
+    ns1:mbox "omerkatz@cs.technion.ac.il" ;
+    ns1:name "Katz, Omer" ;
+    ns1:phone "(972)-4-829-5527" .
+
+<http://www.cs.technion.ac.il/people/oran/> a ns1:Person ;
+    ns1:homepage "/people/oran/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/oran.jpg> ;
+    ns1:mbox "oran@cs.technion.ac.il" ;
+    ns1:name "Gilboa, Oran" .
+
+<http://www.cs.technion.ac.il/people/paigautam/> a ns1:Person ;
+    ns1:homepage "http://paigautam.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/paigautam.jpg> ;
+    ns1:mbox "paigautam@cs.technion.ac.il" ;
+    ns1:name "Pai, Gautam" ;
+    ns1:phone "(972)-4-829-4895" .
+
+<http://www.cs.technion.ac.il/people/ranas/> a ns1:Person ;
+    ns1:homepage "http://shroman.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "ranas@cs.technion.ac.il" ;
+    ns1:name "Shahout, Rana" ;
+    ns1:phone "(972)-4-829-4340" .
+
+<http://www.cs.technion.ac.il/people/ranko/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~ranko/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/ranko.jpg> ;
+    ns1:mbox "ranko@cs.technion.ac.il" ;
+    ns1:name "Koretzki, Ran" .
+
+<http://www.cs.technion.ac.il/people/rberman/> a ns1:Person ;
+    ns1:homepage "/people/rberman/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "rberman@cs.technion.ac.il" ;
+    ns1:name "Berman, Rachel" ;
+    ns1:phone "(972)-4-829-4341" .
+
+<http://www.cs.technion.ac.il/people/rbreuer/> a ns1:Person ;
+    ns1:homepage "/people/rbreuer/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "rbreuer@cs.technion.ac.il" ;
+    ns1:name "Breuer, Ran" .
+
+<http://www.cs.technion.ac.il/people/reidler/> a ns1:Person ;
+    ns1:homepage "/people/reidler/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "reidler@cs.technion.ac.il" ;
+    ns1:name "Reidler, Daniel" .
+
+<http://www.cs.technion.ac.il/people/roee.francos> a ns1:Person ;
+    ns1:homepage "/people/roee.francos" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "roee.francos@cs.technion.ac.il" ;
+    ns1:name "Francos, Roee" ;
+    ns1:phone "(972)-4-829-4927" .
+
+<http://www.cs.technion.ac.il/people/roee.mor> a ns1:Person ;
+    ns1:homepage "/people/roee.mor" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "roee.mor@cs.technion.ac.il" ;
+    ns1:name "Mor, Roee" .
+
+<http://www.cs.technion.ac.il/people/roeige/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~roeige/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/roeige.jpg> ;
+    ns1:mbox "roeige@cs.technion.ac.il" ;
+    ns1:name "Gelbhart, Roei" ;
+    ns1:phone "(972)-4-829-4925" .
+
+<http://www.cs.technion.ac.il/people/rotemliss/> a ns1:Person ;
+    ns1:homepage "http://rotemliss.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/rotemliss.jpg> ;
+    ns1:mbox "rotemliss@cs.technion.ac.il" ;
+    ns1:name "Liss, Rotem" ;
+    ns1:phone "(972)-4-829-3428" .
+
+<http://www.cs.technion.ac.il/people/rz/> a ns1:Person ;
+    ns1:homepage "/people/rz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "rz@cs.technion.ac.il" ;
+    ns1:name "Zilberstein, Ran" .
+
+<http://www.cs.technion.ac.il/people/sa/> a ns1:Person ;
+    ns1:homepage "/people/sa/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sa@cs.technion.ac.il" ;
+    ns1:name "Fuchs, Amit" .
+
+<http://www.cs.technion.ac.il/people/saarraz/> a ns1:Person ;
+    ns1:homepage "/people/saarraz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "saarraz@cs.technion.ac.il" ;
+    ns1:name "Raz, Saar" .
+
+<http://www.cs.technion.ac.il/people/saarz/> a ns1:Person ;
+    ns1:homepage "/people/saarz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "saarz@cs.technion.ac.il" ;
+    ns1:name "Zehavi, Saar" ;
+    ns1:phone "(972)-4-829-4613" .
+
+<http://www.cs.technion.ac.il/people/salonaz/> a ns1:Person ;
+    ns1:homepage "/people/salonaz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "zadneprovski@gmail.com" ;
+    ns1:name "Golz, Alona" ;
+    ns1:phone "(972)-4-829-4929" .
+
+<http://www.cs.technion.ac.il/people/salons/> a ns1:Person ;
+    ns1:homepage "/people/salons/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "salons@cs.technion.ac.il" ;
+    ns1:name "Shtaierman, Alon" ;
+    ns1:phone "(972)-4-829-4166" .
+
+<http://www.cs.technion.ac.il/people/sanketh/> a ns1:Person ;
+    ns1:homepage "/people/sanketh/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sanketh@cs.technion.ac.il" ;
+    ns1:name "Vedula, Sanketh" ;
+    ns1:phone "(972)-4-829-4867" .
+
+<http://www.cs.technion.ac.il/people/sarai/> a ns1:Person ;
+    ns1:homepage "/people/sarai/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/sarai.jpg> ;
+    ns1:mbox "sarai@cs.technion.ac.il" ;
+    ns1:name "Duek, Sarai" .
+
+<http://www.cs.technion.ac.il/people/sassafro/> a ns1:Person ;
+    ns1:homepage "/people/sassafro/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sassafro@cs.technion.ac.il" ;
+    ns1:name "Rosenbaum, Assaf" ;
+    ns1:phone "(972)-4-829-5530" .
+
+<http://www.cs.technion.ac.il/people/saviramm/> a ns1:Person ;
+    ns1:homepage "/people/saviramm/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/saviramm.jpg> ;
+    ns1:mbox "saviramm@cs.technion.ac.il" ;
+    ns1:name "Magen, Aviram" ;
+    ns1:phone "(972)-4-829-4349" .
+
+<http://www.cs.technion.ac.il/people/sayals/> a ns1:Person ;
+    ns1:homepage "/people/sayals/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sayals@cs.technion.ac.il" ;
+    ns1:name "Shwatyz, Ayal" ;
+    ns1:phone "(972)-4-829-3821" .
+
+<http://www.cs.technion.ac.il/people/sbadian/> a ns1:Person ;
+    ns1:homepage "/people/sbadian/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/sbadian.jpg> ;
+    ns1:mbox "sbadian@cs.technion.ac.il" ;
+    ns1:name "Badian, Michal" ;
+    ns1:phone "(972)-4-829-3854" .
+
+<http://www.cs.technion.ac.il/people/sdolevfe/> a ns1:Person ;
+    ns1:homepage "/people/sdolevfe/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "sdolevfe@cs.technion.ac.il" ;
+    ns1:name "Adas, Dolev" ;
+    ns1:phone "(972)-4-829-3380" .
+
+<http://www.cs.technion.ac.il/people/seanh/> a ns1:Person ;
+    ns1:homepage "/people/seanh/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "seanh@cs.technion.ac.il" ;
+    ns1:name "Hadar, Sean" .
+
+<http://www.cs.technion.ac.il/people/serikhoury/> a ns1:Person ;
+    ns1:homepage "/people/serikhoury/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "serikhoury@cs.technion.ac.il" ;
+    ns1:name "Khoury, Seri" ;
+    ns1:phone "(972)-4-829-4340" .
+
+<http://www.cs.technion.ac.il/people/sgailw/> a ns1:Person ;
+    ns1:homepage "/people/sgailw/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "sgailw@cs.technion.ac.il" ;
+    ns1:name "Weiss, Gail" ;
+    ns1:phone "(972)-4-829-3864" .
+
+<http://www.cs.technion.ac.il/people/shai.ziv> a ns1:Person ;
+    ns1:homepage "/people/shai.ziv" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "shai.ziv@cs.technion.ac.il" ;
+    ns1:name "Ziv, Shai" .
+
+<http://www.cs.technion.ac.il/people/shaivak/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~shaivak/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/shaivak.jpg> ;
+    ns1:mbox "shaivak@cs.technion.ac.il" ;
+    ns1:name "Vaknin, Shai" ;
+    ns1:phone "(972)-4-829-5651" .
+
+<http://www.cs.technion.ac.il/people/sharon88/> a ns1:Person ;
+    ns1:homepage "/people/sharon88/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "sharon88@cs.technion.ac.il" ;
+    ns1:name "Koubi, Sharon" .
+
+<http://www.cs.technion.ac.il/people/shelal/> a ns1:Person ;
+    ns1:homepage "/people/shelal/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "shelal@cs.technion.ac.il" ;
+    ns1:name "Assi, Helal" ;
+    ns1:phone "(972)-4-829-4960" .
+
+<http://www.cs.technion.ac.il/people/shovall/> a ns1:Person ;
+    ns1:homepage "/people/shovall/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "shovall@cs.technion.ac.il" ;
+    ns1:name "Lagziel, Shoval" ;
+    ns1:phone "(972)-4-829-3428" .
+
+<http://www.cs.technion.ac.il/people/shroman/> a ns1:Person ;
+    ns1:homepage "http://shroman.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/shroman.jpg> ;
+    ns1:mbox "shroman@cs.technion.ac.il" ;
+    ns1:name "Shor, Roman" ;
+    ns1:phone "(972)-4-829-4307" .
+
+<http://www.cs.technion.ac.il/people/shunita/> a ns1:Person ;
+    ns1:homepage "/people/shunita/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/shunita.jpg> ;
+    ns1:mbox "shunita@cs.technion.ac.il" ;
+    ns1:name "Agmon, Shunit" ;
+    ns1:phone "(972)-4-829-5534" .
+
+<http://www.cs.technion.ac.il/people/smichald/> a ns1:Person ;
+    ns1:homepage "/people/smichald/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "smichald@cs.technion.ac.il" ;
+    ns1:name "Dory, Michal" ;
+    ns1:phone "(972)-4-829-3374" .
+
+<http://www.cs.technion.ac.il/people/smosesli/> a ns1:Person ;
+    ns1:homepage "/people/smosesli/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/smosesli.jpg> ;
+    ns1:mbox "smosesli@cs.technion.ac.il" ;
+    ns1:name "Lichtenstein, Moshe" ;
+    ns1:phone "(972)-4-829-3897" .
+
+<http://www.cs.technion.ac.il/people/smuzi/> a ns1:Person ;
+    ns1:homepage "/people/smuzi/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "smuzi@cs.technion.ac.il" ;
+    ns1:name "Smadja, Uzi" ;
+    ns1:phone "(972)-4-829-4619" .
+
+<http://www.cs.technion.ac.il/people/snirc/> a ns1:Person ;
+    ns1:homepage "/people/snirc/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/snirc.jpg> ;
+    ns1:mbox "snirc@cs.technion.ac.il" ;
+    ns1:name "Cohen, Snir" ;
+    ns1:phone "(972)-4-829-4260" .
+
+<http://www.cs.technion.ac.il/people/snivh/> a ns1:Person ;
+    ns1:homepage "/people/snivh/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "snivh@cs.technion.ac.il" ;
+    ns1:name "Hooker, Niv" ;
+    ns1:phone "(972)-4-829-3429" .
+
+<http://www.cs.technion.ac.il/people/snofca/> a ns1:Person ;
+    ns1:homepage "/people/snofca/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/snofca.jpg> ;
+    ns1:mbox "snofca@cs.technion.ac.il" ;
+    ns1:name "Carmeli, Nofar" ;
+    ns1:phone "(972)-4-829-4953" .
+
+<http://www.cs.technion.ac.il/people/snussa/> a ns1:Person ;
+    ns1:homepage "/people/snussa/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "snussa@cs.technion.ac.il" ;
+    ns1:name "Zamir, Nitzan" ;
+    ns1:phone "(972)-4-829-5617" .
+
+<http://www.cs.technion.ac.il/people/snyefet/> a ns1:Person ;
+    ns1:homepage "/people/snyefet/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "snyefet@cs.technion.ac.il" ;
+    ns1:name "Yefet, Noam" .
+
+<http://www.cs.technion.ac.il/people/sohadfed/> a ns1:Person ;
+    ns1:homepage "/people/sohadfed/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sohadfed@cs.technion.ac.il" ;
+    ns1:name "Feder, Ohad" .
+
+<http://www.cs.technion.ac.il/people/sophirdj/> a ns1:Person ;
+    ns1:homepage "/people/sophirdj/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sophirdj@cs.technion.ac.il" ;
+    ns1:name "De Jager, Ophir" .
+
+<http://www.cs.technion.ac.il/people/sorimar/> a ns1:Person ;
+    ns1:homepage "/people/sorimar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/sorimar.jpg> ;
+    ns1:mbox "sorimar@cs.technion.ac.il" ;
+    ns1:name "Marcovitch, Ori" ;
+    ns1:phone "(972)-4-829-3383" .
+
+<http://www.cs.technion.ac.il/people/sosin/> a ns1:Person ;
+    ns1:homepage "/people/sosin/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sosin@cs.technion.ac.il" ;
+    ns1:name "Sosin, Boris" ;
+    ns1:phone "(972)-4-829-3823" .
+
+<http://www.cs.technion.ac.il/people/sran/> a ns1:Person ;
+    ns1:homepage "/people/sran/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/sran.jpg> ;
+    ns1:mbox "sran@cs.technion.ac.il" ;
+    ns1:name "Ben-Basat, Ran" ;
+    ns1:phone "(972)-4-829-5531" .
+
+<http://www.cs.technion.ac.il/people/srikim/> a ns1:Person ;
+    ns1:homepage "/people/srikim/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "srikim@cs.technion.ac.il" ;
+    ns1:name "Malca, Rivka" .
+
+<http://www.cs.technion.ac.il/people/srojeh/> a ns1:Person ;
+    ns1:homepage "/people/srojeh/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/srojeh.jpg> ;
+    ns1:mbox "srojeh@cs.technion.ac.il" ;
+    ns1:name "Hayek, Rojeh" ;
+    ns1:phone "(972)-4-829-4362" .
+
+<http://www.cs.technion.ac.il/people/srubin/> a ns1:Person ;
+    ns1:homepage "/people/srubin/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "srubin@cs.technion.ac.il" ;
+    ns1:name "Rubin, Yehonatan" .
+
+<http://www.cs.technion.ac.il/people/sshahar/> a ns1:Person ;
+    ns1:homepage "/people/sshahar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sshahar@cs.technion.ac.il" ;
+    ns1:name "Harel, Shahar" ;
+    ns1:phone "(972)-4-829-4890" .
+
+<http://www.cs.technion.ac.il/people/stavp/> a ns1:Person ;
+    ns1:homepage "/people/stavp/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/stavp.jpg> ;
+    ns1:mbox "stavp@cs.technion.ac.il" ;
+    ns1:name "Perla, Stav" ;
+    ns1:phone "(972)-4-829-4312" .
+
+<http://www.cs.technion.ac.il/people/sutton/> a ns1:Person ;
+    ns1:homepage "/people/sutton/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "sutton@cs.technion.ac.il" ;
+    ns1:name "Sutton, Charles" ;
+    ns1:phone "(972)-4-829-3383" .
+
+<http://www.cs.technion.ac.il/people/syairr/> a ns1:Person ;
+    ns1:homepage "/people/syairr/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/syairr.jpg> ;
+    ns1:mbox "syairr@cs.technion.ac.il" ;
+    ns1:name "Reani, Yair" ;
+    ns1:phone "(972)-4-829-3940" .
+
+<http://www.cs.technion.ac.il/people/szarecki/> a ns1:Person ;
+    ns1:homepage "/people/szarecki/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/szarecki.jpg> ;
+    ns1:mbox "szarecki@cs.technion.ac.il" ;
+    ns1:name "Zarecki, Yonatan" ;
+    ns1:phone "(972)-4-829-4166" .
+
+<http://www.cs.technion.ac.il/people/szorik/> a ns1:Person ;
+    ns1:homepage "/people/szorik/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "szorik@cs.technion.ac.il" ;
+    ns1:name "Gekhman, Zorik" .
+
+<http://www.cs.technion.ac.il/people/tal.shor> a ns1:Person ;
+    ns1:homepage "/people/tal.shor" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "tal.shor@cs.technion.ac.il" ;
+    ns1:name "Shor, Tal" ;
+    ns1:phone "(972)-4-829-4932" .
+
+<http://www.cs.technion.ac.il/people/tamer.mour> a ns1:Person ;
+    ns1:homepage "/people/tamer.mour" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "tamer.mour@cs.technion.ac.il" ;
+    ns1:name "Mour, Tamer" ;
+    ns1:phone "(972)-4-829-4960" .
+
+<http://www.cs.technion.ac.il/people/tamirc/> a ns1:Person ;
+    ns1:homepage "/people/tamirc/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "tamirc@cs.technion.ac.il" ;
+    ns1:name "Carmeli, Tamir" .
+
+<http://www.cs.technion.ac.il/people/tanyabr/> a ns1:Person ;
+    ns1:homepage "/people/tanyabr/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "tanyabr@cs.technion.ac.il" ;
+    ns1:name "Brokhman, Tanya" ;
+    ns1:phone "(972)-4-829-4620" .
+
+<http://www.cs.technion.ac.il/people/titamar/> a ns1:Person ;
+    ns1:homepage "/people/titamar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "titamar@cs.technion.ac.il" ;
+    ns1:name "Talmi, Itamar" .
+
+<http://www.cs.technion.ac.il/people/tomer.golany> a ns1:Person ;
+    ns1:homepage "/people/tomer.golany" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "tomer.golany@cs.technion.ac.il" ;
+    ns1:name "Golany, Tomer" ;
+    ns1:phone "(972)-4-829-3821" .
+
+<http://www.cs.technion.ac.il/people/tomerghelber/> a ns1:Person ;
+    ns1:homepage "/people/tomerghelber/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/tomerghelber.jpg> ;
+    ns1:mbox "tomerghelber@cs.technion.ac.il" ;
+    ns1:name "Ghelber, Tomer" ;
+    ns1:phone "(972)-4-829-3940" .
+
+<http://www.cs.technion.ac.il/people/udiyavo/> a ns1:Person ;
+    ns1:homepage "/people/udiyavo/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "udiyavo@cs.technion.ac.il" ;
+    ns1:name "Yavo, Udi" .
+
+<http://www.cs.technion.ac.il/people/uri.shomroni> a ns1:Person ;
+    ns1:homepage "/people/uri.shomroni" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "uri.shomroni@cs.technion.ac.il" ;
+    ns1:name "Shomroni, Uri" .
+
+<http://www.cs.technion.ac.il/people/urialon/> a ns1:Person ;
+    ns1:homepage "/people/urialon/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "urialon@cs.technion.ac.il" ;
+    ns1:name "Alon, Uri" ;
+    ns1:phone "(972)-4-829-4806" .
+
+<http://www.cs.technion.ac.il/people/uzi.cohen> a ns1:Person ;
+    ns1:homepage "/people/uzi.cohen" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/uzi.cohen.jpg> ;
+    ns1:mbox "uzi.cohen@cs.technion.ac.il" ;
+    ns1:name "Cohen, Uzi" .
+
+<http://www.cs.technion.ac.il/people/vardanp/> a ns1:Person ;
+    ns1:homepage "http://vardanp.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/vardanp.jpg> ;
+    ns1:mbox "vardanp@cs.technion.ac.il" ;
+    ns1:name "Papyan, Vardan" ;
+    ns1:phone "(972)-4-829-4349" .
+
+<http://www.cs.technion.ac.il/people/wmakhoul/> a ns1:Person ;
+    ns1:homepage "/people/wmakhoul/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "wmakhoul@cs.technion.ac.il" ;
+    ns1:name "Makhoul, Waseem" ;
+    ns1:phone "(972)-4-829-4891" .
+
+<http://www.cs.technion.ac.il/people/yaelyan/> a ns1:Person ;
+    ns1:homepage "http://yaelyan.cswp.cs.technion.ac.il/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "yaelyan@cs.technion.ac.il" ;
+    ns1:name "Yankelevsky, Yael" ;
+    ns1:phone "(972)-4-829-4929" .
+
+<http://www.cs.technion.ac.il/people/yamit/> a ns1:Person ;
+    ns1:homepage "/people/yamit/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "yamit@cs.technion.ac.il" ;
+    ns1:name "Barshatz, Yamit" ;
+    ns1:phone "(972)-4-829-4620" .
+
+<http://www.cs.technion.ac.il/people/yanemcovsky/> a ns1:Person ;
+    ns1:homepage "/people/yanemcovsky/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yanemcovsky@cs.technion.ac.il" ;
+    ns1:name "Nemcovsky, Yaniv" ;
+    ns1:phone "(972)-4-829-3429" .
+
+<http://www.cs.technion.ac.il/people/yanirdam/> a ns1:Person ;
+    ns1:homepage "/people/yanirdam/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yanirdam@cs.technion.ac.il" ;
+    ns1:name "Damty, Yanir" .
+
+<http://www.cs.technion.ac.il/people/yanivd/> a ns1:Person ;
+    ns1:homepage "http://www.cs.technion.ac.il/~yanivd/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/yanivd.jpg> ;
+    ns1:mbox "yanivd@cs.technion.ac.il" ;
+    ns1:name "David, Yaniv Moshe" .
+
+<http://www.cs.technion.ac.il/people/ydar/> a ns1:Person ;
+    ns1:homepage "/people/ydar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ydar@cs.technion.ac.il" ;
+    ns1:name "Dar, Yehuda" ;
+    ns1:phone "(972)-4-829-4325" .
+
+<http://www.cs.technion.ac.il/people/ygal/> a ns1:Person ;
+    ns1:homepage "/people/ygal/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ygal@cs.technion.ac.il" ;
+    ns1:name "Yehuda, Gal" .
+
+<http://www.cs.technion.ac.il/people/ynezri/> a ns1:Person ;
+    ns1:homepage "/people/ynezri/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ynezri@cs.technion.ac.il" ;
+    ns1:name "Nezri, Yuval" ;
+    ns1:phone "(972)-4-829-4335" .
+
+<http://www.cs.technion.ac.il/people/ynon980/> a ns1:Person ;
+    ns1:homepage "/people/ynon980/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "ynon980@cs.technion.ac.il" ;
+    ns1:name "Horesh, Yinon" .
+
+<http://www.cs.technion.ac.il/people/yoavn/> a ns1:Person ;
+    ns1:homepage "/people/yoavn/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/yoavn.jpg> ;
+    ns1:mbox "yoavn@cs.technion.ac.il" ;
+    ns1:name "Nahshon, Yoav" ;
+    ns1:phone "(972)-4-829-3375" .
+
+<http://www.cs.technion.ac.il/people/yochaiz/> a ns1:Person ;
+    ns1:homepage "/people/yochaiz/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yochaiz@cs.technion.ac.il" ;
+    ns1:name "Zur, Yochai" ;
+    ns1:phone "(972)-4-829-5651" .
+
+<http://www.cs.technion.ac.il/people/yon-b/> a ns1:Person ;
+    ns1:homepage "/people/yon-b/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/people/yon_b.jpg> ;
+    ns1:mbox "yon_b@cs.technion.ac.il" ;
+    ns1:name "Buchnik, Yehonatan" ;
+    ns1:phone "(972)-4-829-4362" .
+
+<http://www.cs.technion.ac.il/people/yonatan.g> a ns1:Person ;
+    ns1:homepage "/people/yonatan.g" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yonatan.g@cs.technion.ac.il" ;
+    ns1:name "Geifman, Yonatan" ;
+    ns1:phone "(972)-4-829-4925" .
+
+<http://www.cs.technion.ac.il/people/yonic/> a ns1:Person ;
+    ns1:homepage "/people/yonic/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yonic@cs.technion.ac.il" ;
+    ns1:name "Choukroun, Yoni" ;
+    ns1:phone "(972)-4-829-4895" .
+
+<http://www.cs.technion.ac.il/people/yotamesh/> a ns1:Person ;
+    ns1:homepage "/people/yotamesh/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yotamesh@cs.technion.ac.il" ;
+    ns1:name "Eshel, Yotam" ;
+    ns1:phone "(972)-4-829-3939" .
+
+<http://www.cs.technion.ac.il/people/yufei/> a ns1:Person ;
+    ns1:homepage "/people/yufei/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "yufei@cs.technion.ac.il" ;
+    ns1:name "Zheng, Yufei" ;
+    ns1:phone "(972)-4-829-4897" .
+
+<http://www.cs.technion.ac.il/people/yurif/> a ns1:Person ;
+    ns1:homepage "/people/yurif/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yurif@cs.technion.ac.il" ;
+    ns1:name "Feldman, Yuri" ;
+    ns1:phone "(972)-4-829-3821" .
+
+<http://www.cs.technion.ac.il/people/yuval.dagan> a ns1:Person ;
+    ns1:homepage "/people/yuval.dagan" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yuval.dagan@cs.technion.ac.il" ;
+    ns1:name "Dagan, Yuval" .
+
+<http://www.cs.technion.ac.il/people/yyfairstein/> a ns1:Person ;
+    ns1:homepage "/people/yyfairstein/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "yyfairstein@cs.technion.ac.il" ;
+    ns1:name "Fairstein, Yaron" ;
+    ns1:phone "(972)-4-829-3714" .
+
+<http://www.cs.technion.ac.il/people/z--1748/> a ns1:Person ;
+    ns1:homepage "/people/z--1748/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Endrawis, Shadi" ;
+    ns1:phone "(972)-4-829-3373" .
+
+<http://www.cs.technion.ac.il/people/z--adame/> a ns1:Person ;
+    ns1:homepage "/people/z--adame/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Erdreich, Adam" .
+
+<http://www.cs.technion.ac.il/people/z--aimana/> a ns1:Person ;
+    ns1:homepage "/people/z--aimana/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Abu Yones, Aiman" .
+
+<http://www.cs.technion.ac.il/people/z--danibar/> a ns1:Person ;
+    ns1:homepage "/people/z--danibar/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:name "Bar Lev, Daniella" .
+
+<http://www.cs.technion.ac.il/people/z--danico/> a ns1:Person ;
+    ns1:homepage "/people/z--danico/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:name "Cohen, Daniel" .
+
+<http://www.cs.technion.ac.il/people/z--dorimed/> a ns1:Person ;
+    ns1:homepage "/people/z--dorimed/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Medini, Dori" .
+
+<http://www.cs.technion.ac.il/people/z--drorda/> a ns1:Person ;
+    ns1:homepage "/people/z--drorda/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:name "Dror, Daniel" .
+
+<http://www.cs.technion.ac.il/people/z--eladna/> a ns1:Person ;
+    ns1:homepage "/people/z--eladna/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Nachmias, Elad" .
+
+<http://www.cs.technion.ac.il/people/z--eliatu/> a ns1:Person ;
+    ns1:homepage "/people/z--eliatu/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:name "Turner, Elia" .
+
+<http://www.cs.technion.ac.il/people/z--gailon/> a ns1:Person ;
+    ns1:homepage "/people/z--gailon/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Gal, Eilon" .
+
+<http://www.cs.technion.ac.il/people/z--galb/> a ns1:Person ;
+    ns1:homepage "/people/z--galb/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Braun, Gal" .
+
+<http://www.cs.technion.ac.il/people/z--galp/> a ns1:Person ;
+    ns1:homepage "/people/z--galp/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Frenkel, Gal" .
+
+<http://www.cs.technion.ac.il/people/z--itaiya/> a ns1:Person ;
+    ns1:homepage "/people/z--itaiya/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Yakar, Itai" .
+
+<http://www.cs.technion.ac.il/people/z--lironb/> a ns1:Person ;
+    ns1:homepage "/people/z--lironb/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Bronfman, Liron" .
+
+<http://www.cs.technion.ac.il/people/z--nicolavd/> a ns1:Person ;
+    ns1:homepage "/people/z--nicolavd/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Avdella, Nicola" .
+
+<http://www.cs.technion.ac.il/people/z--nikud/> a ns1:Person ;
+    ns1:homepage "/people/z--nikud/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Kudriastev, Nikolay" .
+
+<http://www.cs.technion.ac.il/people/z--omeral/> a ns1:Person ;
+    ns1:homepage "/people/z--omeral/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Elkabetz, Omer" .
+
+<http://www.cs.technion.ac.il/people/z--shaize/> a ns1:Person ;
+    ns1:homepage "/people/z--shaize/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Zeevi, Shai" .
+
+<http://www.cs.technion.ac.il/people/z--shaorn/> a ns1:Person ;
+    ns1:homepage "/people/z--shaorn/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Yogev, Sharon Hai" .
+
+<http://www.cs.technion.ac.il/people/z--sharonku/> a ns1:Person ;
+    ns1:homepage "/people/z--sharonku/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Kuninin, Sharon" .
+
+<http://www.cs.technion.ac.il/people/z--tomerla/> a ns1:Person ;
+    ns1:homepage "/people/z--tomerla/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Lange, Tomer" ;
+    ns1:phone "(972)-4-829-4875" .
+
+<http://www.cs.technion.ac.il/people/z--uris/> a ns1:Person ;
+    ns1:homepage "/people/z--uris/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Sberlo, Ori" ;
+    ns1:phone "(972)-4-829-3373" .
+
+<http://www.cs.technion.ac.il/people/z--vald/> a ns1:Person ;
+    ns1:homepage "/people/z--vald/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:name "Dashinsky, Valentin" .
+
+<http://www.cs.technion.ac.il/people/zuphit/> a ns1:Person ;
+    ns1:homepage "/people/zuphit/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-woman.gif> ;
+    ns1:mbox "zuphit@cs.technion.ac.il" ;
+    ns1:name "Fidelman, Zuphit" ;
+    ns1:phone "(972)-4-829-4341" .
+
+<http://www.cs.technion.ac.il/people/maltsev/> a ns1:Person ;
+    ns1:homepage "/people/maltsev/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:mbox "maltsev@cs.technion.ac.il" ;
+    ns1:name "Maltsev, Michael" ;
+    ns1:phone "(972)-4-829-4875" .
+
+<http://www.cs.technion.ac.il/people/z--galma/> a ns1:Person ;
+    ns1:homepage "/people/z--galma/" ;
+    ns1:img <http://www.cs.technion.ac.il/images/no-photo-man.gif> ;
+    ns1:name "Malka, Gal" .
+
+<http://www.cs.technion.ac.il/images/no-photo-woman.gif> a ns1:Image .
+
+<http://www.cs.technion.ac.il/images/no-photo-man.gif> a ns1:Image .
 
