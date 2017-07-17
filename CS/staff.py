@@ -41,8 +41,8 @@ page.create_triples()
 t=0
 while t < len(page.triples):
 	if t>0:
-		if page.triples[t]['predicate']=='<http://xmlns.com/foaf/0.1/mbox>' and page.triples[t]['subject']==page.triples[t-1]['subject']:
-			page.triples[t]['object']='"'+re.sub('"','',page.triples[t-1]['object'])+'@'+re.sub('"','',page.triples[t]['object'])+'"'
+		if page.triples[t]['predicate']=='http://xmlns.com/foaf/0.1/mbox' and page.triples[t]['subject']==page.triples[t-1]['subject']:
+			page.triples[t]['object']=page.triples[t-1]['object']+'@'+page.triples[t]['object']
 			del page.triples[t-1]
 			t=t-1
 	t=t+1

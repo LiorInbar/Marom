@@ -101,7 +101,7 @@ for uri in URIs:
 	page.set_object_func(0)
 	page.add_triple_object_xpath(uri)
 	if page.triples[len(page.triples)-1]['predicate']==page.triples[len(page.triples)-2]['predicate']:
-		page.triples[len(page.triples)-2]['object']='"'+re.sub('"','',page.triples[len(page.triples)-2]['object'])+'@'+re.sub('"','',page.triples[len(page.triples)-1]['object'])+'"'
+		page.triples[len(page.triples)-2]['object']=page.triples[len(page.triples)-2]['object']+'@'+page.triples[len(page.triples)-1]['object']
 		del page.triples[len(page.triples)-1]
 
 	page.set_object_query('//dt[text()="Phone:"]/following-sibling::dd[position()=1]/text()')
