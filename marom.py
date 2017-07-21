@@ -5,15 +5,14 @@ import urllib.request
 from lxml import html
 from lxml import etree
 import xml.etree.ElementTree as ET
-from rdflib import Graph
+from rdflib import Graph, URIRef, BNode, Literal
 import string
 import fileinput
 import re
 
 
 def encoding_fix(text):
-	#return re.sub(b'\xc3\x97\xc2',b'\xd7',unicode(text).encode('utf-8')).decode('utf-8')
-	return text
+	return text.encode('utf-8','ignore').decode('utf-8')
 
 
 
@@ -44,12 +43,13 @@ class page:
 		return result
 	def add_triple(self,subject,predicate,Object):
 		self.triples.append({})
-		self.triples[len(self.triples)-1]['subject'] = '<'+subject+'>'
-		self.triples[len(self.triples)-1]['predicate'] = '<'+predicate+'>'
+		self.triples[len(self.triples)-1]['subject'] = subject
+		self.triples[len(self.triples)-1]['predicate'] = predicate
+		self.triples[len(self.triples)-1]['object'] = Object
 		if(self.object_type=="resource"):
-		    self.triples[len(self.triples)-1]['object'] = '<'+ Object+'>'
+		    self.triples[len(self.triples)-1]['object_type'] = 'resource'
 		if(self.object_type=="string"):
-		    self.triples[len(self.triples)-1]['object'] = '"'+Object+'"'
+		    self.triples[len(self.triples)-1]['object_type'] = 'string'
 	def set_object_type_resource(self):
 		self.object_type = "resource"
 	def set_object_type_string(self):
@@ -87,12 +87,13 @@ class page:
 	                    if self.object_func!=0:
 	                   	    Object = self.object_func(Object)
 	                new_triples.append({})
-	                new_triples[len(new_triples)-1]['subject'] = '<'+encoding_fix(subject)+'>'
-	                new_triples[len(new_triples)-1]['predicate'] = '<'+self.predicate+'>'
+	                new_triples[len(new_triples)-1]['subject'] = encoding_fix(subject)
+	                new_triples[len(new_triples)-1]['predicate'] = self.predicate
+	                new_triples[len(new_triples)-1]['object'] = encoding_fix(Object)
 	                if(self.object_type=="resource"):
-	                    new_triples[len(new_triples)-1]['object'] = '<'+encoding_fix(Object)+'>'
+	                     new_triples[len(new_triples)-1]['object_type'] = 'resource'
 	                if(self.object_type=="string"):
-	                    new_triples[len(new_triples)-1]['object'] = '"'+encoding_fix(Object)+'"'
+	                    new_triples[len(new_triples)-1]['object_type'] = 'string'
 	    self.triples = self.triples + new_triples
 
 	def add_triple_object_xpath(self,subject):
@@ -101,18 +102,17 @@ class page:
 	    result = tree.xpath(self.object_query)
 	    for i in range(len(result)):
 		    self.triples.append({})
-		    self.triples[len(self.triples)-1]['subject'] = '<'+subject+'>'
-		    self.triples[len(self.triples)-1]['predicate'] = '<'+self.predicate+'>'
+		    self.triples[len(self.triples)-1]['subject'] = subject
+		    self.triples[len(self.triples)-1]['predicate'] = self.predicate
 		    if self.object_func!=0:
-		        if(self.object_type=="resource"):
-		            self.triples[len(self.triples)-1]['object'] = '<'+ self.object_func(encoding_fix(result[i]))+'>'
-		        if(self.object_type=="string"):
-		            self.triples[len(self.triples)-1]['object'] = '"'+self.object_func(encoding_fix(result[i]))+'"'
+		        self.triples[len(self.triples)-1]['object'] = self.object_func(encoding_fix(result[i]))
 		    else:
-		        if(self.object_type=="resource"):
-		            self.triples[len(self.triples)-1]['object'] = '<'+ encoding_fix(result[i])+'>'
-		        if(self.object_type=="string"):
-		            self.triples[len(self.triples)-1]['object'] = '"'+encoding_fix(result[i])+'"'		    	
+		        self.triples[len(self.triples)-1]['object'] = encoding_fix(result[i])
+		    if self.object_type=="resource":
+		        self.triples[len(self.triples)-1]['object_type'] = 'resource'
+		    else:
+		        self.triples[len(self.triples)-1]['object_type'] = 'string'
+		    	
 
 
 	def add_triple_subject_xpath(self,Object):
@@ -121,25 +121,26 @@ class page:
 	    result = tree.xpath(self.subject_query)
 	    for i in range(len(result)):
 		    self.triples.append({})
-		    self.triples[len(self.triples)-1]['subject'] = '<'+self.subject_func(encoding_fix(result[i]))+'>' if self.subject_func!=0 else '<'+encoding_fix(result[i])+'>'	    
-		    self.triples[len(self.triples)-1]['predicate'] = '<'+self.predicate+'>'
-		    if(self.object_type=="resource"):
-		        self.triples[len(self.triples)-1]['object'] = '<'+ Object+'>'
-		    if(self.object_type=="string"):
-		        self.triples[len(self.triples)-1]['object'] = '"'+Object+'"'
+		    self.triples[len(self.triples)-1]['subject'] = self.subject_func(encoding_fix(result[i])) if self.subject_func!=0 else encoding_fix(result[i])	    
+		    self.triples[len(self.triples)-1]['predicate'] = self.predicate
+		    self.triples[len(self.triples)-1]['object'] = Object
+		    if self.object_type=="resource":
+		        self.triples[len(self.triples)-1]['object_type'] = 'resource'
+		    else:
+		        self.triples[len(self.triples)-1]['object_type'] = 'string'
 
 	def turtle(self,output_file):
-	    nt = open(output_file,'w')
-	    for triples_iterator in range(len(self.triples)):
-	        nt.write(self.triples[triples_iterator]['subject']+' '+
-	            self.triples[triples_iterator]['predicate']+' '+
-	            self.triples[triples_iterator]['object']+' '+'.\n')
-	    nt.close()
 	    g = Graph()
-	    g.parse(output_file, format="nt")
+	    for triples_iterator in range(len(self.triples)):
+	        subject=URIRef(self.triples[triples_iterator]['subject'])
+	        predicate=URIRef(self.triples[triples_iterator]['predicate'])
+	        if self.triples[triples_iterator]['object_type']=="resource":
+	        	Object=URIRef(self.triples[triples_iterator]['object'])
+	        else:
+	        	Object=Literal(self.triples[triples_iterator]['object'])
+	        g.add((subject,predicate,Object))
 	    g.serialize(destination=output_file,format='turtle')
-	    for line in fileinput.input(output_file, inplace=True):
-	        print(line.replace('ns1:','foaf:').rstrip())   
+ 
 
 
 
