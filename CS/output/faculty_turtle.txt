@@ -1,11 +1,11 @@
-@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.cs.technion.ac.il/faculty/Adjunct_Teachers> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/ailia/>,
+<http://www.cs.technion.ac.il/faculty/Adjunct_Teachers> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/ailia/>,
         <http://www.cs.technion.ac.il/people/anya/>,
         <http://www.cs.technion.ac.il/people/barkan/>,
         <http://www.cs.technion.ac.il/people/bussel/>,
@@ -51,12 +51,12 @@
         <http://www.cs.technion.ac.il/people/zbarukh/>,
         <http://www.cs.technion.ac.il/people/zohary/> .
 
-<http://www.cs.technion.ac.il/faculty/Distinguished_Visiting_Professors> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/z--karp/>,
+<http://www.cs.technion.ac.il/faculty/Distinguished_Visiting_Professors> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/z--karp/>,
         <http://www.cs.technion.ac.il/people/z--pearlj/> .
 
-<http://www.cs.technion.ac.il/faculty/Emeritus_Faculty> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/asidi/>,
+<http://www.cs.technion.ac.il/faculty/Emeritus_Faculty> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/asidi/>,
         <http://www.cs.technion.ac.il/people/baram/>,
         <http://www.cs.technion.ac.il/people/francez/>,
         <http://www.cs.technion.ac.il/people/heymann/>,
@@ -70,18 +70,18 @@
         <http://www.cs.technion.ac.il/people/moran/>,
         <http://www.cs.technion.ac.il/people/paz/> .
 
-<http://www.cs.technion.ac.il/faculty/Faculty> a ns1:Group .
+<http://www.cs.technion.ac.il/faculty/Faculty> a foaf:Group .
 
-<http://www.cs.technion.ac.il/faculty/In_Memoriam> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/z--even/>,
+<http://www.cs.technion.ac.il/faculty/In_Memoriam> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/z--even/>,
         <http://www.cs.technion.ac.il/people/z--gadir/>,
         <http://www.cs.technion.ac.il/people/z--israeli/>,
         <http://www.cs.technion.ac.il/people/z--listopad/>,
         <http://www.cs.technion.ac.il/people/z--myoeli/>,
         <http://www.cs.technion.ac.il/people/z--rachel/> .
 
-<http://www.cs.technion.ac.il/faculty/Post_Doc.> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/aviadzuc/>,
+<http://www.cs.technion.ac.il/faculty/Post_Doc.> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/aviadzuc/>,
         <http://www.cs.technion.ac.il/people/batyak/>,
         <http://www.cs.technion.ac.il/people/huizhang/>,
         <http://www.cs.technion.ac.il/people/jineshmac/>,
@@ -91,8 +91,8 @@
         <http://www.cs.technion.ac.il/people/reyotero/>,
         <http://www.cs.technion.ac.il/people/tabrown/> .
 
-<http://www.cs.technion.ac.il/faculty/Research_Associates> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/gala/>,
+<http://www.cs.technion.ac.il/faculty/Research_Associates> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/gala/>,
         <http://www.cs.technion.ac.il/people/gnakibly/>,
         <http://www.cs.technion.ac.il/people/kayla/>,
         <http://www.cs.technion.ac.il/people/mzib/>,
@@ -101,17 +101,17 @@
         <http://www.cs.technion.ac.il/people/yairr/>,
         <http://www.cs.technion.ac.il/people/yossiv/> .
 
-<http://www.cs.technion.ac.il/faculty/Secondary-Appointment_Faculty> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/rkishony/>,
+<http://www.cs.technion.ac.il/faculty/Secondary-Appointment_Faculty> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/rkishony/>,
         <http://www.cs.technion.ac.il/people/shiria/>,
         <http://www.cs.technion.ac.il/people/yaelmg/>,
         <http://www.cs.technion.ac.il/people/z--1722/> .
 
-<http://www.cs.technion.ac.il/faculty/Visiting_Professors> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/mendlson/> .
+<http://www.cs.technion.ac.il/faculty/Visiting_Professors> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/mendlson/> .
 
-<http://www.cs.technion.ac.il/faculty/Visitors> a ns1:Group ;
-    ns1:member <http://www.cs.technion.ac.il/people/cselena/>,
+<http://www.cs.technion.ac.il/faculty/Visitors> a foaf:Group ;
+    foaf:member <http://www.cs.technion.ac.il/people/cselena/>,
         <http://www.cs.technion.ac.il/people/dhlorenz/>,
         <http://www.cs.technion.ac.il/people/kirar/>,
         <http://www.cs.technion.ac.il/people/lorina/>,
@@ -342,10 +342,10 @@
 
 <http://www.cs.technion.ac.il/images/people/zohary.jpg> a "http://xmlns.com/foaf/0.1/Image" .
 
-<http://www.cs.technion.ac.il/people/assaf/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~assaf/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/assaf.jpg" ;
-    ns1:interest " Distribute Shared Memory",
+<http://www.cs.technion.ac.il/people/assaf/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~assaf/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/assaf.jpg" ;
+    foaf:interest " Distribute Shared Memory",
         " FaultTolerance",
         " High-Performance ComputerArchitecture",
         " Java Memory Model",
@@ -354,122 +354,122 @@
         " Scalable Model Checking",
         " Shared Memory Consistency Models",
         "Parallel and Distributed Computing" ;
-    ns1:mbox "assaf@cs.technion.ac.il" ;
-    ns1:name "Schuster, Assaf" ;
-    ns1:phone "(972)-4-829-4330" .
+    foaf:mbox "assaf@cs.technion.ac.il" ;
+    foaf:name "Schuster, Assaf" ;
+    foaf:phone "(972)-4-829-4330" .
 
-<http://www.cs.technion.ac.il/people/barequet/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~barequet/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/barequet.jpg" ;
-    ns1:interest " combinatorics",
+<http://www.cs.technion.ac.il/people/barequet/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~barequet/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/barequet.jpg" ;
+    foaf:interest " combinatorics",
         " computer graphics and visualization",
         " geometric computing",
         "Discrete and computational geometry",
         "computer-aided geometric design" ;
-    ns1:mbox "barequet@cs.technion.ac.il" ;
-    ns1:name "Barequet, Gill" ;
-    ns1:phone "(972)-4-829-3219" .
+    foaf:mbox "barequet@cs.technion.ac.il" ;
+    foaf:name "Barequet, Gill" ;
+    foaf:phone "(972)-4-829-3219" .
 
-<http://www.cs.technion.ac.il/people/bennyk/> a ns1:Person ;
-    ns1:homepage "http://benny.net.technion.ac.il" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/bennyk.jpg" ;
-    ns1:interest " data mining",
+<http://www.cs.technion.ac.il/people/bennyk/> a foaf:Person ;
+    foaf:homepage "http://benny.net.technion.ac.il" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/bennyk.jpg" ;
+    foaf:interest " data mining",
         " information extraction",
         " information retrieval",
         " probabilistic and inconsistent databases",
         "Database systems and theory" ;
-    ns1:mbox "bennyk@cs.technion.ac.il" ;
-    ns1:name "Kimelfeld, Benny" ;
-    ns1:phone "(972)-4-829-5528" .
+    foaf:mbox "bennyk@cs.technion.ac.il" ;
+    foaf:name "Kimelfeld, Benny" ;
+    foaf:phone "(972)-4-829-5528" .
 
-<http://www.cs.technion.ac.il/people/biham/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~biham/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/biham.jpg" ;
-    ns1:interest " Quantum Cryptography and QuantumComputation",
+<http://www.cs.technion.ac.il/people/biham/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~biham/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/biham.jpg" ;
+    foaf:interest " Quantum Cryptography and QuantumComputation",
         " Symmetric Cryptography",
         "Cryptology and Cryptanalysis" ;
-    ns1:mbox "biham@cs.technion.ac.il" ;
-    ns1:name "Biham, Eli" ;
-    ns1:phone "(972)-4-829-4308" .
+    foaf:mbox "biham@cs.technion.ac.il" ;
+    foaf:name "Biham, Eli" ;
+    foaf:phone "(972)-4-829-4308" .
 
-<http://www.cs.technion.ac.il/people/bron/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~bron/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/bron.jpg" ;
-    ns1:interest " computer vision",
+<http://www.cs.technion.ac.il/people/bron/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~bron/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/bron.jpg" ;
+    foaf:interest " computer vision",
         " deformable shape analysis and modelling",
         " machine learning",
         " numerical geometry",
         "3D acquisition and processing" ;
-    ns1:mbox "bron@cs.technion.ac.il" ;
-    ns1:name "Bronstein, Alexander" ;
-    ns1:phone "(972)-4-829-4301" .
+    foaf:mbox "bron@cs.technion.ac.il" ;
+    foaf:name "Bronstein, Alexander" ;
+    foaf:phone "(972)-4-829-4301" .
 
-<http://www.cs.technion.ac.il/people/bshouty/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~bshouty/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/bshouty.jpg" ;
-    ns1:interest "Computational Learning Theory" ;
-    ns1:mbox "bshouty@cs.technion.ac.il" ;
-    ns1:name "Bshouty, Nader" ;
-    ns1:phone "(972)-4-829-4310" .
+<http://www.cs.technion.ac.il/people/bshouty/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~bshouty/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/bshouty.jpg" ;
+    foaf:interest "Computational Learning Theory" ;
+    foaf:mbox "bshouty@cs.technion.ac.il" ;
+    foaf:name "Bshouty, Nader" ;
+    foaf:phone "(972)-4-829-4310" .
 
-<http://www.cs.technion.ac.il/people/ckeren/> a ns1:Person ;
-    ns1:homepage "http://ckeren.net.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ckeren.jpg" ;
-    ns1:interest " and Theory of Computing in General",
+<http://www.cs.technion.ac.il/people/ckeren/> a foaf:Person ;
+    foaf:homepage "http://ckeren.net.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ckeren.jpg" ;
+    foaf:interest " and Theory of Computing in General",
         " especially Probabilistic Algorithms and Lower Bounds",
         "Distributed Computing" ;
-    ns1:mbox "ckeren@cs.technion.ac.il" ;
-    ns1:name "Censor-Hillel, Keren" ;
-    ns1:phone "(972)-4-829-4934" .
+    foaf:mbox "ckeren@cs.technion.ac.il" ;
+    foaf:name "Censor-Hillel, Keren" ;
+    foaf:phone "(972)-4-829-4934" .
 
-<http://www.cs.technion.ac.il/people/dan/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~dan/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/dan.jpg" ;
-    ns1:interest " hardware-software interfaces",
+<http://www.cs.technion.ac.il/people/dan/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~dan/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/dan.jpg" ;
+    foaf:interest " hardware-software interfaces",
         " operating systems",
         " performance evaluation",
         " storage",
         " system security",
         " virtualization",
         "System software" ;
-    ns1:mbox "dan@cs.technion.ac.il" ;
-    ns1:name "Tsafrir, Dan" ;
-    ns1:phone "(972)-4-829-2056" .
+    foaf:mbox "dan@cs.technion.ac.il" ;
+    foaf:name "Tsafrir, Dan" ;
+    foaf:phone "(972)-4-829-2056" .
 
-<http://www.cs.technion.ac.il/people/dang/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~dang/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/dang.jpg" ;
-    ns1:interest " Artificial Intelligence",
+<http://www.cs.technion.ac.il/people/dang/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~dang/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/dang.jpg" ;
+    foaf:interest " Artificial Intelligence",
         " Genetic linkage analysis",
         "Bayesian statistics" ;
-    ns1:mbox "dang@cs.technion.ac.il" ;
-    ns1:name "Geiger, Dan" ;
-    ns1:phone "(972)-4-829-4339" .
+    foaf:mbox "dang@cs.technion.ac.il" ;
+    foaf:name "Geiger, Dan" ;
+    foaf:phone "(972)-4-829-4339" .
 
-<http://www.cs.technion.ac.il/people/danny/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~danny/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/danny.jpg" ;
-    ns1:interest " QoS routing",
+<http://www.cs.technion.ac.il/people/danny/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~danny/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/danny.jpg" ;
+    foaf:interest " QoS routing",
         " and other optimization problems",
         " network location problems",
         " theory of networkmanagement",
         " wireless networks",
         "Theory and applications of management related problems in IP networksActive Networks" ;
-    ns1:mbox "danny@cs.technion.ac.il" ;
-    ns1:name "Raz, Danny" ;
-    ns1:phone "(972)-4-829-4938" .
+    foaf:mbox "danny@cs.technion.ac.il" ;
+    foaf:name "Raz, Danny" ;
+    foaf:phone "(972)-4-829-4938" .
 
-<http://www.cs.technion.ac.il/people/dean/> a ns1:Person ;
-    ns1:homepage "http://irad.net.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/dean.jpg" ;
-    ns1:mbox "dean@cs.technion.ac.il" ;
-    ns1:name "Yavneh, Irad" ;
-    ns1:phone "4261, 4262" .
+<http://www.cs.technion.ac.il/people/dean/> a foaf:Person ;
+    foaf:homepage "http://irad.net.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/dean.jpg" ;
+    foaf:mbox "dean@cs.technion.ac.il" ;
+    foaf:name "Yavneh, Irad" ;
+    foaf:phone "4261, 4262" .
 
-<http://www.cs.technion.ac.il/people/ehudr/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ehudr/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ehudr.jpg" ;
-    ns1:interest " Active Vision",
+<http://www.cs.technion.ac.il/people/ehudr/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ehudr/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ehudr.jpg" ;
+    foaf:interest " Active Vision",
         " Artificial Intelligence",
         " Image Databases",
         " Image Understanding, Image Processing",
@@ -478,235 +478,235 @@
         " Robot Navigation",
         " Visual Servoing",
         "Robot Vision" ;
-    ns1:mbox "ehudr@cs.technion.ac.il" ;
-    ns1:name "Rivlin, Ehud" ;
-    ns1:phone "(972)-4-829-4304" .
+    foaf:mbox "ehudr@cs.technion.ac.il" ;
+    foaf:name "Rivlin, Ehud" ;
+    foaf:phone "(972)-4-829-4304" .
 
-<http://www.cs.technion.ac.il/people/elad/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~elad/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/elad.jpg" ;
-    ns1:interest " Mathematical methods for image representation",
+<http://www.cs.technion.ac.il/people/elad/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~elad/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/elad.jpg" ;
+    foaf:interest " Mathematical methods for image representation",
         " Numerical methods in image processing",
         "Signal and image processing, and computer vision" ;
-    ns1:mbox "elad@cs.technion.ac.il" ;
-    ns1:name "Elad, Michael" ;
-    ns1:phone "(972)-4-829-4169" .
+    foaf:mbox "elad@cs.technion.ac.il" ;
+    foaf:name "Elad, Michael" ;
+    foaf:phone "(972)-4-829-4169" .
 
-<http://www.cs.technion.ac.il/people/eldar/> a ns1:Person ;
-    ns1:homepage "http://eldar.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/eldar.jpg" ;
-    ns1:interest " Combinatorics:Especially graph theory, regularity theorems in combinatorialstructures, and applications to algorithms",
+<http://www.cs.technion.ac.il/people/eldar/> a foaf:Person ;
+    foaf:homepage "http://eldar.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/eldar.jpg" ;
+    foaf:interest " Combinatorics:Especially graph theory, regularity theorems in combinatorialstructures, and applications to algorithms",
         " Logic in Computer Science:Logical characterization of properties for which there exist efficientalgorithms or desirable combinatorial aspects",
         "Efficiency of calculations: Especially property testing, statisticaldeductions, and probabilistically checkable proofs" ;
-    ns1:mbox "eldar@cs.technion.ac.il" ;
-    ns1:name "Fischer, Eldar" ;
-    ns1:phone "(972)-4-829-3967" .
+    foaf:mbox "eldar@cs.technion.ac.il" ;
+    foaf:name "Fischer, Eldar" ;
+    foaf:phone "(972)-4-829-3967" .
 
-<http://www.cs.technion.ac.il/people/eli/> a ns1:Person ;
-    ns1:homepage "http://www.eecs.harvard.edu/~eli/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/eli.jpg" ;
-    ns1:interest " Analysis of SAT solvers",
+<http://www.cs.technion.ac.il/people/eli/> a foaf:Person ;
+    foaf:homepage "http://www.eecs.harvard.edu/~eli/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/eli.jpg" ;
+    foaf:interest " Analysis of SAT solvers",
         " Proof Complexity",
         " Sub-linear time algorithms for Proof Checking and Error Correcting Codes",
         "Computational Complexity" ;
-    ns1:mbox "eli@cs.technion.ac.il" ;
-    ns1:name "Ben-Sasson, Eli" ;
-    ns1:phone "(972)-4-829-4892" .
+    foaf:mbox "eli@cs.technion.ac.il" ;
+    foaf:name "Ben-Sasson, Eli" ;
+    foaf:phone "(972)-4-829-4892" .
 
-<http://www.cs.technion.ac.il/people/erez/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~erez/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/erez.jpg" ;
-    ns1:interest " Memory Management (in particular for modern parallel architectures)",
+<http://www.cs.technion.ac.il/people/erez/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~erez/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/erez.jpg" ;
+    foaf:interest " Memory Management (in particular for modern parallel architectures)",
         " Operating Systems, Programming Languages",
         "Concurrent Algorithms: theory and practice" ;
-    ns1:mbox "erez@cs.technion.ac.il" ;
-    ns1:name "Petrank, Erez" ;
-    ns1:phone "(972)-4-829-4942" .
+    foaf:mbox "erez@cs.technion.ac.il" ;
+    foaf:name "Petrank, Erez" ;
+    foaf:phone "(972)-4-829-4942" .
 
-<http://www.cs.technion.ac.il/people/etzion/> a ns1:Person ;
-    ns1:homepage "http://etzion.net.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/etzion.jpg" ;
-    ns1:interest " Combinatorial algorithms and designs",
+<http://www.cs.technion.ac.il/people/etzion/> a foaf:Person ;
+    foaf:homepage "http://etzion.net.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/etzion.jpg" ;
+    foaf:interest " Combinatorial algorithms and designs",
         " Digital sequencesin coding and communication",
         "Coding theory" ;
-    ns1:mbox "etzion@cs.technion.ac.il" ;
-    ns1:name "Etzion, Tuvi" ;
-    ns1:phone "(972)-4-829-4311" .
+    foaf:mbox "etzion@cs.technion.ac.il" ;
+    foaf:name "Etzion, Tuvi" ;
+    foaf:phone "(972)-4-829-4311" .
 
-<http://www.cs.technion.ac.il/people/eyalk/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~eyalk/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/eyalk.jpg" ;
-    ns1:interest " Computational complexity and Communication complexity",
+<http://www.cs.technion.ac.il/people/eyalk/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~eyalk/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/eyalk.jpg" ;
+    foaf:interest " Computational complexity and Communication complexity",
         " Machine learning",
         " Randomized distributed protocols",
         "Cryptography" ;
-    ns1:mbox "eyalk@cs.technion.ac.il" ;
-    ns1:name "Kushilevitz, Eyal" ;
-    ns1:phone "(972)-4-829-4303" .
+    foaf:mbox "eyalk@cs.technion.ac.il" ;
+    foaf:name "Kushilevitz, Eyal" ;
+    foaf:phone "(972)-4-829-4303" .
 
-<http://www.cs.technion.ac.il/people/freddy/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~freddy/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/freddy.jpg" ;
-    ns1:interest " Applied Geometry",
+<http://www.cs.technion.ac.il/people/freddy/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~freddy/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/freddy.jpg" ;
+    foaf:interest " Applied Geometry",
         " Estimation Theory",
         " Neural Coding",
         " Pattern Recognition",
         " Robotics, especially Ant Robotics",
         "Image and Signal Processing, Image Analysis and Synthesis" ;
-    ns1:mbox "freddy@cs.technion.ac.il" ;
-    ns1:name "Bruckstein, Alfred M." ;
-    ns1:phone "(972)-4-829-4361" .
+    foaf:mbox "freddy@cs.technion.ac.il" ;
+    foaf:name "Bruckstein, Alfred M." ;
+    foaf:phone "(972)-4-829-4361" .
 
-<http://www.cs.technion.ac.il/people/gershon/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~gershon/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/gershon.jpg" ;
-    ns1:interest " Computer graphics",
+<http://www.cs.technion.ac.il/people/gershon/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~gershon/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/gershon.jpg" ;
+    foaf:interest " Computer graphics",
         "Computer aided geometric design" ;
-    ns1:mbox "gershon@cs.technion.ac.il" ;
-    ns1:name "Elber, Gershon" ;
-    ns1:phone "(972)-4-829-4338" .
+    foaf:mbox "gershon@cs.technion.ac.il" ;
+    foaf:name "Elber, Gershon" ;
+    foaf:phone "(972)-4-829-4338" .
 
-<http://www.cs.technion.ac.il/people/gotsman/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~gotsman/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/gotsman.jpg" ;
-    ns1:interest " Computational Geometry",
+<http://www.cs.technion.ac.il/people/gotsman/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~gotsman/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/gotsman.jpg" ;
+    foaf:interest " Computational Geometry",
         " Geometry Processing",
         "Computer Graphics" ;
-    ns1:mbox "gotsman@cs.technion.ac.il" ;
-    ns1:name "Gotsman, Craig (Chaim)" ;
-    ns1:phone "(972)-4-829-4336" .
+    foaf:mbox "gotsman@cs.technion.ac.il" ;
+    foaf:name "Gotsman, Craig (Chaim)" ;
+    foaf:phone "(972)-4-829-4336" .
 
-<http://www.cs.technion.ac.il/people/hadas/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~hadas/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/hadas.jpg" ;
-    ns1:interest "  parameterized algorithms and their usage in approximation",
+<http://www.cs.technion.ac.il/people/hadas/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~hadas/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/hadas.jpg" ;
+    foaf:interest "  parameterized algorithms and their usage in approximation",
         " parallel computation",
         " randomized  algorithms",
         "Design and analysis of algorithms for combinatorial optimization problems, in particular, algorithms for packing, scheduling and resource  allocation problems arising in Information and Communication services" ;
-    ns1:mbox "hadas@cs.technion.ac.il" ;
-    ns1:name "Shachnai, Hadas" ;
-    ns1:phone "(972)-4-829-4359" .
+    foaf:mbox "hadas@cs.technion.ac.il" ;
+    foaf:name "Shachnai, Hadas" ;
+    foaf:phone "(972)-4-829-4359" .
 
-<http://www.cs.technion.ac.il/people/hagit/> a ns1:Person ;
-    ns1:homepage "http://hagit.net.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/hagit.jpg" ;
-    ns1:interest " Timing-based and asynchronous algorithms",
+<http://www.cs.technion.ac.il/people/hagit/> a foaf:Person ;
+    foaf:homepage "http://hagit.net.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/hagit.jpg" ;
+    foaf:interest " Timing-based and asynchronous algorithms",
         " in particular:Fault-tolerance",
         "Distributed computation and theoretical computer science" ;
-    ns1:mbox "hagit@cs.technion.ac.il" ;
-    ns1:name "Attiya, Hagit" ;
-    ns1:phone "(972)-4-829-4365" .
+    foaf:mbox "hagit@cs.technion.ac.il" ;
+    foaf:name "Attiya, Hagit" ;
+    foaf:phone "(972)-4-829-4365" .
 
-<http://www.cs.technion.ac.il/people/kaminski/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/kaminski.jpg" ;
-    ns1:interest " Complexity of algebraic computations",
+<http://www.cs.technion.ac.il/people/kaminski/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/kaminski.jpg" ;
+    foaf:interest " Complexity of algebraic computations",
         " Finite automata theory",
         " Temporal logic",
         "Non-monotonic logic" ;
-    ns1:mbox "kaminski@cs.technion.ac.il" ;
-    ns1:name "Kaminski, Michael" ;
-    ns1:phone "(972)-4-829-4360" .
+    foaf:mbox "kaminski@cs.technion.ac.il" ;
+    foaf:name "Kaminski, Michael" ;
+    foaf:phone "(972)-4-829-4360" .
 
-<http://www.cs.technion.ac.il/people/mic/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~mic/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/mic.jpg" ;
-    ns1:interest " especially the statistical analysis of visual tasks",
+<http://www.cs.technion.ac.il/people/mic/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mic/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/mic.jpg" ;
+    foaf:interest " especially the statistical analysis of visual tasks",
         "Image processing and Computer Vision" ;
-    ns1:mbox "mic@cs.technion.ac.il" ;
-    ns1:name "Lindenbaum, Michael" ;
-    ns1:phone "(972)-4-829-4331" .
+    foaf:mbox "mic@cs.technion.ac.il" ;
+    foaf:name "Lindenbaum, Michael" ;
+    foaf:phone "(972)-4-829-4331" .
 
-<http://www.cs.technion.ac.il/people/mirela/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~mirela/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/mirela.jpg" ;
-    ns1:interest " Discrete differential geometry",
+<http://www.cs.technion.ac.il/people/mirela/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mirela/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/mirela.jpg" ;
+    foaf:interest " Discrete differential geometry",
         " Geometry processing",
         " Shape analysis and understanding",
         "Computer Graphics" ;
-    ns1:mbox "mirela@cs.technion.ac.il" ;
-    ns1:name "Ben-Chen, Mirela" ;
-    ns1:phone "(972)-4-829-3378" .
+    foaf:mbox "mirela@cs.technion.ac.il" ;
+    foaf:name "Ben-Chen, Mirela" ;
+    foaf:phone "(972)-4-829-3378" .
 
-<http://www.cs.technion.ac.il/people/nailon/> a ns1:Person ;
-    ns1:homepage "http://nailon.googlepages.com/" ;
-    ns1:image <http://www.cs.technion.ac.il/images/people/nailon.jpg> ;
-    ns1:interest " Clustering",
+<http://www.cs.technion.ac.il/people/nailon/> a foaf:Person ;
+    foaf:homepage "http://nailon.googlepages.com/" ;
+    foaf:image <http://www.cs.technion.ac.il/images/people/nailon.jpg> ;
+    foaf:interest " Clustering",
         " Combinatorial optimization algorithms",
         " Fast dimension reduction techniques",
         " Ranking",
         " Social Choice and Machine Learning",
         "Algorithms for analysis of large datasets" ;
-    ns1:mbox "nailon@cs.technion.ac.il" ;
-    ns1:name "Ailon, Nir" ;
-    ns1:phone "(972)-4-829-4842" .
+    foaf:mbox "nailon@cs.technion.ac.il" ;
+    foaf:name "Ailon, Nir" ;
+    foaf:phone "(972)-4-829-4842" .
 
-<http://www.cs.technion.ac.il/people/naor/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~naor/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/naor.jpg" ;
-    ns1:interest " Communicationnetworks",
+<http://www.cs.technion.ac.il/people/naor/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~naor/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/naor.jpg" ;
+    foaf:interest " Communicationnetworks",
         " Parallel computation",
         " Randomized algorithms",
         " Randomness andcomputation Specific: Approximation and on-line algorithms",
         "Combinatorial optimization",
         "General: Theory of algorithms and applications" ;
-    ns1:mbox "naor@cs.technion.ac.il" ;
-    ns1:name "Naor, Seffi" ;
-    ns1:phone "(972)-4-829-4328" .
+    foaf:mbox "naor@cs.technion.ac.il" ;
+    foaf:name "Naor, Seffi" ;
+    foaf:phone "(972)-4-829-4328" .
 
-<http://www.cs.technion.ac.il/people/orna/> a ns1:Person ;
-    ns1:homepage "http://orna.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/orna.jpg" ;
-    ns1:interest " Abstraction",
+<http://www.cs.technion.ac.il/people/orna/> a foaf:Person ;
+    foaf:homepage "http://orna.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/orna.jpg" ;
+    foaf:interest " Abstraction",
         " Distributed model checking, SAT-based model checking, games, 3-valued logics",
         " Model checking",
         " Modularity",
         " Temporal logics",
         " formal verification",
         "Computer-aided verification of software and hardware" ;
-    ns1:mbox "orna@cs.technion.ac.il" ;
-    ns1:name "Grumberg, Orna" ;
-    ns1:phone "(972)-4-829-4327" .
+    foaf:mbox "orna@cs.technion.ac.il" ;
+    foaf:name "Grumberg, Orna" ;
+    foaf:phone "(972)-4-829-4327" .
 
-<http://www.cs.technion.ac.il/people/oshmu/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~oshmu/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/oshmu.jpg" ;
-    ns1:interest " Automated Negotiation",
+<http://www.cs.technion.ac.il/people/oshmu/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~oshmu/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/oshmu.jpg" ;
+    foaf:interest " Automated Negotiation",
         " Electronic Commerce",
         " Querying the WWW",
         " System issues: Physical storage, concurrency control, recovery, replication and distribution",
         "Database Systems: Theoretical aspects of query processing in relational databases, XML databases and logic based databases (Datalog)" ;
-    ns1:mbox "oshmu@cs.technion.ac.il" ;
-    ns1:name "Shmueli, Oded" ;
-    ns1:phone "(972)-4-829-4280" .
+    foaf:mbox "oshmu@cs.technion.ac.il" ;
+    foaf:name "Shmueli, Oded" ;
+    foaf:phone "(972)-4-829-4280" .
 
-<http://www.cs.technion.ac.il/people/pinter/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~pinter/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/pinter.jpg" ;
-    ns1:interest " Automated design of integrated circuits",
+<http://www.cs.technion.ac.il/people/pinter/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~pinter/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/pinter.jpg" ;
+    foaf:interest " Automated design of integrated circuits",
         " Compiler technology",
         " Data integration",
         " High performance computing",
         " Information organization and retrieval",
         " Programming languages",
         "Bioinformatics" ;
-    ns1:mbox "pinter@cs.technion.ac.il" ;
-    ns1:name "Pinter, Ron Y." ;
-    ns1:phone "(972)-4-829-4955" .
+    foaf:mbox "pinter@cs.technion.ac.il" ;
+    foaf:name "Pinter, Ron Y." ;
+    foaf:phone "(972)-4-829-4955" .
 
-<http://www.cs.technion.ac.il/people/rani/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~rani/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/rani.jpg" ;
-    ns1:interest " Computational finance",
+<http://www.cs.technion.ac.il/people/rani/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~rani/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/rani.jpg" ;
+    foaf:interest " Computational finance",
         " Online algorithms and competitive analysis",
         "Machine learning and data mining" ;
-    ns1:mbox "rani@cs.technion.ac.il" ;
-    ns1:name "El-Yaniv, Ran" ;
-    ns1:phone "(972)-4-829-3379" .
+    foaf:mbox "rani@cs.technion.ac.il" ;
+    foaf:name "El-Yaniv, Ran" ;
+    foaf:phone "(972)-4-829-3379" .
 
-<http://www.cs.technion.ac.il/people/rcohen/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~rcohen/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/rcohen.jpg" ;
-    ns1:interest " MAC protocols",
+<http://www.cs.technion.ac.il/people/rcohen/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~rcohen/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/rcohen.jpg" ;
+    foaf:interest " MAC protocols",
         " and Transport protocols",
         " broadband access networks",
         " cellular networks",
@@ -715,343 +715,343 @@
         " wireless networks",
         "Architectures and protocols for computer networks: the Internet",
         "routing protocols" ;
-    ns1:mbox "rcohen@cs.technion.ac.il" ;
-    ns1:name "Cohen, Reuven" ;
-    ns1:phone "(972)-4-829-4305" .
+    foaf:mbox "rcohen@cs.technion.ac.il" ;
+    foaf:name "Cohen, Reuven" ;
+    foaf:phone "(972)-4-829-4305" .
 
-<http://www.cs.technion.ac.il/people/reuven/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~reuven/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/reuven.jpg" ;
-    ns1:interest " Scheduling algorithms, Computational geometry",
+<http://www.cs.technion.ac.il/people/reuven/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~reuven/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/reuven.jpg" ;
+    foaf:interest " Scheduling algorithms, Computational geometry",
         "Combinatorial optimization: Graph algorithms" ;
-    ns1:mbox "reuven@cs.technion.ac.il" ;
-    ns1:name "Bar-Yehuda, Reuven" ;
-    ns1:phone "(972)-4-829-4332" .
+    foaf:mbox "reuven@cs.technion.ac.il" ;
+    foaf:name "Bar-Yehuda, Reuven" ;
+    foaf:phone "(972)-4-829-4332" .
 
-<http://www.cs.technion.ac.il/people/ron/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ron/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ron.jpg" ;
-    ns1:interest "   Computer graphics",
+<http://www.cs.technion.ac.il/people/ron/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ron/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ron.jpg" ;
+    foaf:interest "   Computer graphics",
         " Computer vision",
         " Differential geometry",
         " Medical image analysis",
         " Scientific computing",
         "Image processing" ;
-    ns1:mbox "ron@cs.technion.ac.il" ;
-    ns1:name "Kimmel, Ron" ;
-    ns1:phone "(972)-4-829-4616" .
+    foaf:mbox "ron@cs.technion.ac.il" ;
+    foaf:name "Kimmel, Ron" ;
+    foaf:phone "(972)-4-829-4616" .
 
-<http://www.cs.technion.ac.il/people/ronny/> a ns1:Person ;
-    ns1:homepage "http://ronny.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ronny.jpg" ;
-    ns1:interest " Application of coding theory to complexity",
+<http://www.cs.technion.ac.il/people/ronny/> a foaf:Person ;
+    foaf:homepage "http://ronny.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ronny.jpg" ;
+    foaf:interest " Application of coding theory to complexity",
         " Coding for magnetic and optical recording",
         " Digital communication",
         " Information theory",
         "Error-correcting codes" ;
-    ns1:mbox "ronny@cs.technion.ac.il" ;
-    ns1:name "Roth, Ronny" ;
-    ns1:phone "(972)-4-829-4291" .
+    foaf:mbox "ronny@cs.technion.ac.il" ;
+    foaf:name "Roth, Ronny" ;
+    foaf:phone "(972)-4-829-4291" .
 
-<http://www.cs.technion.ac.il/people/roy/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~roy/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/roy.jpg" ;
-    ns1:interest " Group Communication",
+<http://www.cs.technion.ac.il/people/roy/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~roy/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/roy.jpg" ;
+    foaf:interest " Group Communication",
         " High-Availability and Fault-Tolerance",
         " Middleware",
         " Scalable Dynamic (P2P) Systems",
         " Wireless Ad-Hoc Networks",
         "Clustering",
         "Distributed Systems" ;
-    ns1:mbox "roy@cs.technion.ac.il" ;
-    ns1:name "Friedman, Roy" ;
-    ns1:phone "(972)-4-829-4264" .
+    foaf:mbox "roy@cs.technion.ac.il" ;
+    foaf:name "Friedman, Roy" ;
+    foaf:phone "(972)-4-829-4264" .
 
-<http://www.cs.technion.ac.il/people/schwartz/> a ns1:Person ;
-    ns1:homepage "http://schwartz.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/schwartz.jpg" ;
-    ns1:interest " and randomized algorithms",
+<http://www.cs.technion.ac.il/people/schwartz/> a foaf:Person ;
+    foaf:homepage "http://schwartz.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/schwartz.jpg" ;
+    foaf:interest " and randomized algorithms",
         " approximation algorithms",
         " combinatorial optimization",
         " submodular optimization",
         " the geometry of metric spaces and its applications",
         "Design and analysis of algorithms" ;
-    ns1:mbox "schwartz@cs.technion.ac.il" ;
-    ns1:name "Schwartz, Roy" ;
-    ns1:phone "(972)-4-829-4887" .
+    foaf:mbox "schwartz@cs.technion.ac.il" ;
+    foaf:name "Schwartz, Roy" ;
+    foaf:phone "(972)-4-829-4887" .
 
-<http://www.cs.technion.ac.il/people/shachari/> a ns1:Person ;
-    ns1:homepage "http://people.csail.mit.edu/shachari/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/shachari.jpg" ;
-    ns1:interest " Formal proof assistants",
+<http://www.cs.technion.ac.il/people/shachari/> a foaf:Person ;
+    foaf:homepage "http://people.csail.mit.edu/shachari/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/shachari.jpg" ;
+    foaf:interest " Formal proof assistants",
         " Functional programming languages",
         " High-level and automated programming",
         "Software synthesis" ;
-    ns1:mbox "shachari@cs.technion.ac.il" ;
-    ns1:name "Itzhaky, Shachar" ;
-    ns1:phone "(972)-4-829-4967" .
+    foaf:mbox "shachari@cs.technion.ac.il" ;
+    foaf:name "Itzhaky, Shachar" ;
+    foaf:phone "(972)-4-829-4967" .
 
-<http://www.cs.technion.ac.il/people/shaulm/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~shaulm/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/shaulm.jpg" ;
-    ns1:interest " Game playing",
+<http://www.cs.technion.ac.il/people/shaulm/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~shaulm/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/shaulm.jpg" ;
+    foaf:interest " Game playing",
         " Machine Learning",
         " Multi-agent systems",
         " Opponent modeling",
         " Search",
         " Speedup Learning",
         "Artificial Intelligence" ;
-    ns1:mbox "shaulm@cs.technion.ac.il" ;
-    ns1:name "Markovitch, Shaul" ;
-    ns1:phone "(972)-4-829-4346" .
+    foaf:mbox "shaulm@cs.technion.ac.il" ;
+    foaf:name "Markovitch, Shaul" ;
+    foaf:phone "(972)-4-829-4346" .
 
-<http://www.cs.technion.ac.il/people/talmo/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~talmo/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/talmo.jpg" ;
-    ns1:interest " Implementation (Hardware) of Quantum Information Processing",
+<http://www.cs.technion.ac.il/people/talmo/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~talmo/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/talmo.jpg" ;
+    foaf:interest " Implementation (Hardware) of Quantum Information Processing",
         " Modern Cryptology",
         "Theoretical Quantum Information Processing (Computing, Cryptography, Information, Communication)" ;
-    ns1:mbox "talmo@cs.technion.ac.il" ;
-    ns1:name "Mor, Tal" ;
-    ns1:phone "(972)-4-829-4885" .
+    foaf:mbox "talmo@cs.technion.ac.il" ;
+    foaf:name "Mor, Tal" ;
+    foaf:phone "(972)-4-829-4885" .
 
-<http://www.cs.technion.ac.il/people/tomersh/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~tomersh/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/tomersh.jpg" ;
-    ns1:interest " biological-network analysis: constraint-based modeling of metabolic networks",
+<http://www.cs.technion.ac.il/people/tomersh/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~tomersh/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/tomersh.jpg" ;
+    foaf:interest " biological-network analysis: constraint-based modeling of metabolic networks",
         " protein-interaction network analysis",
         "Bioinformatics/Systems-Biology" ;
-    ns1:mbox "tomersh@cs.technion.ac.il" ;
-    ns1:name "Shlomi, Tomer" ;
-    ns1:phone "4356, 1757" .
+    foaf:mbox "tomersh@cs.technion.ac.il" ;
+    foaf:name "Shlomi, Tomer" ;
+    foaf:phone "4356, 1757" .
 
-<http://www.cs.technion.ac.il/people/unga/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~unga/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/unga.jpg" ;
-    ns1:interest " Gravity Currents",
+<http://www.cs.technion.ac.il/people/unga/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~unga/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/unga.jpg" ;
+    foaf:interest " Gravity Currents",
         " Two-Phase Flows",
         "Computational Fluid Dynamics, Implementation of ParallelComputers, Numerical Methods",
         "Simulations of Rotating Fluids (incompressible, compressible,two-phase, liquid metals)" ;
-    ns1:mbox "unga@cs.technion.ac.il" ;
-    ns1:name "Ungarish, Marius" ;
-    ns1:phone "(972)-4-829-4366" .
+    foaf:mbox "unga@cs.technion.ac.il" ;
+    foaf:name "Ungarish, Marius" ;
+    foaf:phone "(972)-4-829-4366" .
 
-<http://www.cs.technion.ac.il/people/yaakobi/> a ns1:Person ;
-    ns1:homepage "http://yaakobi.net.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yaakobi.jpg" ;
-    ns1:interest " and voting theory",
+<http://www.cs.technion.ac.il/people/yaakobi/> a foaf:Person ;
+    foaf:homepage "http://yaakobi.net.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yaakobi.jpg" ;
+    foaf:interest " and voting theory",
         " associative memories",
         " data storage and retrieval",
         "Information and coding theory with applications to non-volatile memories" ;
-    ns1:mbox "yaakobi@cs.technion.ac.il" ;
-    ns1:name "Yaakobi, Eitan" ;
-    ns1:phone "(972)-4-829-4952" .
+    foaf:mbox "yaakobi@cs.technion.ac.il" ;
+    foaf:name "Yaakobi, Eitan" ;
+    foaf:phone "(972)-4-829-4952" .
 
-<http://www.cs.technion.ac.il/people/yahave/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~yahave/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yahave.jpg" ;
-    ns1:interest " abstract interpretation",
+<http://www.cs.technion.ac.il/people/yahave/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yahave/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yahave.jpg" ;
+    foaf:interest " abstract interpretation",
         " and software engineering",
         " concurrent and distributed systems",
         " program synthesis",
         " program verification",
         " programming languages",
         "Program analysis" ;
-    ns1:mbox "yahave@cs.technion.ac.il" ;
-    ns1:name "Yahav, Eran" ;
-    ns1:phone "(972)-4-829-4318" .
+    foaf:mbox "yahave@cs.technion.ac.il" ;
+    foaf:name "Yahav, Eran" ;
+    foaf:phone "(972)-4-829-4318" .
 
-<http://www.cs.technion.ac.il/people/yetsion/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~yetsion/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yetsion.jpg" ;
-    ns1:interest " " ;
-    ns1:mbox "yoav.etsion@tce.technion.ac.il" ;
-    ns1:name "Etsion, Yoav" ;
-    ns1:phone "4367 ,1926" .
+<http://www.cs.technion.ac.il/people/yetsion/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yetsion/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yetsion.jpg" ;
+    foaf:interest " " ;
+    foaf:mbox "yoav.etsion@tce.technion.ac.il" ;
+    foaf:name "Etsion, Yoav" ;
+    foaf:phone "4367 ,1926" .
 
-<http://www.cs.technion.ac.il/people/yogi/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~yogi/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yogi.jpg" ;
-    ns1:interest " in particular: aspects related to the object-oriented paradigm",
+<http://www.cs.technion.ac.il/people/yogi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yogi/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yogi.jpg" ;
+    foaf:interest " in particular: aspects related to the object-oriented paradigm",
         " programming languages and parsing",
         "Software engineering" ;
-    ns1:mbox "yogi@cs.technion.ac.il" ;
-    ns1:name "Gil, Yossi" ;
-    ns1:phone "(972)-4-829-4333" .
+    foaf:mbox "yogi@cs.technion.ac.il" ;
+    foaf:name "Gil, Yossi" ;
+    foaf:phone "(972)-4-829-4333" .
 
-<http://www.cs.technion.ac.il/people/yuvalfi/> a ns1:Person ;
-    ns1:homepage "http://www.cs.toronto.edu/~yuvalf/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yuvalfi.jpg" ;
-    ns1:interest " Analysis of Boolean Functions",
+<http://www.cs.technion.ac.il/people/yuvalfi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.toronto.edu/~yuvalf/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yuvalfi.jpg" ;
+    foaf:interest " Analysis of Boolean Functions",
         " Combinatorics",
         " Proof complexity",
         "Computational complexity" ;
-    ns1:mbox "yuvalfi@cs.technion.ac.il" ;
-    ns1:name "Filmus, Yuval" ;
-    ns1:phone "(972)-4-829-4876" .
+    foaf:mbox "yuvalfi@cs.technion.ac.il" ;
+    foaf:name "Filmus, Yuval" ;
+    foaf:phone "(972)-4-829-4876" .
 
-<http://www.cs.technion.ac.il/people/yuvali/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~yuvali/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yuvali.jpg" ;
-    ns1:interest " Complexity theory",
+<http://www.cs.technion.ac.il/people/yuvali/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yuvali/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yuvali.jpg" ;
+    foaf:interest " Complexity theory",
         "Cryptography" ;
-    ns1:mbox "yuvali@cs.technion.ac.il" ;
-    ns1:name "Ishai, Yuval" ;
-    ns1:phone "(972)-4-829-4941" .
+    foaf:mbox "yuvali@cs.technion.ac.il" ;
+    foaf:name "Ishai, Yuval" ;
+    foaf:phone "(972)-4-829-4941" .
 
-<http://www.cs.technion.ac.il/people/zaks/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~zaks/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/zaks.jpg" ;
-    ns1:interest " ATM and Optical Networks",
+<http://www.cs.technion.ac.il/people/zaks/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~zaks/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/zaks.jpg" ;
+    foaf:interest " ATM and Optical Networks",
         " Combinatorial and Graph Algorithms",
         " Combinatorics and Graph Theory",
         " Discrete Mathematics",
         "Theory of Distributed Computing" ;
-    ns1:mbox "zaks@cs.technion.ac.il" ;
-    ns1:name "Zaks, Shmuel" ;
-    ns1:phone "(972)-4-829-4329" .
+    foaf:mbox "zaks@cs.technion.ac.il" ;
+    foaf:name "Zaks, Shmuel" ;
+    foaf:phone "(972)-4-829-4329" .
 
-<http://www.cs.technion.ac.il/images/people/nailon.jpg> a ns1:Image .
+<http://www.cs.technion.ac.il/images/people/nailon.jpg> a foaf:Image .
 
-<http://www.cs.technion.ac.il/people/ailia/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ailia/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "ailia@cs.technion.ac.il" ;
-    ns1:name "Averbouch, Ilia" .
+<http://www.cs.technion.ac.il/people/ailia/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ailia/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "ailia@cs.technion.ac.il" ;
+    foaf:name "Averbouch, Ilia" .
 
-<http://www.cs.technion.ac.il/people/anya/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~anya/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/anya.jpg" ;
-    ns1:mbox "anya@cs.technion.ac.il" ;
-    ns1:name "Levin, Anya" .
+<http://www.cs.technion.ac.il/people/anya/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~anya/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/anya.jpg" ;
+    foaf:mbox "anya@cs.technion.ac.il" ;
+    foaf:name "Levin, Anya" .
 
-<http://www.cs.technion.ac.il/people/asidi/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~asidi/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/asidi.jpg" ;
-    ns1:interest " Numerical Integration",
+<http://www.cs.technion.ac.il/people/asidi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~asidi/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/asidi.jpg" ;
+    foaf:interest " Numerical Integration",
         " Numerical Linear Algebra",
         " Numerical Solution of Integral Equations",
         " Padé and other related rational approximations",
         "Theory and application of scalar and vector extrapolation methods" ;
-    ns1:mbox "asidi@cs.technion.ac.il" ;
-    ns1:name "Sidi, Avraham" ;
-    ns1:phone "(972)-4-829-4364" .
+    foaf:mbox "asidi@cs.technion.ac.il" ;
+    foaf:name "Sidi, Avraham" ;
+    foaf:phone "(972)-4-829-4364" .
 
-<http://www.cs.technion.ac.il/people/aviadzuc/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~aviadzuc/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "aviadzuc@cs.technion.ac.il" ;
-    ns1:name "Zuck, Aviad" ;
-    ns1:phone "(972)-4-829-4956" .
+<http://www.cs.technion.ac.il/people/aviadzuc/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~aviadzuc/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "aviadzuc@cs.technion.ac.il" ;
+    foaf:name "Zuck, Aviad" ;
+    foaf:phone "(972)-4-829-4956" .
 
-<http://www.cs.technion.ac.il/people/baram/> a ns1:Person ;
-    ns1:homepage "http://baram.net.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/baram.jpg" ;
-    ns1:mbox "baram@cs.technion.ac.il" ;
-    ns1:name "Baram, Yoram" ;
-    ns1:phone "(972)-4-829-4266" .
+<http://www.cs.technion.ac.il/people/baram/> a foaf:Person ;
+    foaf:homepage "http://baram.net.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/baram.jpg" ;
+    foaf:mbox "baram@cs.technion.ac.il" ;
+    foaf:name "Baram, Yoram" ;
+    foaf:phone "(972)-4-829-4266" .
 
-<http://www.cs.technion.ac.il/people/barkan/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~barkan/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/barkan.jpg" ;
-    ns1:mbox "barkan@cs.technion.ac.il" ;
-    ns1:name "Barkan, Elad Pinhas" .
+<http://www.cs.technion.ac.il/people/barkan/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~barkan/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/barkan.jpg" ;
+    foaf:mbox "barkan@cs.technion.ac.il" ;
+    foaf:name "Barkan, Elad Pinhas" .
 
-<http://www.cs.technion.ac.il/people/batyak/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "batyak@cs.technion.ac.il" ;
-    ns1:name "Kenig, Batya" ;
-    ns1:phone "(972)-4-829-4956" .
+<http://www.cs.technion.ac.il/people/batyak/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "batyak@cs.technion.ac.il" ;
+    foaf:name "Kenig, Batya" ;
+    foaf:phone "(972)-4-829-4956" .
 
-<http://www.cs.technion.ac.il/people/bussel/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "bussel@cs.technion.ac.il" ;
-    ns1:name "Bussel, Isaac" .
+<http://www.cs.technion.ac.il/people/bussel/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "bussel@cs.technion.ac.il" ;
+    foaf:name "Bussel, Isaac" .
 
-<http://www.cs.technion.ac.il/people/cmshalom/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~cmshalom/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/cmshalom.jpg" ;
-    ns1:mbox "cmshalom@cs.technion.ac.il" ;
-    ns1:name "Shalom, Mordohay" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/cmshalom/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~cmshalom/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/cmshalom.jpg" ;
+    foaf:mbox "cmshalom@cs.technion.ac.il" ;
+    foaf:name "Shalom, Mordohay" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/cselena/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~cselena/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "cselena@cs.technion.ac.il" ;
-    ns1:name "Ravve, Elena" ;
-    ns1:phone "(972)-4-829-4358" .
+<http://www.cs.technion.ac.il/people/cselena/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~cselena/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "cselena@cs.technion.ac.il" ;
+    foaf:name "Ravve, Elena" ;
+    foaf:phone "(972)-4-829-4358" .
 
-<http://www.cs.technion.ac.il/people/ctal/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ctal/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "ctal@cs.technion.ac.il" ;
-    ns1:name "Cohen, Tal" .
+<http://www.cs.technion.ac.il/people/ctal/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ctal/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "ctal@cs.technion.ac.il" ;
+    foaf:name "Cohen, Tal" .
 
-<http://www.cs.technion.ac.il/people/dgalin/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "dgalin@cs.technion.ac.il" ;
-    ns1:name "Galin, Daniel" .
+<http://www.cs.technion.ac.il/people/dgalin/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "dgalin@cs.technion.ac.il" ;
+    foaf:name "Galin, Daniel" .
 
-<http://www.cs.technion.ac.il/people/dhlorenz/> a ns1:Person ;
-    ns1:homepage "http://www.openu.ac.il/home/lorenz/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/dhlorenz.jpg" ;
-    ns1:mbox "dhlorenz@gmail.com" ;
-    ns1:name "Lorenz, David H." ;
-    ns1:phone "(972)-4-829-4961" .
+<http://www.cs.technion.ac.il/people/dhlorenz/> a foaf:Person ;
+    foaf:homepage "http://www.openu.ac.il/home/lorenz/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/dhlorenz.jpg" ;
+    foaf:mbox "dhlorenz@gmail.com" ;
+    foaf:name "Lorenz, David H." ;
+    foaf:phone "(972)-4-829-4961" .
 
-<http://www.cs.technion.ac.il/people/francez/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~francez/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/francez.jpg" ;
-    ns1:interest " Computational linguistics",
+<http://www.cs.technion.ac.il/people/francez/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~francez/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/francez.jpg" ;
+    foaf:interest " Computational linguistics",
         " Type-logical grammar",
         "Primary: Formal semantics of natural language",
         "λ-calculus and proof theory" ;
-    ns1:mbox "francez@cs.technion.ac.il" ;
-    ns1:name "Francez, Nissim" ;
-    ns1:phone "(972)-4-829-4369" .
+    foaf:mbox "francez@cs.technion.ac.il" ;
+    foaf:name "Francez, Nissim" ;
+    foaf:phone "(972)-4-829-4369" .
 
-<http://www.cs.technion.ac.il/people/gadial/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/gadial.jpg" ;
-    ns1:mbox "gadial@cs.technion.ac.il" ;
-    ns1:name "Aleksandrowicz, Gadi" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/gadial/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/gadial.jpg" ;
+    foaf:mbox "gadial@cs.technion.ac.il" ;
+    foaf:name "Aleksandrowicz, Gadi" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/gala/> a ns1:Person ;
-    ns1:homepage "http://gala.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/gala.jpg" ;
-    ns1:mbox "gala@cs.technion.ac.il" ;
-    ns1:name "Yadgar, Gala" ;
-    ns1:phone "(972)-4-829-4945" .
+<http://www.cs.technion.ac.il/people/gala/> a foaf:Person ;
+    foaf:homepage "http://gala.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/gala.jpg" ;
+    foaf:mbox "gala@cs.technion.ac.il" ;
+    foaf:name "Yadgar, Gala" ;
+    foaf:phone "(972)-4-829-4945" .
 
-<http://www.cs.technion.ac.il/people/gisrael/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/gisrael.jpg" ;
-    ns1:mbox "gisrael@cs.technion.ac.il" ;
-    ns1:name "Gutter, Israel" ;
-    ns1:phone "(972)-4-829-4974" .
+<http://www.cs.technion.ac.il/people/gisrael/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/gisrael.jpg" ;
+    foaf:mbox "gisrael@cs.technion.ac.il" ;
+    foaf:name "Gutter, Israel" ;
+    foaf:phone "(972)-4-829-4974" .
 
-<http://www.cs.technion.ac.il/people/heymann/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~heymann/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/heymann.jpg" ;
-    ns1:interest " Optimization Theory",
+<http://www.cs.technion.ac.il/people/heymann/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~heymann/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/heymann.jpg" ;
+    foaf:interest " Optimization Theory",
         " Robotics",
         "Specification and Control of Discrete-Event and Hybrid Systems",
         "Systems and Control Theory" ;
-    ns1:mbox "heymann@cs.technion.ac.il" ;
-    ns1:name "Heymann, Michael" ;
-    ns1:phone "(972)-4-829-4163" .
+    foaf:mbox "heymann@cs.technion.ac.il" ;
+    foaf:name "Heymann, Michael" ;
+    foaf:phone "(972)-4-829-4163" .
 
-<http://www.cs.technion.ac.il/people/huizhang/> a ns1:Person ;
-    ns1:homepage "http://huizhang.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/huizhang.jpg" ;
-    ns1:mbox "huizhang@cs.technion.ac.il" ;
-    ns1:name "Zhang, Hui" ;
-    ns1:phone "(972)-4-829-2206" .
+<http://www.cs.technion.ac.il/people/huizhang/> a foaf:Person ;
+    foaf:homepage "http://huizhang.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/huizhang.jpg" ;
+    foaf:mbox "huizhang@cs.technion.ac.il" ;
+    foaf:name "Zhang, Hui" ;
+    foaf:phone "(972)-4-829-2206" .
 
-<http://www.cs.technion.ac.il/people/idabran/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~idabran/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/idabran.jpg" ;
-    ns1:interest " Architectures and protocols for computer networks",
+<http://www.cs.technion.ac.il/people/idabran/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~idabran/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/idabran.jpg" ;
+    foaf:interest " Architectures and protocols for computer networks",
         " IP",
         " Sensor Networks",
         " Smart Cities",
@@ -1061,57 +1061,57 @@
         " Web Caching",
         " Wireless Networks",
         "Intenet of Things" ;
-    ns1:mbox "idabran@cs.technion.ac.il" ;
-    ns1:name "Dabran, Itai" ;
-    ns1:phone "(972)-4-829-2980" .
+    foaf:mbox "idabran@cs.technion.ac.il" ;
+    foaf:name "Dabran, Itai" ;
+    foaf:phone "(972)-4-829-2980" .
 
-<http://www.cs.technion.ac.il/people/imaman/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~imaman/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/imaman.jpg" ;
-    ns1:mbox "imaman@cs.technion.ac.il" ;
-    ns1:name "Maman, Itay" .
+<http://www.cs.technion.ac.il/people/imaman/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~imaman/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/imaman.jpg" ;
+    foaf:mbox "imaman@cs.technion.ac.il" ;
+    foaf:name "Maman, Itay" .
 
-<http://www.cs.technion.ac.il/people/itai/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~itai/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/itai.jpg" ;
-    ns1:interest "  " ;
-    ns1:mbox "itai@cs.technion.ac.il" ;
-    ns1:name "Itai, Alon" ;
-    ns1:phone "(972)-4-829-4337" .
+<http://www.cs.technion.ac.il/people/itai/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~itai/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/itai.jpg" ;
+    foaf:interest "  " ;
+    foaf:mbox "itai@cs.technion.ac.il" ;
+    foaf:name "Itai, Alon" ;
+    foaf:phone "(972)-4-829-4337" .
 
-<http://www.cs.technion.ac.il/people/janos/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~janos/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/janos.jpg" ;
-    ns1:interest " Algebraic Combinatorics",
+<http://www.cs.technion.ac.il/people/janos/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~janos/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/janos.jpg" ;
+    foaf:interest " Algebraic Combinatorics",
         " Complexity over the Reals",
         "Logic and Complexity" ;
-    ns1:mbox "janos@cs.technion.ac.il" ;
-    ns1:name "Makowsky, Johann" ;
-    ns1:phone "(972)-4-829-4358" .
+    foaf:mbox "janos@cs.technion.ac.il" ;
+    foaf:name "Makowsky, Johann" ;
+    foaf:phone "(972)-4-829-4358" .
 
-<http://www.cs.technion.ac.il/people/jineshmac/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "jineshmac@cs.technion.ac.il" ;
-    ns1:name "Machchhar, Jinesh" ;
-    ns1:phone "(972)-4-829-2977" .
+<http://www.cs.technion.ac.il/people/jineshmac/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "jineshmac@cs.technion.ac.il" ;
+    foaf:name "Machchhar, Jinesh" ;
+    foaf:phone "(972)-4-829-2977" .
 
-<http://www.cs.technion.ac.il/people/kantor/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~kantor/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/kantor.jpg" ;
-    ns1:interest "  component oriented programming",
+<http://www.cs.technion.ac.il/people/kantor/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~kantor/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/kantor.jpg" ;
+    foaf:interest "  component oriented programming",
         " components with semantic interfaces",
         " internet programming",
         " statistical estimation of the number of software faults",
         " user interfaces",
         "Software engineering" ;
-    ns1:mbox "kantor@cs.technion.ac.il" ;
-    ns1:name "Kantorowitz, Eliezer" ;
-    ns1:phone "(972)-4-829-4321" .
+    foaf:mbox "kantor@cs.technion.ac.il" ;
+    foaf:name "Kantorowitz, Eliezer" ;
+    foaf:phone "(972)-4-829-4321" .
 
-<http://www.cs.technion.ac.il/people/katz/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~katz/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/katz.jpg" ;
-    ns1:interest " Aspect-oriented software development",
+<http://www.cs.technion.ac.il/people/katz/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~katz/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/katz.jpg" ;
+    foaf:interest " Aspect-oriented software development",
         " Distributed systems",
         " Formal specification methods",
         " Partial orders",
@@ -1120,146 +1120,146 @@
         " Software engineering",
         " Temporal logic",
         "Program verification" ;
-    ns1:mbox "katz@cs.technion.ac.il" ;
-    ns1:name "Katz, Shmuel" ;
-    ns1:phone "(972)-4-829-4322" .
+    foaf:mbox "katz@cs.technion.ac.il" ;
+    foaf:name "Katz, Shmuel" ;
+    foaf:phone "(972)-4-829-4322" .
 
-<http://www.cs.technion.ac.il/people/kayla/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "kayla@cs.technion.ac.il" ;
-    ns1:name "Jacobs, Kayla" ;
-    ns1:phone "(972)-4-829-3373" .
+<http://www.cs.technion.ac.il/people/kayla/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "kayla@cs.technion.ac.il" ;
+    foaf:name "Jacobs, Kayla" ;
+    foaf:phone "(972)-4-829-3373" .
 
-<http://www.cs.technion.ac.il/people/kirar/> a ns1:Person ;
-    ns1:homepage "http://www.kiraradinsky.com/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/kirar.jpg" ;
-    ns1:mbox "kirar@cs.technion.ac.il" ;
-    ns1:name "Radinsky, Kira" ;
-    ns1:phone "(972)-4-829-4939" .
+<http://www.cs.technion.ac.il/people/kirar/> a foaf:Person ;
+    foaf:homepage "http://www.kiraradinsky.com/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/kirar.jpg" ;
+    foaf:mbox "kirar@cs.technion.ac.il" ;
+    foaf:name "Radinsky, Kira" ;
+    foaf:phone "(972)-4-829-4939" .
 
-<http://www.cs.technion.ac.il/people/kohavi/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/kohavi.jpg" ;
-    ns1:interest " Reliabilty",
+<http://www.cs.technion.ac.il/people/kohavi/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/kohavi.jpg" ;
+    foaf:interest " Reliabilty",
         " Switching and finite-automata theory",
         "Failure-Tolerant design, testing and fault diagnosis of digitalsystems" ;
-    ns1:mbox "kohavi@cs.technion.ac.il" ;
-    ns1:name "Kohavi, Zvi" ;
-    ns1:phone "(972)-4-829-4162" .
+    foaf:mbox "kohavi@cs.technion.ac.il" ;
+    foaf:name "Kohavi, Zvi" ;
+    foaf:phone "(972)-4-829-4162" .
 
-<http://www.cs.technion.ac.il/people/kuper/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "kuper@cs.technion.ac.il" ;
-    ns1:name "Kupershtock, Roni" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/kuper/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "kuper@cs.technion.ac.il" ;
+    foaf:name "Kupershtock, Roni" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/ladypine/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ladypine/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ladypine.jpg" ;
-    ns1:interest " game theory",
+<http://www.cs.technion.ac.il/people/ladypine/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ladypine/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ladypine.jpg" ;
+    foaf:interest " game theory",
         " resource allocation",
         " user behavior",
         "Resourse-as-a-Service cloud computing" ;
-    ns1:mbox "ladypine@cs.technion.ac.il" ;
-    ns1:name "Agmon Ben-Yehuda, Orna" ;
-    ns1:phone "(972)-4-829-4959" .
+    foaf:mbox "ladypine@cs.technion.ac.il" ;
+    foaf:name "Agmon Ben-Yehuda, Orna" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/lempel/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/lempel.jpg" ;
-    ns1:interest " Imaging and compression technology",
+<http://www.cs.technion.ac.il/people/lempel/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/lempel.jpg" ;
+    foaf:interest " Imaging and compression technology",
         "Application of discrete mathematics to problems in computer science and information theory" ;
-    ns1:mbox "lempel@cs.technion.ac.il" ;
-    ns1:name "Lempel, Abraham" ;
-    ns1:phone "(972)-4-829-4164" .
+    foaf:mbox "lempel@cs.technion.ac.il" ;
+    foaf:name "Lempel, Abraham" ;
+    foaf:phone "(972)-4-829-4164" .
 
-<http://www.cs.technion.ac.il/people/levyt/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "levyt@cs.technion.ac.il" ;
-    ns1:name "Levi, Tamir" .
+<http://www.cs.technion.ac.il/people/levyt/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "levyt@cs.technion.ac.il" ;
+    foaf:name "Levi, Tamir" .
 
-<http://www.cs.technion.ac.il/people/lihu/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "lihu.rappoport@intel.com" ;
-    ns1:name "Rappoport, Lihu" .
+<http://www.cs.technion.ac.il/people/lihu/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "lihu.rappoport@intel.com" ;
+    foaf:name "Rappoport, Lihu" .
 
-<http://www.cs.technion.ac.il/people/litman/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~litman/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/litman.jpg" ;
-    ns1:interest " Digital Systems, VLSI",
+<http://www.cs.technion.ac.il/people/litman/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~litman/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/litman.jpg" ;
+    foaf:interest " Digital Systems, VLSI",
         " Layout of Networks",
         " Parallel Computation on Fixed Connection Networks",
         "Interconnection Networks",
         "Systolic Systems" ;
-    ns1:mbox "litman@cs.technion.ac.il" ;
-    ns1:name "Litman, Ami" ;
-    ns1:phone "(972)-4-829-4357" .
+    foaf:mbox "litman@cs.technion.ac.il" ;
+    foaf:name "Litman, Ami" ;
+    foaf:phone "(972)-4-829-4357" .
 
-<http://www.cs.technion.ac.il/people/lkeren/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~lkeren/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "lkeren@cs.technion.ac.il" ;
-    ns1:name "Lenz, Keren" .
+<http://www.cs.technion.ac.il/people/lkeren/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~lkeren/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "lkeren@cs.technion.ac.il" ;
+    foaf:name "Lenz, Keren" .
 
-<http://www.cs.technion.ac.il/people/lorina/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~lorina/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "lorina@cs.technion.ac.il" ;
-    ns1:name "Dascal, Lorina" ;
-    ns1:phone "(972)-4-829-4940" .
+<http://www.cs.technion.ac.il/people/lorina/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~lorina/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "lorina@cs.technion.ac.il" ;
+    foaf:name "Dascal, Lorina" ;
+    foaf:phone "(972)-4-829-4940" .
 
-<http://www.cs.technion.ac.il/people/mad/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~mad/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/mad.jpg" ;
-    ns1:mbox "mad@cs.technion.ac.il" ;
-    ns1:name "Morrison, Adam" ;
-    ns1:phone "(972)-4-829-4961" .
+<http://www.cs.technion.ac.il/people/mad/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mad/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/mad.jpg" ;
+    foaf:mbox "mad@cs.technion.ac.il" ;
+    foaf:name "Morrison, Adam" ;
+    foaf:phone "(972)-4-829-4961" .
 
-<http://www.cs.technion.ac.il/people/matteo.orru> a ns1:Person ;
-    ns1:homepage "https://www.researchgate.net/profile/Matteo_Orru/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/matteo.orru.jpg" ;
-    ns1:mbox "matteo.orru@cs.technion.ac.il" ;
-    ns1:name "Orru, Matteo" ;
-    ns1:phone "(972)-4-829-3941" .
+<http://www.cs.technion.ac.il/people/matteo.orru> a foaf:Person ;
+    foaf:homepage "https://www.researchgate.net/profile/Matteo_Orru/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/matteo.orru.jpg" ;
+    foaf:mbox "matteo.orru@cs.technion.ac.il" ;
+    foaf:name "Orru, Matteo" ;
+    foaf:phone "(972)-4-829-3941" .
 
-<http://www.cs.technion.ac.il/people/mendlson/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~mendlson/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "avi.mendelson@tce.technion.ac.il" ;
-    ns1:name "Mendelson, Avi" ;
-    ns1:phone "(972)-4-829-4950" .
+<http://www.cs.technion.ac.il/people/mendlson/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~mendlson/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "avi.mendelson@tce.technion.ac.il" ;
+    foaf:name "Mendelson, Avi" ;
+    foaf:phone "(972)-4-829-4950" .
 
-<http://www.cs.technion.ac.il/people/moran/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~moran/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/moran.jpg" ;
-    ns1:interest " combinatorics and graph theory",
+<http://www.cs.technion.ac.il/people/moran/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~moran/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/moran.jpg" ;
+    foaf:interest " combinatorics and graph theory",
         "Algorithmic aspects of bioinformatics (with emphasis on phylogenetics)" ;
-    ns1:mbox "moran@cs.technion.ac.il" ;
-    ns1:name "Moran, Shlomo" ;
-    ns1:phone "(972)-4-829-4363" .
+    foaf:mbox "moran@cs.technion.ac.il" ;
+    foaf:name "Moran, Shlomo" ;
+    foaf:phone "(972)-4-829-4363" .
 
-<http://www.cs.technion.ac.il/people/mzib/> a ns1:Person ;
-    ns1:homepage "http://ie.technion.ac.il/~mcib/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/mzib.jpg" ;
-    ns1:mbox "mzib@cs.technion.ac.il" ;
-    ns1:name "Zibulevsky, Michael" ;
-    ns1:phone "(972)-4-829-4944" .
+<http://www.cs.technion.ac.il/people/mzib/> a foaf:Person ;
+    foaf:homepage "http://ie.technion.ac.il/~mcib/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/mzib.jpg" ;
+    foaf:mbox "mzib@cs.technion.ac.il" ;
+    foaf:name "Zibulevsky, Michael" ;
+    foaf:phone "(972)-4-829-4944" .
 
-<http://www.cs.technion.ac.il/people/netanel/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "netanel@cs.technion.ac.il" ;
-    ns1:name "Raviv, Netanel" ;
-    ns1:phone "(972)-4-829-3381" .
+<http://www.cs.technion.ac.il/people/netanel/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "netanel@cs.technion.ac.il" ;
+    foaf:name "Raviv, Netanel" ;
+    foaf:phone "(972)-4-829-3381" .
 
-<http://www.cs.technion.ac.il/people/nimi/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~nimi/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/nimi.jpg" ;
-    ns1:mbox "nimi@cs.technion.ac.il" ;
-    ns1:name "Saban Partosh, Nimrod" ;
-    ns1:phone "(972)-4-829-5527" .
+<http://www.cs.technion.ac.il/people/nimi/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~nimi/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/nimi.jpg" ;
+    foaf:mbox "nimi@cs.technion.ac.il" ;
+    foaf:name "Saban Partosh, Nimrod" ;
+    foaf:phone "(972)-4-829-5527" .
 
-<http://www.cs.technion.ac.il/people/ornan/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ornan/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ornan.jpg" ;
-    ns1:interest " Information Retrieval",
+<http://www.cs.technion.ac.il/people/ornan/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ornan/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ornan.jpg" ;
+    foaf:interest " Information Retrieval",
         " Machine Translation",
         " Processing of Hebrew in all levels (phonology",
         " Speech Recognition",
@@ -1267,227 +1267,227 @@
         " semantics)",
         " syntax",
         "Natural Language Processing" ;
-    ns1:mbox "ornan@cs.technion.ac.il" ;
-    ns1:name "Ornan, Uzzi" ;
-    ns1:phone "(972)-4-829-4267" .
+    foaf:mbox "ornan@cs.technion.ac.il" ;
+    foaf:name "Ornan, Uzzi" ;
+    foaf:phone "(972)-4-829-4267" .
 
-<http://www.cs.technion.ac.il/people/orrd/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~orrd/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/orrd.jpg" ;
-    ns1:mbox "orrd@cs.technion.ac.il" ;
-    ns1:name "Dunkelman, Orr" .
+<http://www.cs.technion.ac.il/people/orrd/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~orrd/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/orrd.jpg" ;
+    foaf:mbox "orrd@cs.technion.ac.il" ;
+    foaf:name "Dunkelman, Orr" .
 
-<http://www.cs.technion.ac.il/people/ovantzos/> a ns1:Person ;
-    ns1:homepage "http://numod.ins.uni-bonn.de/people/vantzos/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "ovantzos@cs.technion.ac.il" ;
-    ns1:name "Vantzos, Orestis" ;
-    ns1:phone "(972)-4-829-4347" .
+<http://www.cs.technion.ac.il/people/ovantzos/> a foaf:Person ;
+    foaf:homepage "http://numod.ins.uni-bonn.de/people/vantzos/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "ovantzos@cs.technion.ac.il" ;
+    foaf:name "Vantzos, Orestis" ;
+    foaf:phone "(972)-4-829-4347" .
 
-<http://www.cs.technion.ac.il/people/paz/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/paz.jpg" ;
-    ns1:interest " Theory of Bayes networks and Theory of Graphoids",
+<http://www.cs.technion.ac.il/people/paz/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/paz.jpg" ;
+    foaf:interest " Theory of Bayes networks and Theory of Graphoids",
         " Theory of algorithms and integer algorithms",
         "Theory of automata, deterministic and probabilistic" ;
-    ns1:mbox "paz@cs.technion.ac.il" ;
-    ns1:name "Paz, Azaria" ;
-    ns1:phone "(972)-4-829-4165" .
+    foaf:mbox "paz@cs.technion.ac.il" ;
+    foaf:name "Paz, Azaria" ;
+    foaf:phone "(972)-4-829-4165" .
 
-<http://www.cs.technion.ac.il/people/porat/> a ns1:Person ;
-    ns1:homepage "https://researcher.ibm.com/researcher/view.php?person=il-PORAT" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/porat.jpg" ;
-    ns1:mbox "porat@cs.technion.ac.il" ;
-    ns1:name "Porat, Sara" .
+<http://www.cs.technion.ac.il/people/porat/> a foaf:Person ;
+    foaf:homepage "https://researcher.ibm.com/researcher/view.php?person=il-PORAT" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/porat.jpg" ;
+    foaf:mbox "porat@cs.technion.ac.il" ;
+    foaf:name "Porat, Sara" .
 
-<http://www.cs.technion.ac.il/people/rabani/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~rabani/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/rabani.jpg" ;
-    ns1:interest " combinatorial optimization",
+<http://www.cs.technion.ac.il/people/rabani/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~rabani/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/rabani.jpg" ;
+    foaf:interest " combinatorial optimization",
         " computational  complexity",
         " computational metric geometry",
         " theory of algorithms",
         "Theory of computation" ;
-    ns1:mbox "rabani@cs.technion.ac.il" ;
-    ns1:name "Rabani, Yuval" ;
-    ns1:phone "(972)-4-829-4939" .
+    foaf:mbox "rabani@cs.technion.ac.il" ;
+    foaf:name "Rabani, Yuval" ;
+    foaf:phone "(972)-4-829-4939" .
 
-<http://www.cs.technion.ac.il/people/ramic/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ramic/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ramic.jpg" ;
-    ns1:mbox "ramic@cs.technion.ac.il" ;
-    ns1:name "Cohen, Rami" ;
-    ns1:phone "(972)-4-829-4873" .
+<http://www.cs.technion.ac.il/people/ramic/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ramic/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ramic.jpg" ;
+    foaf:mbox "ramic@cs.technion.ac.il" ;
+    foaf:name "Cohen, Rami" ;
+    foaf:phone "(972)-4-829-4873" .
 
-<http://www.cs.technion.ac.il/people/raskinl/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "raskinl@cs.technion.ac.il" ;
-    ns1:name "Raskin, Leonid" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/raskinl/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "raskinl@cs.technion.ac.il" ;
+    foaf:name "Raskin, Leonid" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/reyotero/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "ives.rey.otero@gmail.com" ;
-    ns1:name "Rey Otero, Ives" ;
-    ns1:phone "(972)-4-829-4940" .
+<http://www.cs.technion.ac.il/people/reyotero/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "ives.rey.otero@gmail.com" ;
+    foaf:name "Rey Otero, Ives" ;
+    foaf:phone "(972)-4-829-4940" .
 
-<http://www.cs.technion.ac.il/people/rkishony/> a ns1:Person ;
-    ns1:homepage "http://biology.technion.ac.il/?cmd=staff.47&act=read&id=267" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/rkishony.jpg" ;
-    ns1:mbox "rkishony@technion.ac.il" ;
-    ns1:name "Kishony, Roy" .
+<http://www.cs.technion.ac.il/people/rkishony/> a foaf:Person ;
+    foaf:homepage "http://biology.technion.ac.il/?cmd=staff.47&act=read&id=267" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/rkishony.jpg" ;
+    foaf:mbox "rkishony@technion.ac.il" ;
+    foaf:name "Kishony, Roy" .
 
-<http://www.cs.technion.ac.il/people/rlempel/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "rlempel@cs.technion.ac.il" ;
-    ns1:name "Lempel, Ronny" .
+<http://www.cs.technion.ac.il/people/rlempel/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "rlempel@cs.technion.ac.il" ;
+    foaf:name "Lempel, Ronny" .
 
-<http://www.cs.technion.ac.il/people/roee/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~roee/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/roee.jpg" ;
-    ns1:mbox "roee@cs.technion.ac.il" ;
-    ns1:name "Engelberg, Roee" .
+<http://www.cs.technion.ac.il/people/roee/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~roee/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/roee.jpg" ;
+    foaf:mbox "roee@cs.technion.ac.il" ;
+    foaf:name "Engelberg, Roee" .
 
-<http://www.cs.technion.ac.il/people/ronenbar/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "ronenbar@cs.technion.ac.il" ;
-    ns1:name "Bar-Nahor, Ronen" .
+<http://www.cs.technion.ac.il/people/ronenbar/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "ronenbar@cs.technion.ac.il" ;
+    foaf:name "Bar-Nahor, Ronen" .
 
-<http://www.cs.technion.ac.il/people/ronrubin/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~ronrubin/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/ronrubin.jpg" ;
-    ns1:mbox "ronrubin@cs.technion.ac.il" ;
-    ns1:name "Rubinstein, Ron" ;
-    ns1:phone "(972)-4-829-4944" .
+<http://www.cs.technion.ac.il/people/ronrubin/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~ronrubin/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/ronrubin.jpg" ;
+    foaf:mbox "ronrubin@cs.technion.ac.il" ;
+    foaf:name "Rubinstein, Ron" ;
+    foaf:phone "(972)-4-829-4944" .
 
-<http://www.cs.technion.ac.il/people/sarab/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "sarab@cs.technion.ac.il" ;
-    ns1:name "Bitan, Sara" ;
-    ns1:phone "(972)-4-829-5854" .
+<http://www.cs.technion.ac.il/people/sarab/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "sarab@cs.technion.ac.il" ;
+    foaf:name "Bitan, Sara" ;
+    foaf:phone "(972)-4-829-5854" .
 
-<http://www.cs.technion.ac.il/people/sharoni/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "sharoni@cs.technion.ac.il" ;
-    ns1:name "Feldman, Sharoni" .
+<http://www.cs.technion.ac.il/people/sharoni/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "sharoni@cs.technion.ac.il" ;
+    foaf:name "Feldman, Sharoni" .
 
-<http://www.cs.technion.ac.il/people/shiria/> a ns1:Person ;
-    ns1:homepage "http://www.shiriazenkot.com" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/shiria.jpg" ;
-    ns1:mbox "shiria@cs.technion.ac.il" ;
-    ns1:name "Azenkot, Shiri" .
+<http://www.cs.technion.ac.il/people/shiria/> a foaf:Person ;
+    foaf:homepage "http://www.shiriazenkot.com" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/shiria.jpg" ;
+    foaf:mbox "shiria@cs.technion.ac.il" ;
+    foaf:name "Azenkot, Shiri" .
 
-<http://www.cs.technion.ac.il/people/surke/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "surke@cs.technion.ac.il" ;
-    ns1:name "Sheinvald, Sarai" ;
-    ns1:phone "(972)-4-829-4945" .
+<http://www.cs.technion.ac.il/people/surke/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "surke@cs.technion.ac.il" ;
+    foaf:name "Sheinvald, Sarai" ;
+    foaf:phone "(972)-4-829-4945" .
 
-<http://www.cs.technion.ac.il/people/tabrown/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "me@tbrown.pro" ;
-    ns1:name "Brown, Trevor" ;
-    ns1:phone "(972)-4-829-3941" .
+<http://www.cs.technion.ac.il/people/tabrown/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "me@tbrown.pro" ;
+    foaf:name "Brown, Trevor" ;
+    foaf:phone "(972)-4-829-3941" .
 
-<http://www.cs.technion.ac.il/people/tamer/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~tamer/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/tamer.jpg" ;
-    ns1:mbox "tamer@cs.technion.ac.il" ;
-    ns1:name "Salman, Tamer" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/tamer/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~tamer/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/tamer.jpg" ;
+    foaf:mbox "tamer@cs.technion.ac.il" ;
+    foaf:name "Salman, Tamer" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/tomera/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/tomera.jpg" ;
-    ns1:mbox "tomera@cs.technion.ac.il" ;
-    ns1:name "Tomer, Amir" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/tomera/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/tomera.jpg" ;
+    foaf:mbox "tomera@cs.technion.ac.il" ;
+    foaf:name "Tomer, Amir" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/wattad/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "wattad@cs.technion.ac.il" ;
-    ns1:name "Wattad, Ehab" .
+<http://www.cs.technion.ac.il/people/wattad/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "wattad@cs.technion.ac.il" ;
+    foaf:name "Wattad, Ehab" .
 
-<http://www.cs.technion.ac.il/people/yaelerez/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
-    ns1:mbox "yaelerez@cs.technion.ac.il" ;
-    ns1:name "Erez, Yael" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/yaelerez/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-woman.gif" ;
+    foaf:mbox "yaelerez@cs.technion.ac.il" ;
+    foaf:name "Erez, Yael" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/yairr/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "yairr@cs.technion.ac.il" ;
-    ns1:name "Rezek, Yair" ;
-    ns1:phone "(972)-4-829-4947" .
+<http://www.cs.technion.ac.il/people/yairr/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "yairr@cs.technion.ac.il" ;
+    foaf:name "Rezek, Yair" ;
+    foaf:phone "(972)-4-829-4947" .
 
-<http://www.cs.technion.ac.il/people/yechiel/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/users/yechiel/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yechiel.jpg" ;
-    ns1:mbox "yechiel@cs.technion.ac.il" ;
-    ns1:name "Kimchi, Yechiel" ;
-    ns1:phone "(972)-4-829-3370" .
+<http://www.cs.technion.ac.il/people/yechiel/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/users/yechiel/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yechiel.jpg" ;
+    foaf:mbox "yechiel@cs.technion.ac.il" ;
+    foaf:name "Kimchi, Yechiel" ;
+    foaf:phone "(972)-4-829-3370" .
 
-<http://www.cs.technion.ac.il/people/yoavh/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~yoavh/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yoavh.jpg" ;
-    ns1:mbox "yoavh@cs.technion.ac.il" ;
-    ns1:name "Haimovitch, Yoav" .
+<http://www.cs.technion.ac.il/people/yoavh/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~yoavh/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yoavh.jpg" ;
+    foaf:mbox "yoavh@cs.technion.ac.il" ;
+    foaf:name "Haimovitch, Yoav" .
 
-<http://www.cs.technion.ac.il/people/yoaz/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "yoaz@cs.technion.ac.il" ;
-    ns1:name "Yoaz, Adi" .
+<http://www.cs.technion.ac.il/people/yoaz/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "yoaz@cs.technion.ac.il" ;
+    foaf:name "Yoaz, Adi" .
 
-<http://www.cs.technion.ac.il/people/yossiv/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "yossiv@cs.technion.ac.il" ;
-    ns1:name "Weinstein, Yossi" ;
-    ns1:phone "(972)-4-829-4947" .
+<http://www.cs.technion.ac.il/people/yossiv/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "yossiv@cs.technion.ac.il" ;
+    foaf:name "Weinstein, Yossi" ;
+    foaf:phone "(972)-4-829-4947" .
 
-<http://www.cs.technion.ac.il/people/z--1722/> a ns1:Person ;
-    ns1:homepage "http://www.arijuels.com/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__1722.jpg" ;
-    ns1:mbox "juels@cornell.edu" ;
-    ns1:name "Juels, Ari" .
+<http://www.cs.technion.ac.il/people/z--1722/> a foaf:Person ;
+    foaf:homepage "http://www.arijuels.com/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__1722.jpg" ;
+    foaf:mbox "juels@cornell.edu" ;
+    foaf:name "Juels, Ari" .
 
-<http://www.cs.technion.ac.il/people/z--287/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:name "Rubin, Shai" .
+<http://www.cs.technion.ac.il/people/z--287/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:name "Rubin, Shai" .
 
-<http://www.cs.technion.ac.il/people/z--629/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__629.jpg" ;
-    ns1:mbox "shulman@imperva.com" ;
-    ns1:name "Shulman, Amichai" .
+<http://www.cs.technion.ac.il/people/z--629/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__629.jpg" ;
+    foaf:mbox "shulman@imperva.com" ;
+    foaf:name "Shulman, Amichai" .
 
-<http://www.cs.technion.ac.il/people/z--alexshif/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:name "Schiftner, Alex" .
+<http://www.cs.technion.ac.il/people/z--alexshif/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:name "Schiftner, Alex" .
 
-<http://www.cs.technion.ac.il/people/z--davidi/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:name "David, Izhak" .
+<http://www.cs.technion.ac.il/people/z--davidi/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:name "David, Izhak" .
 
-<http://www.cs.technion.ac.il/people/z--even/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__even.jpg" ;
-    ns1:interest " Circuit Layout",
+<http://www.cs.technion.ac.il/people/z--even/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__even.jpg" ;
+    foaf:interest " Circuit Layout",
         " Cryptography",
         " Interconnection Networks",
         "Graph Algorithms" ;
-    ns1:name "Even, Shimon" .
+    foaf:name "Even, Shimon" .
 
-<http://www.cs.technion.ac.il/people/z--gadir/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__gadir.jpg" ;
-    ns1:name "Rahamim, Gadi" .
+<http://www.cs.technion.ac.il/people/z--gadir/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__gadir.jpg" ;
+    foaf:name "Rahamim, Gadi" .
 
-<http://www.cs.technion.ac.il/people/z--goel/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:name "Samuel, Goel" .
+<http://www.cs.technion.ac.il/people/z--goel/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:name "Samuel, Goel" .
 
-<http://www.cs.technion.ac.il/people/z--inbar/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:name "Inbar, Ohad" .
+<http://www.cs.technion.ac.il/people/z--inbar/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:name "Inbar, Ohad" .
 
-<http://www.cs.technion.ac.il/people/z--israeli/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__israeli.jpg" ;
-    ns1:interest "  Computational and geophysical fluid dynamics",
+<http://www.cs.technion.ac.il/people/z--israeli/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__israeli.jpg" ;
+    foaf:interest "  Computational and geophysical fluid dynamics",
         " Acoustic and electro-magnetic scattering",
         " Hybrid analytical/numerical approximations",
         " Numerical solution of differential and integral equations",
@@ -1495,85 +1495,85 @@
         " Semi-conductor device simulation",
         " Signal and image processing",
         "Multiresolution analysis" ;
-    ns1:name "Israeli, Moshe" .
+    foaf:name "Israeli, Moshe" .
 
-<http://www.cs.technion.ac.il/people/z--karp/> a ns1:Person ;
-    ns1:homepage "http://www.eecs.berkeley.edu/Faculty/Homepages/karp.html" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__karp.jpg" ;
-    ns1:name "Richard, Karp" .
+<http://www.cs.technion.ac.il/people/z--karp/> a foaf:Person ;
+    foaf:homepage "http://www.eecs.berkeley.edu/Faculty/Homepages/karp.html" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__karp.jpg" ;
+    foaf:name "Richard, Karp" .
 
-<http://www.cs.technion.ac.il/people/z--listopad/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__listopad.jpg" ;
-    ns1:name "Listopad, Zvi" .
+<http://www.cs.technion.ac.il/people/z--listopad/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__listopad.jpg" ;
+    foaf:name "Listopad, Zvi" .
 
-<http://www.cs.technion.ac.il/people/z--mahesh/> a ns1:Person ;
-    ns1:homepage "http://vmahesh.cs.illinois.edu/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__mahesh.jpg" ;
-    ns1:mbox "vmahesh@illinois.edu" ;
-    ns1:name "Viswannathan, Mahesh" ;
-    ns1:phone "(972)-4-829-5532" .
+<http://www.cs.technion.ac.il/people/z--mahesh/> a foaf:Person ;
+    foaf:homepage "http://vmahesh.cs.illinois.edu/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__mahesh.jpg" ;
+    foaf:mbox "vmahesh@illinois.edu" ;
+    foaf:name "Viswannathan, Mahesh" ;
+    foaf:phone "(972)-4-829-5532" .
 
-<http://www.cs.technion.ac.il/people/z--michalim/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__michalim.jpg" ;
-    ns1:mbox "michali@technion.ac.il" ;
-    ns1:name "Iluz-Mimoni, Michal" .
+<http://www.cs.technion.ac.il/people/z--michalim/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__michalim.jpg" ;
+    foaf:mbox "michali@technion.ac.il" ;
+    foaf:name "Iluz-Mimoni, Michal" .
 
-<http://www.cs.technion.ac.il/people/z--myoeli/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__myoeli.jpg" ;
-    ns1:interest " Formal Verification of HardwareDesigns",
+<http://www.cs.technion.ac.il/people/z--myoeli/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__myoeli.jpg" ;
+    foaf:interest " Formal Verification of HardwareDesigns",
         "Theory and Application of Petri Nets" ;
-    ns1:name "Yoeli, Michael" .
+    foaf:name "Yoeli, Michael" .
 
-<http://www.cs.technion.ac.il/people/z--ohads/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__ohads.jpg" ;
-    ns1:name "Shacham, Ohad" ;
-    ns1:phone "(972)-4-829-4959" .
+<http://www.cs.technion.ac.il/people/z--ohads/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__ohads.jpg" ;
+    foaf:name "Shacham, Ohad" ;
+    foaf:phone "(972)-4-829-4959" .
 
-<http://www.cs.technion.ac.il/people/z--pearlj/> a ns1:Person ;
-    ns1:homepage "http://bayes.cs.ucla.edu/jp_home.html" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__pearlj.jpg" ;
-    ns1:name "Pearl, Judea" .
+<http://www.cs.technion.ac.il/people/z--pearlj/> a foaf:Person ;
+    foaf:homepage "http://bayes.cs.ucla.edu/jp_home.html" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__pearlj.jpg" ;
+    foaf:name "Pearl, Judea" .
 
-<http://www.cs.technion.ac.il/people/z--rachel/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__rachel.jpg" ;
-    ns1:name "Pelled, Rachel" .
+<http://www.cs.technion.ac.il/people/z--rachel/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__rachel.jpg" ;
+    foaf:name "Pelled, Rachel" .
 
-<http://www.cs.technion.ac.il/people/z--raviv/> a ns1:Person ;
-    ns1:homepage "http://www.eng.fau.edu/directory/faculty/raviv/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/z__raviv.jpg" ;
-    ns1:mbox "ravivd@fau.edu" ;
-    ns1:name "Raviv, Daniel" ;
-    ns1:phone "(972)-4-829-5532" .
+<http://www.cs.technion.ac.il/people/z--raviv/> a foaf:Person ;
+    foaf:homepage "http://www.eng.fau.edu/directory/faculty/raviv/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/z__raviv.jpg" ;
+    foaf:mbox "ravivd@fau.edu" ;
+    foaf:name "Raviv, Daniel" ;
+    foaf:phone "(972)-4-829-5532" .
 
-<http://www.cs.technion.ac.il/people/z--self/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:name "Sela, Frank" .
+<http://www.cs.technion.ac.il/people/z--self/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:name "Sela, Frank" .
 
-<http://www.cs.technion.ac.il/people/zbarukh/> a ns1:Person ;
-    ns1:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
-    ns1:mbox "zbarukh@cs.technion.ac.il" ;
-    ns1:name "Ziv, Baruch" .
+<http://www.cs.technion.ac.il/people/zbarukh/> a foaf:Person ;
+    foaf:image "http://www.cs.technion.ac.il/images/no-photo-man.gif" ;
+    foaf:mbox "zbarukh@cs.technion.ac.il" ;
+    foaf:name "Ziv, Baruch" .
 
-<http://www.cs.technion.ac.il/people/zohary/> a ns1:Person ;
-    ns1:homepage "http://zohary.cswp.cs.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/zohary.jpg" ;
-    ns1:mbox "zohar.yakhini@gmail.comm" ;
-    ns1:name "Yakhini, Zohar" ;
-    ns1:phone "(972)-4-829-4937" .
+<http://www.cs.technion.ac.il/people/zohary/> a foaf:Person ;
+    foaf:homepage "http://zohary.cswp.cs.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/zohary.jpg" ;
+    foaf:mbox "zohar.yakhini@gmail.comm" ;
+    foaf:name "Yakhini, Zohar" ;
+    foaf:phone "(972)-4-829-4937" .
 
-<http://www.cs.technion.ac.il/people/gnakibly/> a ns1:Person ;
-    ns1:homepage "http://www.cs.technion.ac.il/~gnakibly/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/gnakibly.jpg" ;
-    ns1:interest " QoS Routing",
+<http://www.cs.technion.ac.il/people/gnakibly/> a foaf:Person ;
+    foaf:homepage "http://www.cs.technion.ac.il/~gnakibly/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/gnakibly.jpg" ;
+    foaf:interest " QoS Routing",
         " Traffic Engineering",
         "Network Security" ;
-    ns1:mbox "gnakibly@cs.technion.ac.il" ;
-    ns1:name "Nakibly, Gabi" ;
-    ns1:phone "(972)-4-829-4873" .
+    foaf:mbox "gnakibly@cs.technion.ac.il" ;
+    foaf:name "Nakibly, Gabi" ;
+    foaf:phone "(972)-4-829-4873" .
 
-<http://www.cs.technion.ac.il/people/yaelmg/> a ns1:Person ;
-    ns1:homepage "http://yaelab.technion.ac.il/" ;
-    ns1:image "http://www.cs.technion.ac.il/images/people/yaelmg.jpg" ;
-    ns1:mbox "yaelmg@tx.technion.ac.il" ;
-    ns1:name "Mandel-Gutfreund, Yael" .
+<http://www.cs.technion.ac.il/people/yaelmg/> a foaf:Person ;
+    foaf:homepage "http://yaelab.technion.ac.il/" ;
+    foaf:image "http://www.cs.technion.ac.il/images/people/yaelmg.jpg" ;
+    foaf:mbox "yaelmg@tx.technion.ac.il" ;
+    foaf:name "Mandel-Gutfreund, Yael" .
 
