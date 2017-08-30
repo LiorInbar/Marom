@@ -125,38 +125,44 @@ def add_question_and_answer_text(page):
 page = marom.page()
 index=1
 questions_not_exist = open('questions_not_exist.txt','w')
+http_errors = open('http_error_pages.txt','w')
 
 while index <= 100000:
 	page.set_url('http://www.yeshiva.org.il/ask/'+str(index))
 	print(index)
-	if questions_not_exist_check(page):
-		questions_not_exist.write(str(index)+'\n')
-		index=index+1
-		continue
-	
-	
-	#inserting the question class triple
+	try:
+		if questions_not_exist_check(page):
+			questions_not_exist.write(str(index)+'\n')
+			index=index+1
+			continue
+		
+		
+		#inserting the question class triple
 
-	add_type_triple(page)
+		add_type_triple(page)
 
-	#geting the title
+		#geting the title
 
-	add_title_triple(page)
+		add_title_triple(page)
 
-	#rabbi triples
+		#rabbi triples
 
-	add_rabbi_triple(page)
+		add_rabbi_triple(page)
 
-	#date triples
-	add_date_triple(page)
+		#date triples
+		add_date_triple(page)
 
-	#question and answer text - the ugly part
-	add_question_and_answer_text(page)
+		#question and answer text - the ugly part
+		add_question_and_answer_text(page)
+	except:
+		http_errors.write(str(index)+'\n')
+
 
 
 	index=index+1
 
 questions_not_exist.close()
+http_errors.close()
 page.turtle('questions_output.txt')
 
 
